@@ -1,0 +1,4 @@
+# Qwen3-TTS offline announcement generation
+qwen-tts>=0.0.1
+soundfile>=0.12.1
+numpy>=1.24.0

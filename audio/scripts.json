@@ -1,0 +1,3967 @@
+{
+  "revision": 2,
+  "generatedAt": "2026-07-15T06:29:09.755Z",
+  "template": "前方到站，{nameZh}。{serving}",
+  "stations": [
+    {
+      "id": "7-04",
+      "nameZh": "八里庄",
+      "nameEn": "Balizhuang",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，八里庄。"
+    },
+    {
+      "id": "17-20",
+      "nameZh": "白佛桥",
+      "nameEn": "Baifoqiao",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，白佛桥。"
+    },
+    {
+      "id": "2-11",
+      "nameZh": "白果林",
+      "nameEn": "Baiguolin",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，白果林。"
+    },
+    {
+      "id": "2-03",
+      "nameZh": "百草路",
+      "nameEn": "Baicao Road",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，百草路。"
+    },
+    {
+      "id": "5-40",
+      "nameZh": "柏水场",
+      "nameEn": "Baishuichang",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，柏水场。"
+    },
+    {
+      "id": "S3-02",
+      "nameZh": "宝台",
+      "nameEn": "Baotai",
+      "servingLineIds": [
+        "S3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，宝台。"
+    },
+    {
+      "id": "5-38",
+      "nameZh": "北部商贸城",
+      "nameEn": "Beibu Shopping Mall",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，北部商贸城。"
+    },
+    {
+      "id": "5-25",
+      "nameZh": "北站西二路",
+      "nameEn": "2nd Beizhan West Road",
+      "servingLineIds": [
+        "5",
+        "7"
+      ],
+      "transferLineIds": [
+        "5",
+        "7"
+      ],
+      "text": "前方到站，北站西二路。换乘站：5号线、7号线。"
+    },
+    {
+      "id": "4-10",
+      "nameZh": "蔡桥",
+      "nameEn": "Caiqiao",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，蔡桥。"
+    },
+    {
+      "id": "4-16",
+      "nameZh": "草堂北路",
+      "nameEn": "Caotang North Road",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，草堂北路。"
+    },
+    {
+      "id": "7-12",
+      "nameZh": "茶店子",
+      "nameEn": "Chadianzi",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，茶店子。"
+    },
+    {
+      "id": "2-07",
+      "nameZh": "茶店子客运站",
+      "nameEn": "Chadianzi Bus Terminal Station",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，茶店子客运站。"
+    },
+    {
+      "id": "6-09",
+      "nameZh": "昌公堰",
+      "nameEn": "Changgongyan",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，昌公堰。"
+    },
+    {
+      "id": "S3-03",
+      "nameZh": "苌弘广场",
+      "nameEn": "Changhong Square",
+      "servingLineIds": [
+        "S3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，苌弘广场。"
+    },
+    {
+      "id": "4-28",
+      "nameZh": "成都大学",
+      "nameEn": "Chengdu University",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，成都大学。"
+    },
+    {
+      "id": "2-22",
+      "nameZh": "成都东客站",
+      "nameEn": "Chengdu East Railway Station",
+      "servingLineIds": [
+        "2",
+        "7"
+      ],
+      "transferLineIds": [
+        "2",
+        "7"
+      ],
+      "text": "前方到站，成都东客站。换乘站：2号线、7号线。"
+    },
+    {
+      "id": "4-12",
+      "nameZh": "成都西站",
+      "nameEn": "Chengdu West Railway Station",
+      "servingLineIds": [
+        "4",
+        "9"
+      ],
+      "transferLineIds": [
+        "4",
+        "9"
+      ],
+      "text": "前方到站，成都西站。换乘站：4号线、9号线。"
+    },
+    {
+      "id": "2-26",
+      "nameZh": "成都行政学院",
+      "nameEn": "Chengdu Academy of Governance",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，成都行政学院。"
+    },
+    {
+      "id": "3-37",
+      "nameZh": "成都医学院",
+      "nameEn": "Chengdu Medical College",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，成都医学院。"
+    },
+    {
+      "id": "2-23",
+      "nameZh": "成渝立交",
+      "nameEn": "Chengyu Flyover",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，成渝立交。"
+    },
+    {
+      "id": "17-10",
+      "nameZh": "城隍庙",
+      "nameEn": "Chenghuangmiao",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，城隍庙。"
+    },
+    {
+      "id": "3-11",
+      "nameZh": "川藏立交",
+      "nameEn": "Chuanzang Flyover",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，川藏立交。"
+    },
+    {
+      "id": "8-29",
+      "nameZh": "川大江安校区",
+      "nameEn": "Sichuan University Jiang'an Campus",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，川大江安校区。"
+    },
+    {
+      "id": "8-17",
+      "nameZh": "川大望江校区",
+      "nameEn": "Sichuan University Wangjiang Campus",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，川大望江校区。"
+    },
+    {
+      "id": "2-16",
+      "nameZh": "春熙路",
+      "nameEn": "Chunxi Road",
+      "servingLineIds": [
+        "2",
+        "3"
+      ],
+      "transferLineIds": [
+        "2",
+        "3"
+      ],
+      "text": "前方到站，春熙路。换乘站：2号线、3号线。"
+    },
+    {
+      "id": "27-02",
+      "nameZh": "慈义",
+      "nameEn": "Ciyi",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，慈义。"
+    },
+    {
+      "id": "10-04",
+      "nameZh": "簇锦",
+      "nameEn": "Cujin",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，簇锦。"
+    },
+    {
+      "id": "9-06",
+      "nameZh": "簇桥",
+      "nameEn": "Cuqiao",
+      "servingLineIds": [
+        "9"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，簇桥。"
+    },
+    {
+      "id": "7-01",
+      "nameZh": "崔家店",
+      "nameEn": "Cuijiadian",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，崔家店。"
+    },
+    {
+      "id": "5-34",
+      "nameZh": "大丰",
+      "nameEn": "Dafeng",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，大丰。"
+    },
+    {
+      "id": "7-27",
+      "nameZh": "大观",
+      "nameEn": "Daguan",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，大观。"
+    },
+    {
+      "id": "2-27",
+      "nameZh": "大面铺",
+      "nameEn": "Damianpu",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，大面铺。"
+    },
+    {
+      "id": "30-16",
+      "nameZh": "大同",
+      "nameEn": "Datong",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，大同。"
+    },
+    {
+      "id": "5-09",
+      "nameZh": "大源",
+      "nameEn": "Dayuan",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，大源。"
+    },
+    {
+      "id": "6-03",
+      "nameZh": "钓鱼嘴",
+      "nameEn": "Diaoyuzui",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，钓鱼嘴。"
+    },
+    {
+      "id": "2-20",
+      "nameZh": "东大路",
+      "nameEn": "Dongdalu Road",
+      "servingLineIds": [
+        "2",
+        "8"
+      ],
+      "transferLineIds": [
+        "2",
+        "8"
+      ],
+      "text": "前方到站，东大路。换乘站：2号线、8号线。"
+    },
+    {
+      "id": "6-26",
+      "nameZh": "东光",
+      "nameEn": "Dongguang",
+      "servingLineIds": [
+        "6",
+        "8"
+      ],
+      "transferLineIds": [
+        "6",
+        "8"
+      ],
+      "text": "前方到站，东光。换乘站：6号线、8号线。"
+    },
+    {
+      "id": "8-16",
+      "nameZh": "东湖公园",
+      "nameEn": "Donghu Park",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，东湖公园。"
+    },
+    {
+      "id": "8-09",
+      "nameZh": "东郊记忆",
+      "nameEn": "Dongjiao Memory",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，东郊记忆。"
+    },
+    {
+      "id": "2-17",
+      "nameZh": "东门大桥",
+      "nameEn": "Dongmen Bridge",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，东门大桥。"
+    },
+    {
+      "id": "7-16",
+      "nameZh": "东坡路",
+      "nameEn": "Dongpo Road",
+      "servingLineIds": [
+        "7",
+        "13"
+      ],
+      "transferLineIds": [
+        "7",
+        "13"
+      ],
+      "text": "前方到站，东坡路。换乘站：7号线、13号线。"
+    },
+    {
+      "id": "3-04",
+      "nameZh": "东升",
+      "nameEn": "Dongsheng",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，东升。"
+    },
+    {
+      "id": "3-26",
+      "nameZh": "动物园",
+      "nameEn": "Chengdu Zoo",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，动物园。"
+    },
+    {
+      "id": "5-29",
+      "nameZh": "洞子口",
+      "nameEn": "Dongzikou",
+      "servingLineIds": [
+        "5",
+        "27"
+      ],
+      "transferLineIds": [
+        "5",
+        "27"
+      ],
+      "text": "前方到站，洞子口。换乘站：5号线、27号线。"
+    },
+    {
+      "id": "13-15",
+      "nameZh": "杜甫草堂",
+      "nameEn": "Du Fu Thatched Cottage",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，杜甫草堂。"
+    },
+    {
+      "id": "5-35",
+      "nameZh": "杜家碾",
+      "nameEn": "Dujianian",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，杜家碾。"
+    },
+    {
+      "id": "5-05",
+      "nameZh": "二江寺",
+      "nameEn": "Erjiang Temple",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，二江寺。"
+    },
+    {
+      "id": "7-03",
+      "nameZh": "二仙桥",
+      "nameEn": "Erxianqiao",
+      "servingLineIds": [
+        "7",
+        "17"
+      ],
+      "transferLineIds": [
+        "7",
+        "17"
+      ],
+      "text": "前方到站，二仙桥。换乘站：7号线、17号线。"
+    },
+    {
+      "id": "27-07",
+      "nameZh": "范家巷",
+      "nameEn": "Fanjia Alley",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，范家巷。"
+    },
+    {
+      "id": "8-19",
+      "nameZh": "芳草街",
+      "nameEn": "Fangcao Street",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，芳草街。"
+    },
+    {
+      "id": "4-09",
+      "nameZh": "非遗博览园",
+      "nameEn": "Intangible Cultural Heritage Park",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，非遗博览园。"
+    },
+    {
+      "id": "4-07",
+      "nameZh": "凤凰大街",
+      "nameEn": "Fenghuang Avenue",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，凤凰大街。"
+    },
+    {
+      "id": "4-03",
+      "nameZh": "凤溪河",
+      "nameEn": "Fengxihe",
+      "servingLineIds": [
+        "4",
+        "19"
+      ],
+      "transferLineIds": [
+        "4",
+        "19"
+      ],
+      "text": "前方到站，凤溪河。换乘站：4号线、19号线。"
+    },
+    {
+      "id": "1-18",
+      "nameZh": "孵化园",
+      "nameEn": "Incubation Park",
+      "servingLineIds": [
+        "1",
+        "9",
+        "18"
+      ],
+      "transferLineIds": [
+        "1",
+        "9",
+        "18"
+      ],
+      "text": "前方到站，孵化园。换乘站：1号线、9号线、18号线。"
+    },
+    {
+      "id": "5-28",
+      "nameZh": "福宁路",
+      "nameEn": "Funing Road",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，福宁路。"
+    },
+    {
+      "id": "18-10",
+      "nameZh": "福田",
+      "nameEn": "Futian",
+      "servingLineIds": [
+        "18",
+        "19",
+        "S3"
+      ],
+      "transferLineIds": [
+        "18",
+        "19",
+        "S3"
+      ],
+      "text": "前方到站，福田。换乘站：18号线、19号线、S3资阳线。"
+    },
+    {
+      "id": "5-22",
+      "nameZh": "抚琴",
+      "nameEn": "Fuqin",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，抚琴。"
+    },
+    {
+      "id": "30-10",
+      "nameZh": "府城桥",
+      "nameEn": "Fucheng Bridge",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，府城桥。"
+    },
+    {
+      "id": "7-05",
+      "nameZh": "府青路",
+      "nameEn": "Fuqing Road",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，府青路。"
+    },
+    {
+      "id": "17-01",
+      "nameZh": "高洪",
+      "nameEn": "Gaohong",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，高洪。"
+    },
+    {
+      "id": "7-20",
+      "nameZh": "高朋大道",
+      "nameEn": "Gaopeng Avenue",
+      "servingLineIds": [
+        "7",
+        "8"
+      ],
+      "transferLineIds": [
+        "7",
+        "8"
+      ],
+      "text": "前方到站，高朋大道。换乘站：7号线、8号线。"
+    },
+    {
+      "id": "3-14",
+      "nameZh": "高升桥",
+      "nameEn": "Gaoshengqiao",
+      "servingLineIds": [
+        "3",
+        "5"
+      ],
+      "transferLineIds": [
+        "3",
+        "5"
+      ],
+      "text": "前方到站，高升桥。换乘站：3号线、5号线。"
+    },
+    {
+      "id": "1-20",
+      "nameZh": "高新",
+      "nameEn": "Hi-Tech Zone",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，高新。"
+    },
+    {
+      "id": "6-18",
+      "nameZh": "观东",
+      "nameEn": "Guandong",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，观东。"
+    },
+    {
+      "id": "13-16",
+      "nameZh": "光华村",
+      "nameEn": "Guanghuacun",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，光华村。"
+    },
+    {
+      "id": "4-05",
+      "nameZh": "光华公园",
+      "nameEn": "Guanghua Park",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，光华公园。"
+    },
+    {
+      "id": "30-19",
+      "nameZh": "光明",
+      "nameEn": "Guangming",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，光明。"
+    },
+    {
+      "id": "1-35",
+      "nameZh": "广都",
+      "nameEn": "Guangdu",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，广都。"
+    },
+    {
+      "id": "1-09",
+      "nameZh": "广福",
+      "nameEn": "Guangfu",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，广福。"
+    },
+    {
+      "id": "1-03",
+      "nameZh": "广州路",
+      "nameEn": "Guangzhou Road",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，广州路。"
+    },
+    {
+      "id": "8-02",
+      "nameZh": "桂林",
+      "nameEn": "Guilin",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，桂林。"
+    },
+    {
+      "id": "8-01",
+      "nameZh": "桂龙路",
+      "nameEn": "Guilong Road",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，桂龙路。"
+    },
+    {
+      "id": "1-10",
+      "nameZh": "海昌路",
+      "nameEn": "Haichang Road",
+      "servingLineIds": [
+        "1",
+        "18"
+      ],
+      "transferLineIds": [
+        "1",
+        "18"
+      ],
+      "text": "前方到站，海昌路。换乘站：1号线、18号线。"
+    },
+    {
+      "id": "30-05",
+      "nameZh": "海桐街",
+      "nameEn": "Haitong Street",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，海桐街。"
+    },
+    {
+      "id": "6-08",
+      "nameZh": "杭州路",
+      "nameEn": "Hangzhou Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，杭州路。"
+    },
+    {
+      "id": "3-06",
+      "nameZh": "航都大街",
+      "nameEn": "Hangdu Street",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，航都大街。"
+    },
+    {
+      "id": "30-04",
+      "nameZh": "航天立交",
+      "nameEn": "Hangtian Flyover",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，航天立交。"
+    },
+    {
+      "id": "17-03",
+      "nameZh": "航天路",
+      "nameEn": "Hangtian Road",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，航天路。"
+    },
+    {
+      "id": "6-54",
+      "nameZh": "和平街",
+      "nameEn": "Heping Street",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，和平街。"
+    },
+    {
+      "id": "6-49",
+      "nameZh": "红高路",
+      "nameEn": "Honggao Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，红高路。"
+    },
+    {
+      "id": "19-15",
+      "nameZh": "红莲",
+      "nameEn": "红莲",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，红莲。"
+    },
+    {
+      "id": "3-13",
+      "nameZh": "红牌楼",
+      "nameEn": "Hongpailou",
+      "servingLineIds": [
+        "3",
+        "10"
+      ],
+      "transferLineIds": [
+        "3",
+        "10"
+      ],
+      "text": "前方到站，红牌楼。换乘站：3号线、10号线。"
+    },
+    {
+      "id": "1-08",
+      "nameZh": "红石公园",
+      "nameEn": "Hongshi Park",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，红石公园。"
+    },
+    {
+      "id": "3-21",
+      "nameZh": "红星桥",
+      "nameEn": "Hongxingqiao",
+      "servingLineIds": [
+        "3",
+        "17"
+      ],
+      "transferLineIds": [
+        "3",
+        "17"
+      ],
+      "text": "前方到站，红星桥。换乘站：3号线、17号线。"
+    },
+    {
+      "id": "2-25",
+      "nameZh": "洪河",
+      "nameEn": "Honghe",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，洪河。"
+    },
+    {
+      "id": "6-44",
+      "nameZh": "侯家桥",
+      "nameEn": "Houjiaqiao",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，侯家桥。"
+    },
+    {
+      "id": "5-23",
+      "nameZh": "花牌坊",
+      "nameEn": "Huapaifang",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，花牌坊。"
+    },
+    {
+      "id": "10-14",
+      "nameZh": "花桥",
+      "nameEn": "Huaqiao",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，花桥。"
+    },
+    {
+      "id": "10-12",
+      "nameZh": "花源",
+      "nameEn": "Huayuan",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，花源。"
+    },
+    {
+      "id": "7-11",
+      "nameZh": "花照壁",
+      "nameEn": "Huazhaobi",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，花照壁。"
+    },
+    {
+      "id": "27-17",
+      "nameZh": "花照壁北",
+      "nameEn": "Huazhaobi North",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，花照壁北。"
+    },
+    {
+      "id": "1-13",
+      "nameZh": "华府大道",
+      "nameEn": "Huafu Avenue",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，华府大道。"
+    },
+    {
+      "id": "5-41",
+      "nameZh": "华桂路",
+      "nameEn": "Huagui Road",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，华桂路。"
+    },
+    {
+      "id": "1-25",
+      "nameZh": "华西坝",
+      "nameEn": "Huaxiba",
+      "servingLineIds": [
+        "1",
+        "13"
+      ],
+      "transferLineIds": [
+        "1",
+        "13"
+      ],
+      "text": "前方到站，华西坝。换乘站：1号线、13号线。"
+    },
+    {
+      "id": "9-07",
+      "nameZh": "华兴",
+      "nameEn": "Huaxing",
+      "servingLineIds": [
+        "9",
+        "10"
+      ],
+      "transferLineIds": [
+        "9",
+        "10"
+      ],
+      "text": "前方到站，华兴。换乘站：9号线、10号线。"
+    },
+    {
+      "id": "1-11",
+      "nameZh": "华阳",
+      "nameEn": "Huayang",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，华阳。"
+    },
+    {
+      "id": "4-25",
+      "nameZh": "槐树店",
+      "nameEn": "Huaishudian",
+      "servingLineIds": [
+        "4",
+        "7"
+      ],
+      "transferLineIds": [
+        "4",
+        "7"
+      ],
+      "text": "前方到站，槐树店。换乘站：4号线、7号线。"
+    },
+    {
+      "id": "17-15",
+      "nameZh": "浣花里",
+      "nameEn": "Huanhua Lane",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，浣花里。"
+    },
+    {
+      "id": "5-32",
+      "nameZh": "皇花园",
+      "nameEn": "Huanghuayuan",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，皇花园。"
+    },
+    {
+      "id": "19-02",
+      "nameZh": "黄石",
+      "nameEn": "Huangshi",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，黄石。"
+    },
+    {
+      "id": "10-11",
+      "nameZh": "黄水",
+      "nameEn": "Huangshui",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，黄水。"
+    },
+    {
+      "id": "9-01",
+      "nameZh": "黄田坝",
+      "nameEn": "Huangtianba",
+      "servingLineIds": [
+        "9"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，黄田坝。"
+    },
+    {
+      "id": "27-20",
+      "nameZh": "黄忠",
+      "nameEn": "Huangzhong",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，黄忠。"
+    },
+    {
+      "id": "5-01",
+      "nameZh": "回龙",
+      "nameEn": "Huilong",
+      "servingLineIds": [
+        "5",
+        "6"
+      ],
+      "transferLineIds": [
+        "5",
+        "6"
+      ],
+      "text": "前方到站，回龙。换乘站：5号线、6号线。"
+    },
+    {
+      "id": "2-24",
+      "nameZh": "惠王陵",
+      "nameEn": "Huiwangling",
+      "servingLineIds": [
+        "2",
+        "30"
+      ],
+      "transferLineIds": [
+        "2",
+        "30"
+      ],
+      "text": "前方到站，惠王陵。换乘站：2号线、30号线。"
+    },
+    {
+      "id": "1-31",
+      "nameZh": "火车北站",
+      "nameEn": "North Railway Station",
+      "servingLineIds": [
+        "1",
+        "7"
+      ],
+      "transferLineIds": [
+        "1",
+        "7"
+      ],
+      "text": "前方到站，火车北站。换乘站：1号线、7号线。"
+    },
+    {
+      "id": "1-21",
+      "nameZh": "火车南站",
+      "nameEn": "South Railway Station",
+      "servingLineIds": [
+        "1",
+        "7",
+        "18"
+      ],
+      "transferLineIds": [
+        "1",
+        "7",
+        "18"
+      ],
+      "text": "前方到站，火车南站。换乘站：1号线、7号线、18号线。"
+    },
+    {
+      "id": "17-05",
+      "nameZh": "机车厂",
+      "nameEn": "Jichechang",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，机车厂。"
+    },
+    {
+      "id": "9-04",
+      "nameZh": "机投桥",
+      "nameEn": "Jitouqiao",
+      "servingLineIds": [
+        "9",
+        "17"
+      ],
+      "transferLineIds": [
+        "9",
+        "17"
+      ],
+      "text": "前方到站，机投桥。换乘站：9号线、17号线。"
+    },
+    {
+      "id": "6-32",
+      "nameZh": "建设北路",
+      "nameEn": "Jianshe North Road",
+      "servingLineIds": [
+        "6",
+        "17"
+      ],
+      "transferLineIds": [
+        "6",
+        "17"
+      ],
+      "text": "前方到站，建设北路。换乘站：6号线、17号线。"
+    },
+    {
+      "id": "5-12",
+      "nameZh": "交子大道",
+      "nameEn": "Jiaozi Avenue",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，交子大道。"
+    },
+    {
+      "id": "13-05",
+      "nameZh": "娇子立交",
+      "nameEn": "Jiaozi Flyover",
+      "servingLineIds": [
+        "13",
+        "30"
+      ],
+      "transferLineIds": [
+        "13",
+        "30"
+      ],
+      "text": "前方到站，娇子立交。换乘站：13号线、30号线。"
+    },
+    {
+      "id": "2-29",
+      "nameZh": "界牌",
+      "nameEn": "Jiepai",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，界牌。"
+    },
+    {
+      "id": "6-40",
+      "nameZh": "金府",
+      "nameEn": "Jinfu",
+      "servingLineIds": [
+        "6",
+        "27"
+      ],
+      "transferLineIds": [
+        "6",
+        "27"
+      ],
+      "text": "前方到站，金府。换乘站：6号线、27号线。"
+    },
+    {
+      "id": "10-06",
+      "nameZh": "金花",
+      "nameEn": "Jinhua",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金花。"
+    },
+    {
+      "id": "3-30",
+      "nameZh": "金华寺东路",
+      "nameEn": "Jinhuasi East Road",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金华寺东路。"
+    },
+    {
+      "id": "2-05",
+      "nameZh": "金科北路",
+      "nameEn": "Jinke North Road",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金科北路。"
+    },
+    {
+      "id": "27-18",
+      "nameZh": "金牛公园",
+      "nameEn": "Jinniu Park",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金牛公园。"
+    },
+    {
+      "id": "1-19",
+      "nameZh": "金融城",
+      "nameEn": "Financial City",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金融城。"
+    },
+    {
+      "id": "30-11",
+      "nameZh": "金融城北",
+      "nameEn": "Financial City North",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金融城北。"
+    },
+    {
+      "id": "6-22",
+      "nameZh": "金融城东",
+      "nameEn": "Financial City East",
+      "servingLineIds": [
+        "6",
+        "9"
+      ],
+      "transferLineIds": [
+        "6",
+        "9"
+      ],
+      "text": "前方到站，金融城东。换乘站：6号线、9号线。"
+    },
+    {
+      "id": "27-21",
+      "nameZh": "金沙滨河公园",
+      "nameEn": "Jinsha Binhe Park",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金沙滨河公园。"
+    },
+    {
+      "id": "7-14",
+      "nameZh": "金沙博物馆",
+      "nameEn": "Jinsha Site Museum",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金沙博物馆。"
+    },
+    {
+      "id": "6-23",
+      "nameZh": "金石路",
+      "nameEn": "Jinshi Road",
+      "servingLineIds": [
+        "6",
+        "30"
+      ],
+      "transferLineIds": [
+        "6",
+        "30"
+      ],
+      "text": "前方到站，金石路。换乘站：6号线、30号线。"
+    },
+    {
+      "id": "19-01",
+      "nameZh": "金星",
+      "nameEn": "Jinxing",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金星。"
+    },
+    {
+      "id": "2-04",
+      "nameZh": "金周路",
+      "nameEn": "Jinzhou Road",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，金周路。"
+    },
+    {
+      "id": "5-11",
+      "nameZh": "锦城大道",
+      "nameEn": "Jincheng Avenue",
+      "servingLineIds": [
+        "5",
+        "9"
+      ],
+      "transferLineIds": [
+        "5",
+        "9"
+      ],
+      "text": "前方到站，锦城大道。换乘站：5号线、9号线。"
+    },
+    {
+      "id": "1-17",
+      "nameZh": "锦城广场",
+      "nameEn": "Jincheng Plaza",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，锦城广场。"
+    },
+    {
+      "id": "18-03",
+      "nameZh": "锦城广场东",
+      "nameEn": "Jincheng Plaza East",
+      "servingLineIds": [
+        "18"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，锦城广场东。"
+    },
+    {
+      "id": "5-10",
+      "nameZh": "锦城湖",
+      "nameEn": "Jincheng Lake",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，锦城湖。"
+    },
+    {
+      "id": "1-26",
+      "nameZh": "锦江宾馆",
+      "nameEn": "Jinjiang Hotel",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，锦江宾馆。"
+    },
+    {
+      "id": "3-32",
+      "nameZh": "锦水河",
+      "nameEn": "Jinshuihe",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，锦水河。"
+    },
+    {
+      "id": "30-07",
+      "nameZh": "锦逸",
+      "nameEn": "Jinyi",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，锦逸。"
+    },
+    {
+      "id": "5-06",
+      "nameZh": "警官学院",
+      "nameEn": "The Police College",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，警官学院。"
+    },
+    {
+      "id": "8-14",
+      "nameZh": "净居寺",
+      "nameEn": "Jingjusi",
+      "servingLineIds": [
+        "8",
+        "13"
+      ],
+      "transferLineIds": [
+        "8",
+        "13"
+      ],
+      "text": "前方到站，净居寺。换乘站：8号线、13号线。"
+    },
+    {
+      "id": "5-36",
+      "nameZh": "九道堰",
+      "nameEn": "Jiudiaoyan",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，九道堰。"
+    },
+    {
+      "id": "17-21",
+      "nameZh": "九江北",
+      "nameEn": "Jiujiang North",
+      "servingLineIds": [
+        "17",
+        "19"
+      ],
+      "transferLineIds": [
+        "17",
+        "19"
+      ],
+      "text": "前方到站，九江北。换乘站：17号线、19号线。"
+    },
+    {
+      "id": "7-09",
+      "nameZh": "九里堤",
+      "nameEn": "Jiulidi",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，九里堤。"
+    },
+    {
+      "id": "5-16",
+      "nameZh": "九兴大道",
+      "nameEn": "Jiuxing Avenue",
+      "servingLineIds": [
+        "5",
+        "8"
+      ],
+      "transferLineIds": [
+        "5",
+        "8"
+      ],
+      "text": "前方到站，九兴大道。换乘站：5号线、8号线。"
+    },
+    {
+      "id": "13-09",
+      "nameZh": "九眼桥",
+      "nameEn": "Jiuyan Bridge",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，九眼桥。"
+    },
+    {
+      "id": "3-28",
+      "nameZh": "军区总医院",
+      "nameEn": "Chengdu Junqu General Hospital",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，军区总医院。"
+    },
+    {
+      "id": "1-01",
+      "nameZh": "科学城",
+      "nameEn": "Science City",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，科学城。"
+    },
+    {
+      "id": "5-17",
+      "nameZh": "科园",
+      "nameEn": "Keyuan",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，科园。"
+    },
+    {
+      "id": "4-18",
+      "nameZh": "宽窄巷子",
+      "nameEn": "Kuanzhaixiangzi Alleys",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，宽窄巷子。"
+    },
+    {
+      "id": "4-26",
+      "nameZh": "来龙",
+      "nameEn": "Lailong",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，来龙。"
+    },
+    {
+      "id": "27-09",
+      "nameZh": "赖家店",
+      "nameEn": "Laijiadian",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，赖家店。"
+    },
+    {
+      "id": "6-01",
+      "nameZh": "兰家沟",
+      "nameEn": "Lanjiagou",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，兰家沟。"
+    },
+    {
+      "id": "19-17",
+      "nameZh": "蓝家店",
+      "nameEn": "蓝家店",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，蓝家店。"
+    },
+    {
+      "id": "3-23",
+      "nameZh": "李家沱",
+      "nameEn": "Lijiatuo",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，李家沱。"
+    },
+    {
+      "id": "7-02",
+      "nameZh": "理工大学",
+      "nameEn": "Chengdu University of Technology",
+      "servingLineIds": [
+        "7",
+        "8"
+      ],
+      "transferLineIds": [
+        "7",
+        "8"
+      ],
+      "text": "前方到站，理工大学。换乘站：7号线、8号线。"
+    },
+    {
+      "id": "27-08",
+      "nameZh": "鲤鱼湾",
+      "nameEn": "Liyuwan",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，鲤鱼湾。"
+    },
+    {
+      "id": "2-28",
+      "nameZh": "连山坡",
+      "nameEn": "Lianshanpo",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，连山坡。"
+    },
+    {
+      "id": "8-31",
+      "nameZh": "莲花",
+      "nameEn": "Lianhua",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，莲花。"
+    },
+    {
+      "id": "6-34",
+      "nameZh": "梁家巷",
+      "nameEn": "Liangjiaxiang",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，梁家巷。"
+    },
+    {
+      "id": "5-39",
+      "nameZh": "廖家湾",
+      "nameEn": "Liaojiawan",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，廖家湾。"
+    },
+    {
+      "id": "10-17",
+      "nameZh": "刘家碾",
+      "nameEn": "Liujianian",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，刘家碾。"
+    },
+    {
+      "id": "6-25",
+      "nameZh": "琉璃场",
+      "nameEn": "Liulichang",
+      "servingLineIds": [
+        "6",
+        "7"
+      ],
+      "transferLineIds": [
+        "6",
+        "7"
+      ],
+      "text": "前方到站，琉璃场。换乘站：6号线、7号线。"
+    },
+    {
+      "id": "6-24",
+      "nameZh": "琉三路",
+      "nameEn": "Liusan Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，琉三路。"
+    },
+    {
+      "id": "13-01",
+      "nameZh": "龙安",
+      "nameEn": "Long'an",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙安。"
+    },
+    {
+      "id": "6-15",
+      "nameZh": "龙灯山",
+      "nameEn": "Longdengshan",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙灯山。"
+    },
+    {
+      "id": "8-32",
+      "nameZh": "龙港",
+      "nameEn": "Longgang",
+      "servingLineIds": [
+        "8",
+        "19"
+      ],
+      "transferLineIds": [
+        "8",
+        "19"
+      ],
+      "text": "前方到站，龙港。换乘站：8号线、19号线。"
+    },
+    {
+      "id": "13-02",
+      "nameZh": "龙华寺",
+      "nameEn": "Longhuasi",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙华寺。"
+    },
+    {
+      "id": "5-02",
+      "nameZh": "龙马路",
+      "nameEn": "Longma Road",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙马路。"
+    },
+    {
+      "id": "2-31",
+      "nameZh": "龙平路",
+      "nameEn": "Longping Road",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙平路。"
+    },
+    {
+      "id": "3-07",
+      "nameZh": "龙桥路",
+      "nameEn": "Longqiao Road",
+      "servingLineIds": [
+        "3",
+        "19"
+      ],
+      "transferLineIds": [
+        "3",
+        "19"
+      ],
+      "text": "前方到站，龙桥路。换乘站：3号线、19号线。"
+    },
+    {
+      "id": "2-32",
+      "nameZh": "龙泉驿",
+      "nameEn": "Longquanyi",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙泉驿。"
+    },
+    {
+      "id": "30-01",
+      "nameZh": "龙泉驿火车站南",
+      "nameEn": "Longquanyi Railway Station South",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙泉驿火车站南。"
+    },
+    {
+      "id": "8-05",
+      "nameZh": "龙潭立交",
+      "nameEn": "Longtan Flyover",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙潭立交。"
+    },
+    {
+      "id": "8-04",
+      "nameZh": "龙潭寺",
+      "nameEn": "Longtan Temple",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，龙潭寺。"
+    },
+    {
+      "id": "7-17",
+      "nameZh": "龙爪堰",
+      "nameEn": "Longzhuayan",
+      "servingLineIds": [
+        "7",
+        "17"
+      ],
+      "transferLineIds": [
+        "7",
+        "17"
+      ],
+      "text": "前方到站，龙爪堰。换乘站：7号线、17号线。"
+    },
+    {
+      "id": "5-31",
+      "nameZh": "陆家桥",
+      "nameEn": "Lujiaqiao",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，陆家桥。"
+    },
+    {
+      "id": "6-19",
+      "nameZh": "陆肖",
+      "nameEn": "Luxiao",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，陆肖。"
+    },
+    {
+      "id": "1-07",
+      "nameZh": "麓湖",
+      "nameEn": "Luhu Lake",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，麓湖。"
+    },
+    {
+      "id": "6-12",
+      "nameZh": "麓山大道",
+      "nameEn": "Lushan Avenue",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，麓山大道。"
+    },
+    {
+      "id": "1-28",
+      "nameZh": "骡马市",
+      "nameEn": "Luomashi",
+      "servingLineIds": [
+        "1",
+        "4"
+      ],
+      "transferLineIds": [
+        "1",
+        "4"
+      ],
+      "text": "前方到站，骡马市。换乘站：1号线、4号线。"
+    },
+    {
+      "id": "4-08",
+      "nameZh": "马厂坝",
+      "nameEn": "Machangba",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，马厂坝。"
+    },
+    {
+      "id": "3-34",
+      "nameZh": "马超西路",
+      "nameEn": "Machao West Road",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，马超西路。"
+    },
+    {
+      "id": "6-51",
+      "nameZh": "檬梓",
+      "nameEn": "Mengzi",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，檬梓。"
+    },
+    {
+      "id": "5-08",
+      "nameZh": "民乐",
+      "nameEn": "Minle",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，民乐。"
+    },
+    {
+      "id": "19-06",
+      "nameZh": "明光",
+      "nameEn": "Mingguang",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，明光。"
+    },
+    {
+      "id": "4-29",
+      "nameZh": "明蜀王陵",
+      "nameEn": "Mingshuwangling",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，明蜀王陵。"
+    },
+    {
+      "id": "3-17",
+      "nameZh": "磨子桥",
+      "nameEn": "Moziqiao",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，磨子桥。"
+    },
+    {
+      "id": "19-12",
+      "nameZh": "牧华路",
+      "nameEn": "牧华路",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，牧华路。"
+    },
+    {
+      "id": "5-04",
+      "nameZh": "南湖立交",
+      "nameEn": "Nanhu Flyover",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，南湖立交。"
+    },
+    {
+      "id": "4-04",
+      "nameZh": "南熏大道",
+      "nameEn": "Nanxun Avenue",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，南熏大道。"
+    },
+    {
+      "id": "1-23",
+      "nameZh": "倪家桥",
+      "nameEn": "Nijiaqiao",
+      "servingLineIds": [
+        "1",
+        "8"
+      ],
+      "transferLineIds": [
+        "1",
+        "8"
+      ],
+      "text": "前方到站，倪家桥。换乘站：1号线、8号线。"
+    },
+    {
+      "id": "2-19",
+      "nameZh": "牛市口",
+      "nameEn": "Niushikou",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，牛市口。"
+    },
+    {
+      "id": "2-18",
+      "nameZh": "牛王庙",
+      "nameEn": "Niuwangmiao",
+      "servingLineIds": [
+        "2",
+        "6"
+      ],
+      "transferLineIds": [
+        "2",
+        "6"
+      ],
+      "text": "前方到站，牛王庙。换乘站：2号线、6号线。"
+    },
+    {
+      "id": "9-03",
+      "nameZh": "培风",
+      "nameEn": "Peifeng",
+      "servingLineIds": [
+        "9",
+        "13"
+      ],
+      "transferLineIds": [
+        "9",
+        "13"
+      ],
+      "text": "前方到站，培风。换乘站：9号线、13号线。"
+    },
+    {
+      "id": "6-53",
+      "nameZh": "郫筒",
+      "nameEn": "Pitong",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，郫筒。"
+    },
+    {
+      "id": "6-14",
+      "nameZh": "蒲草塘",
+      "nameEn": "Pucaotang",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，蒲草塘。"
+    },
+    {
+      "id": "5-07",
+      "nameZh": "骑龙",
+      "nameEn": "Qilong",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，骑龙。"
+    },
+    {
+      "id": "3-22",
+      "nameZh": "前锋路",
+      "nameEn": "Qianfeng Road",
+      "servingLineIds": [
+        "3",
+        "6"
+      ],
+      "transferLineIds": [
+        "3",
+        "6"
+      ],
+      "text": "前方到站，前锋路。换乘站：3号线、6号线。"
+    },
+    {
+      "id": "6-05",
+      "nameZh": "秦皇寺",
+      "nameEn": "Qinhuangsi",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，秦皇寺。"
+    },
+    {
+      "id": "6-10",
+      "nameZh": "青岛路",
+      "nameEn": "Qingdao Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，青岛路。"
+    },
+    {
+      "id": "6-42",
+      "nameZh": "青杠",
+      "nameEn": "Qinggang",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，青杠。"
+    },
+    {
+      "id": "5-20",
+      "nameZh": "青羊宫",
+      "nameEn": "Qingyang Taoist Temple",
+      "servingLineIds": [
+        "5",
+        "13"
+      ],
+      "transferLineIds": [
+        "5",
+        "13"
+      ],
+      "text": "前方到站，青羊宫。换乘站：5号线、13号线。"
+    },
+    {
+      "id": "4-13",
+      "nameZh": "清江西路",
+      "nameEn": "Qingjiang West Road",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，清江西路。"
+    },
+    {
+      "id": "17-16",
+      "nameZh": "清水河大桥",
+      "nameEn": "Qingshuihe Bridge",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，清水河大桥。"
+    },
+    {
+      "id": "8-24",
+      "nameZh": "庆安",
+      "nameEn": "Qing'an",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，庆安。"
+    },
+    {
+      "id": "30-08",
+      "nameZh": "棬子树",
+      "nameEn": "Juanzishu",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，棬子树。"
+    },
+    {
+      "id": "5-30",
+      "nameZh": "泉水路",
+      "nameEn": "Quanshui Road",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，泉水路。"
+    },
+    {
+      "id": "1-30",
+      "nameZh": "人民北路",
+      "nameEn": "Renmin North Road",
+      "servingLineIds": [
+        "1",
+        "6"
+      ],
+      "transferLineIds": [
+        "1",
+        "6"
+      ],
+      "text": "前方到站，人民北路。换乘站：1号线、6号线。"
+    },
+    {
+      "id": "2-14",
+      "nameZh": "人民公园",
+      "nameEn": "People's Park",
+      "servingLineIds": [
+        "2",
+        "17"
+      ],
+      "transferLineIds": [
+        "2",
+        "17"
+      ],
+      "text": "前方到站，人民公园。换乘站：2号线、17号线。"
+    },
+    {
+      "id": "17-04",
+      "nameZh": "人民塘",
+      "nameEn": "Renmintang",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，人民塘。"
+    },
+    {
+      "id": "10-16",
+      "nameZh": "儒林路",
+      "nameEn": "Rulin Road",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，儒林路。"
+    },
+    {
+      "id": "5-26",
+      "nameZh": "赛云台",
+      "nameEn": "Saiyuntai",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，赛云台。"
+    },
+    {
+      "id": "18-09",
+      "nameZh": "三岔",
+      "nameEn": "Sancha",
+      "servingLineIds": [
+        "18",
+        "19"
+      ],
+      "transferLineIds": [
+        "18",
+        "19"
+      ],
+      "text": "前方到站，三岔。换乘站：18号线、19号线。"
+    },
+    {
+      "id": "6-27",
+      "nameZh": "三官堂",
+      "nameEn": "Sanguantang",
+      "servingLineIds": [
+        "6",
+        "13"
+      ],
+      "transferLineIds": [
+        "6",
+        "13"
+      ],
+      "text": "前方到站，三官堂。换乘站：6号线、13号线。"
+    },
+    {
+      "id": "3-31",
+      "nameZh": "三河场",
+      "nameEn": "Sanhechang",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，三河场。"
+    },
+    {
+      "id": "3-02",
+      "nameZh": "三里坝",
+      "nameEn": "Sanliba",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，三里坝。"
+    },
+    {
+      "id": "13-03",
+      "nameZh": "三圣花乡",
+      "nameEn": "Sansheng Flower Town",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，三圣花乡。"
+    },
+    {
+      "id": "27-06",
+      "nameZh": "三圣寺",
+      "nameEn": "Sanshengsi",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，三圣寺。"
+    },
+    {
+      "id": "7-23",
+      "nameZh": "三瓦窑",
+      "nameEn": "Sanwayao",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，三瓦窑。"
+    },
+    {
+      "id": "8-26",
+      "nameZh": "三元",
+      "nameEn": "Sanyuan",
+      "servingLineIds": [
+        "8",
+        "9"
+      ],
+      "transferLineIds": [
+        "8",
+        "9"
+      ],
+      "text": "前方到站，三元。换乘站：8号线、9号线。"
+    },
+    {
+      "id": "27-14",
+      "nameZh": "沙河源",
+      "nameEn": "Shaheyuan",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，沙河源。"
+    },
+    {
+      "id": "6-37",
+      "nameZh": "沙湾",
+      "nameEn": "Shawan",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，沙湾。"
+    },
+    {
+      "id": "8-10",
+      "nameZh": "杉板桥",
+      "nameEn": "Shanbanqiao",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，杉板桥。"
+    },
+    {
+      "id": "6-50",
+      "nameZh": "尚锦路",
+      "nameEn": "Shangjin Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，尚锦路。"
+    },
+    {
+      "id": "5-15",
+      "nameZh": "神仙树",
+      "nameEn": "Shenxianshu",
+      "servingLineIds": [
+        "5",
+        "7"
+      ],
+      "transferLineIds": [
+        "5",
+        "7"
+      ],
+      "text": "前方到站，神仙树。换乘站：5号线、7号线。"
+    },
+    {
+      "id": "6-11",
+      "nameZh": "沈阳路",
+      "nameEn": "Shenyang Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，沈阳路。"
+    },
+    {
+      "id": "1-32",
+      "nameZh": "升仙湖",
+      "nameEn": "Shengxian Lake",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，升仙湖。"
+    },
+    {
+      "id": "5-19",
+      "nameZh": "省骨科医院",
+      "nameEn": "Provincial Orthopaedics Hospital",
+      "servingLineIds": [
+        "5",
+        "17"
+      ],
+      "transferLineIds": [
+        "5",
+        "17"
+      ],
+      "text": "前方到站，省骨科医院。换乘站：5号线、17号线。"
+    },
+    {
+      "id": "1-24",
+      "nameZh": "省体育馆",
+      "nameEn": "Sichuan Gymnasium",
+      "servingLineIds": [
+        "1",
+        "3"
+      ],
+      "transferLineIds": [
+        "1",
+        "3"
+      ],
+      "text": "前方到站，省体育馆。换乘站：1号线、3号线。"
+    },
+    {
+      "id": "8-06",
+      "nameZh": "圣灯公园",
+      "nameEn": "Shengdeng Park",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，圣灯公园。"
+    },
+    {
+      "id": "7-26",
+      "nameZh": "狮子山",
+      "nameEn": "Shizishan",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，狮子山。"
+    },
+    {
+      "id": "8-07",
+      "nameZh": "十里店",
+      "nameEn": "Shilidian",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，十里店。"
+    },
+    {
+      "id": "4-27",
+      "nameZh": "十陵",
+      "nameEn": "Shiling",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，十陵。"
+    },
+    {
+      "id": "27-01",
+      "nameZh": "石佛",
+      "nameEn": "Shifo",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石佛。"
+    },
+    {
+      "id": "27-05",
+      "nameZh": "石门坎",
+      "nameEn": "Shimenkan",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石门坎。"
+    },
+    {
+      "id": "5-33",
+      "nameZh": "石犀公园",
+      "nameEn": "Shixi Park",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石犀公园。"
+    },
+    {
+      "id": "8-25",
+      "nameZh": "石羊",
+      "nameEn": "Shiyang",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石羊。"
+    },
+    {
+      "id": "30-15",
+      "nameZh": "石羊东",
+      "nameEn": "Shiyangdong",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石羊东。"
+    },
+    {
+      "id": "5-14",
+      "nameZh": "石羊立交",
+      "nameEn": "Shiyang Flyover",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石羊立交。"
+    },
+    {
+      "id": "3-36",
+      "nameZh": "石油大学",
+      "nameEn": "Southwest Petroleum University",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，石油大学。"
+    },
+    {
+      "id": "1-16",
+      "nameZh": "世纪城",
+      "nameEn": "Century City",
+      "servingLineIds": [
+        "1",
+        "18"
+      ],
+      "transferLineIds": [
+        "1",
+        "18"
+      ],
+      "text": "前方到站，世纪城。换乘站：1号线、18号线。"
+    },
+    {
+      "id": "3-20",
+      "nameZh": "市二医院",
+      "nameEn": "Chengdu Second People's Hospital",
+      "servingLineIds": [
+        "3",
+        "4"
+      ],
+      "transferLineIds": [
+        "3",
+        "4"
+      ],
+      "text": "前方到站，市二医院。换乘站：3号线、4号线。"
+    },
+    {
+      "id": "19-03",
+      "nameZh": "市五医院",
+      "nameEn": "Chengdu Fifth People's Hospital",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，市五医院。"
+    },
+    {
+      "id": "5-13",
+      "nameZh": "市一医院",
+      "nameEn": "Chengdu First People's Hospital",
+      "servingLineIds": [
+        "5",
+        "30"
+      ],
+      "transferLineIds": [
+        "5",
+        "30"
+      ],
+      "text": "前方到站，市一医院。换乘站：5号线、30号线。"
+    },
+    {
+      "id": "2-30",
+      "nameZh": "书房",
+      "nameEn": "Shufang",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，书房。"
+    },
+    {
+      "id": "2-10",
+      "nameZh": "蜀汉路东",
+      "nameEn": "Shuhan Road East",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，蜀汉路东。"
+    },
+    {
+      "id": "6-52",
+      "nameZh": "蜀新大道",
+      "nameEn": "Shuxin Avenue",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，蜀新大道。"
+    },
+    {
+      "id": "27-22",
+      "nameZh": "蜀鑫路",
+      "nameEn": "Shuxin Road",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，蜀鑫路。"
+    },
+    {
+      "id": "7-31",
+      "nameZh": "双店路",
+      "nameEn": "Shaungdian Road",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，双店路。"
+    },
+    {
+      "id": "3-08",
+      "nameZh": "双凤桥",
+      "nameEn": "Shuangfengqiao",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，双凤桥。"
+    },
+    {
+      "id": "3-03",
+      "nameZh": "双流广场",
+      "nameEn": "Shuangliu Square",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，双流广场。"
+    },
+    {
+      "id": "10-07",
+      "nameZh": "双流机场1航站楼",
+      "nameEn": "Terminal 1 of Shuangliu International Airport",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，双流机场1航站楼。"
+    },
+    {
+      "id": "10-08",
+      "nameZh": "双流机场2航站楼",
+      "nameEn": "Terminal 2 of Shuangliu International Airport",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，双流机场2航站楼。"
+    },
+    {
+      "id": "19-09",
+      "nameZh": "双流机场2航站楼东",
+      "nameEn": "East of Terminal 2 of Shuangliu International Airport",
+      "servingLineIds": [
+        "19",
+        "30"
+      ],
+      "transferLineIds": [
+        "19",
+        "30"
+      ],
+      "text": "前方到站，双流机场2航站楼东。换乘站：19号线、30号线。"
+    },
+    {
+      "id": "3-01",
+      "nameZh": "双流西站",
+      "nameEn": "Shuangliu West Railway Station",
+      "servingLineIds": [
+        "3",
+        "10"
+      ],
+      "transferLineIds": [
+        "3",
+        "10"
+      ],
+      "text": "前方到站，双流西站。换乘站：3号线、10号线。"
+    },
+    {
+      "id": "4-23",
+      "nameZh": "双桥路",
+      "nameEn": "Shuangqiao Road",
+      "servingLineIds": [
+        "4",
+        "8"
+      ],
+      "transferLineIds": [
+        "4",
+        "8"
+      ],
+      "text": "前方到站，双桥路。换乘站：4号线、8号线。"
+    },
+    {
+      "id": "27-11",
+      "nameZh": "双水碾",
+      "nameEn": "Shuangshuinian",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，双水碾。"
+    },
+    {
+      "id": "8-27",
+      "nameZh": "顺风",
+      "nameEn": "Shunfeng",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，顺风。"
+    },
+    {
+      "id": "6-28",
+      "nameZh": "顺江路",
+      "nameEn": "Shunjiang Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，顺江路。"
+    },
+    {
+      "id": "7-25",
+      "nameZh": "四川师大",
+      "nameEn": "Sichuan Normal University",
+      "servingLineIds": [
+        "7",
+        "13"
+      ],
+      "transferLineIds": [
+        "7",
+        "13"
+      ],
+      "text": "前方到站，四川师大。换乘站：7号线、13号线。"
+    },
+    {
+      "id": "1-12",
+      "nameZh": "四河",
+      "nameEn": "Sihe",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，四河。"
+    },
+    {
+      "id": "30-21",
+      "nameZh": "寺圣",
+      "nameEn": "Sisheng",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，寺圣。"
+    },
+    {
+      "id": "3-24",
+      "nameZh": "驷马桥",
+      "nameEn": "Sima Bridge",
+      "servingLineIds": [
+        "3",
+        "7"
+      ],
+      "transferLineIds": [
+        "3",
+        "7"
+      ],
+      "text": "前方到站，驷马桥。换乘站：3号线、7号线。"
+    },
+    {
+      "id": "6-04",
+      "nameZh": "松林",
+      "nameEn": "Songlin",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，松林。"
+    },
+    {
+      "id": "2-21",
+      "nameZh": "塔子山公园",
+      "nameEn": "Tazishan Park",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，塔子山公园。"
+    },
+    {
+      "id": "17-07",
+      "nameZh": "踏水桥",
+      "nameEn": "Tashui Bridge",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，踏水桥。"
+    },
+    {
+      "id": "9-08",
+      "nameZh": "太平寺",
+      "nameEn": "Taiping Temple",
+      "servingLineIds": [
+        "9"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，太平寺。"
+    },
+    {
+      "id": "3-12",
+      "nameZh": "太平园",
+      "nameEn": "Tapingyuan",
+      "servingLineIds": [
+        "3",
+        "7",
+        "10"
+      ],
+      "transferLineIds": [
+        "3",
+        "7",
+        "10"
+      ],
+      "text": "前方到站，太平园。换乘站：3号线、7号线、10号线。"
+    },
+    {
+      "id": "4-20",
+      "nameZh": "太升南路",
+      "nameEn": "Taisheng South Road",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，太升南路。"
+    },
+    {
+      "id": "1-05",
+      "nameZh": "天府公园",
+      "nameEn": "Tianfu Park",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，天府公园。"
+    },
+    {
+      "id": "1-27",
+      "nameZh": "天府广场",
+      "nameEn": "Tianfu Square",
+      "servingLineIds": [
+        "1",
+        "2"
+      ],
+      "transferLineIds": [
+        "1",
+        "2"
+      ],
+      "text": "前方到站，天府广场。换乘站：1号线、2号线。"
+    },
+    {
+      "id": "18-11",
+      "nameZh": "天府机场1号2号航站楼",
+      "nameEn": "Terminals 1 & 2 of Tianfu International Airport",
+      "servingLineIds": [
+        "18",
+        "19"
+      ],
+      "transferLineIds": [
+        "18",
+        "19"
+      ],
+      "text": "前方到站，天府机场1号2号航站楼。换乘站：18号线、19号线。"
+    },
+    {
+      "id": "18-12",
+      "nameZh": "天府机场北",
+      "nameEn": "Tianfu International Airport North",
+      "servingLineIds": [
+        "18",
+        "19"
+      ],
+      "transferLineIds": [
+        "18",
+        "19"
+      ],
+      "text": "前方到站，天府机场北。换乘站：18号线、19号线。"
+    },
+    {
+      "id": "1-15",
+      "nameZh": "天府三街",
+      "nameEn": "3rd Tianfu Street",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，天府三街。"
+    },
+    {
+      "id": "6-07",
+      "nameZh": "天府商务区",
+      "nameEn": "Tianfu Commercial District",
+      "servingLineIds": [
+        "6",
+        "19"
+      ],
+      "transferLineIds": [
+        "6",
+        "19"
+      ],
+      "text": "前方到站，天府商务区。换乘站：6号线、19号线。"
+    },
+    {
+      "id": "1-14",
+      "nameZh": "天府五街",
+      "nameEn": "5th Tianfu Street",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，天府五街。"
+    },
+    {
+      "id": "18-08",
+      "nameZh": "天府站",
+      "nameEn": "Tianfu Railway Station",
+      "servingLineIds": [
+        "18",
+        "19"
+      ],
+      "transferLineIds": [
+        "18",
+        "19"
+      ],
+      "text": "前方到站，天府站。换乘站：18号线、19号线。"
+    },
+    {
+      "id": "2-02",
+      "nameZh": "天河路",
+      "nameEn": "Tianhe Road",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，天河路。"
+    },
+    {
+      "id": "6-48",
+      "nameZh": "天宇路",
+      "nameEn": "Tianyu Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，天宇路。"
+    },
+    {
+      "id": "2-13",
+      "nameZh": "通惠门",
+      "nameEn": "Tonghuimen",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，通惠门。"
+    },
+    {
+      "id": "8-03",
+      "nameZh": "同乐",
+      "nameEn": "Tongle",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，同乐。"
+    },
+    {
+      "id": "1-22",
+      "nameZh": "桐梓林",
+      "nameEn": "Tongzilin",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，桐梓林。"
+    },
+    {
+      "id": "3-33",
+      "nameZh": "团结新区",
+      "nameEn": "Tuanjiexinqu",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，团结新区。"
+    },
+    {
+      "id": "13-21",
+      "nameZh": "瓦窑滩",
+      "nameEn": "Wayaotan",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，瓦窑滩。"
+    },
+    {
+      "id": "6-13",
+      "nameZh": "万安",
+      "nameEn": "Wan'an",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，万安。"
+    },
+    {
+      "id": "13-20",
+      "nameZh": "万家湾",
+      "nameEn": "Wanjiawan",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，万家湾。"
+    },
+    {
+      "id": "4-24",
+      "nameZh": "万年场",
+      "nameEn": "Wannianchang",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，万年场。"
+    },
+    {
+      "id": "8-11",
+      "nameZh": "万年路",
+      "nameEn": "Wannian Road",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，万年路。"
+    },
+    {
+      "id": "4-01",
+      "nameZh": "万盛",
+      "nameEn": "Wansheng",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，万盛。"
+    },
+    {
+      "id": "13-18",
+      "nameZh": "万寿桥",
+      "nameEn": "Wanshou Bridge",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，万寿桥。"
+    },
+    {
+      "id": "27-12",
+      "nameZh": "王贾桥",
+      "nameEn": "Wangjiaqiao",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，王贾桥。"
+    },
+    {
+      "id": "6-55",
+      "nameZh": "望丛祠",
+      "nameEn": "Wangcong Temple",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，望丛祠。"
+    },
+    {
+      "id": "17-02",
+      "nameZh": "威灵",
+      "nameEn": "Weiling",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，威灵。"
+    },
+    {
+      "id": "1-33",
+      "nameZh": "韦家碾",
+      "nameEn": "Weijianian",
+      "servingLineIds": [
+        "1",
+        "27"
+      ],
+      "transferLineIds": [
+        "1",
+        "27"
+      ],
+      "text": "前方到站，韦家碾。换乘站：1号线、27号线。"
+    },
+    {
+      "id": "19-11",
+      "nameZh": "温家山",
+      "nameEn": "温家山",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，温家山。"
+    },
+    {
+      "id": "19-05",
+      "nameZh": "温泉大道",
+      "nameEn": "Wenquan Avenue",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，温泉大道。"
+    },
+    {
+      "id": "4-14",
+      "nameZh": "文化宫",
+      "nameEn": "Cultural Palace",
+      "servingLineIds": [
+        "4",
+        "7"
+      ],
+      "transferLineIds": [
+        "4",
+        "7"
+      ],
+      "text": "前方到站，文化宫。换乘站：4号线、7号线。"
+    },
+    {
+      "id": "1-29",
+      "nameZh": "文殊院",
+      "nameEn": "Wenshu Monastery",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，文殊院。"
+    },
+    {
+      "id": "13-12",
+      "nameZh": "文翁石室",
+      "nameEn": "Wenweng Shishi",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，文翁石室。"
+    },
+    {
+      "id": "8-30",
+      "nameZh": "文星",
+      "nameEn": "Wenxing",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，文星。"
+    },
+    {
+      "id": "1-34",
+      "nameZh": "五根松",
+      "nameEn": "Wugensong",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，五根松。"
+    },
+    {
+      "id": "10-15",
+      "nameZh": "五津",
+      "nameEn": "Wujin",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，五津。"
+    },
+    {
+      "id": "5-27",
+      "nameZh": "五块石",
+      "nameEn": "Wukuaishi",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，五块石。"
+    },
+    {
+      "id": "1-06",
+      "nameZh": "武汉路",
+      "nameEn": "Wuhan Road",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，武汉路。"
+    },
+    {
+      "id": "10-01",
+      "nameZh": "武侯祠",
+      "nameEn": "Wohou Shrine",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，武侯祠。"
+    },
+    {
+      "id": "7-18",
+      "nameZh": "武侯大道",
+      "nameEn": "Wuhou Avenue",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，武侯大道。"
+    },
+    {
+      "id": "3-10",
+      "nameZh": "武侯立交",
+      "nameEn": "Wuhou Flyover",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，武侯立交。"
+    },
+    {
+      "id": "3-09",
+      "nameZh": "武青南路",
+      "nameEn": "Wuqing South Road",
+      "servingLineIds": [
+        "3",
+        "9"
+      ],
+      "transferLineIds": [
+        "3",
+        "9"
+      ],
+      "text": "前方到站，武青南路。换乘站：3号线、9号线。"
+    },
+    {
+      "id": "5-24",
+      "nameZh": "西北桥",
+      "nameEn": "Xibei Bridge",
+      "servingLineIds": [
+        "5",
+        "6"
+      ],
+      "transferLineIds": [
+        "5",
+        "6"
+      ],
+      "text": "前方到站，西北桥。换乘站：5号线、6号线。"
+    },
+    {
+      "id": "1-04",
+      "nameZh": "西博城",
+      "nameEn": "Western China Int'l Expo City",
+      "servingLineIds": [
+        "1",
+        "6",
+        "18"
+      ],
+      "transferLineIds": [
+        "1",
+        "6",
+        "18"
+      ],
+      "text": "前方到站，西博城。换乘站：1号线、6号线、18号线。"
+    },
+    {
+      "id": "17-11",
+      "nameZh": "西大街",
+      "nameEn": "Xidajie Street",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，西大街。"
+    },
+    {
+      "id": "4-30",
+      "nameZh": "西河",
+      "nameEn": "Xihe",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，西河。"
+    },
+    {
+      "id": "6-41",
+      "nameZh": "西华大道",
+      "nameEn": "Xihua Avenue",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，西华大道。"
+    },
+    {
+      "id": "4-15",
+      "nameZh": "西南财大",
+      "nameEn": "Southwestern University of Finance and Economics",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，西南财大。"
+    },
+    {
+      "id": "6-38",
+      "nameZh": "西南交大",
+      "nameEn": "Southwest Jiaotong University",
+      "servingLineIds": [
+        "6",
+        "7"
+      ],
+      "transferLineIds": [
+        "6",
+        "7"
+      ],
+      "text": "前方到站，西南交大。换乘站：6号线、7号线。"
+    },
+    {
+      "id": "2-01",
+      "nameZh": "犀浦",
+      "nameEn": "Xipu Railway Station",
+      "servingLineIds": [
+        "2",
+        "6"
+      ],
+      "transferLineIds": [
+        "2",
+        "6"
+      ],
+      "text": "前方到站，犀浦。换乘站：2号线、6号线。"
+    },
+    {
+      "id": "13-13",
+      "nameZh": "小南街",
+      "nameEn": "Xiaonan Street",
+      "servingLineIds": [
+        "13",
+        "17"
+      ],
+      "transferLineIds": [
+        "13",
+        "17"
+      ],
+      "text": "前方到站，小南街。换乘站：13号线、17号线。"
+    },
+    {
+      "id": "30-18",
+      "nameZh": "谢家渡",
+      "nameEn": "Xiejiadu",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，谢家渡。"
+    },
+    {
+      "id": "9-12",
+      "nameZh": "心岛",
+      "nameEn": "Xindao",
+      "servingLineIds": [
+        "9"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，心岛。"
+    },
+    {
+      "id": "6-16",
+      "nameZh": "新川路",
+      "nameEn": "Xinchuan Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新川路。"
+    },
+    {
+      "id": "6-31",
+      "nameZh": "新鸿路",
+      "nameEn": "Xinhong Road",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新鸿路。"
+    },
+    {
+      "id": "10-13",
+      "nameZh": "新津站",
+      "nameEn": "Xinjin Railway Station",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新津站。"
+    },
+    {
+      "id": "3-18",
+      "nameZh": "新南门",
+      "nameEn": "Xinnanmen",
+      "servingLineIds": [
+        "3",
+        "13"
+      ],
+      "transferLineIds": [
+        "3",
+        "13"
+      ],
+      "text": "前方到站，新南门。换乘站：3号线、13号线。"
+    },
+    {
+      "id": "10-18",
+      "nameZh": "新平",
+      "nameEn": "Xinping",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新平。"
+    },
+    {
+      "id": "27-15",
+      "nameZh": "新桥",
+      "nameEn": "Xinqiao",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新桥。"
+    },
+    {
+      "id": "6-17",
+      "nameZh": "新通大道",
+      "nameEn": "Xintong Avenue",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新通大道。"
+    },
+    {
+      "id": "30-14",
+      "nameZh": "新园大道",
+      "nameEn": "Xinyuan Avenue",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，新园大道。"
+    },
+    {
+      "id": "6-39",
+      "nameZh": "星河",
+      "nameEn": "Xinghe",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，星河。"
+    },
+    {
+      "id": "30-20",
+      "nameZh": "星月",
+      "nameEn": "Xingyue",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，星月。"
+    },
+    {
+      "id": "27-03",
+      "nameZh": "兴城大道",
+      "nameEn": "Xingcheng Avenue",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，兴城大道。"
+    },
+    {
+      "id": "18-07",
+      "nameZh": "兴隆",
+      "nameEn": "Xinglong",
+      "servingLineIds": [
+        "18"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，兴隆。"
+    },
+    {
+      "id": "1-02",
+      "nameZh": "兴隆湖",
+      "nameEn": "Xinglong Lake",
+      "servingLineIds": [
+        "1"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，兴隆湖。"
+    },
+    {
+      "id": "6-43",
+      "nameZh": "兴盛",
+      "nameEn": "Xingsheng",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，兴盛。"
+    },
+    {
+      "id": "6-46",
+      "nameZh": "兴业北街",
+      "nameEn": "Xingye North Street",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，兴业北街。"
+    },
+    {
+      "id": "S3-04",
+      "nameZh": "幸福大道",
+      "nameEn": "Xingfu Avenue",
+      "servingLineIds": [
+        "S3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，幸福大道。"
+    },
+    {
+      "id": "13-04",
+      "nameZh": "幸福梅林",
+      "nameEn": "Xingfu Meilin",
+      "servingLineIds": [
+        "13"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，幸福梅林。"
+    },
+    {
+      "id": "5-37",
+      "nameZh": "幸福桥",
+      "nameEn": "Xingfuqiao",
+      "servingLineIds": [
+        "5"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，幸福桥。"
+    },
+    {
+      "id": "3-27",
+      "nameZh": "熊猫大道",
+      "nameEn": "Panda Avenue",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，熊猫大道。"
+    },
+    {
+      "id": "2-08",
+      "nameZh": "羊犀立交",
+      "nameEn": "Yangxi Flyover",
+      "servingLineIds": [
+        "2",
+        "27"
+      ],
+      "transferLineIds": [
+        "2",
+        "27"
+      ],
+      "text": "前方到站，羊犀立交。换乘站：2号线、27号线。"
+    },
+    {
+      "id": "17-18",
+      "nameZh": "阳公桥",
+      "nameEn": "Yanggongqiao",
+      "servingLineIds": [
+        "17"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，阳公桥。"
+    },
+    {
+      "id": "4-02",
+      "nameZh": "杨柳河",
+      "nameEn": "Yangliuhe",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，杨柳河。"
+    },
+    {
+      "id": "2-09",
+      "nameZh": "一品天下",
+      "nameEn": "Yipintianxia",
+      "servingLineIds": [
+        "2",
+        "7"
+      ],
+      "transferLineIds": [
+        "2",
+        "7"
+      ],
+      "text": "前方到站，一品天下。换乘站：2号线、7号线。"
+    },
+    {
+      "id": "3-15",
+      "nameZh": "衣冠庙",
+      "nameEn": "Yiguanmiao",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，衣冠庙。"
+    },
+    {
+      "id": "5-03",
+      "nameZh": "怡心湖",
+      "nameEn": "Yixin Lake",
+      "servingLineIds": [
+        "5",
+        "19"
+      ],
+      "transferLineIds": [
+        "5",
+        "19"
+      ],
+      "text": "前方到站，怡心湖。换乘站：5号线、19号线。"
+    },
+    {
+      "id": "30-12",
+      "nameZh": "益州大道",
+      "nameEn": "Yizhou Avenue",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，益州大道。"
+    },
+    {
+      "id": "8-23",
+      "nameZh": "殷家林",
+      "nameEn": "Yinjialin",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，殷家林。"
+    },
+    {
+      "id": "10-10",
+      "nameZh": "应天寺",
+      "nameEn": "Yingtian Temple",
+      "servingLineIds": [
+        "10"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，应天寺。"
+    },
+    {
+      "id": "2-06",
+      "nameZh": "迎宾大道",
+      "nameEn": "Yingbin Avenue",
+      "servingLineIds": [
+        "2"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，迎宾大道。"
+    },
+    {
+      "id": "3-05",
+      "nameZh": "迎春桥",
+      "nameEn": "Yingchunqiao",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，迎春桥。"
+    },
+    {
+      "id": "7-29",
+      "nameZh": "迎晖路",
+      "nameEn": "Yinghui Road",
+      "servingLineIds": [
+        "7"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，迎晖路。"
+    },
+    {
+      "id": "8-20",
+      "nameZh": "永丰",
+      "nameEn": "Yongfeng",
+      "servingLineIds": [
+        "8"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，永丰。"
+    },
+    {
+      "id": "4-06",
+      "nameZh": "涌泉",
+      "nameEn": "Yongquan",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，涌泉。"
+    },
+    {
+      "id": "30-02",
+      "nameZh": "玉石",
+      "nameEn": "Yushi",
+      "servingLineIds": [
+        "30"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，玉石。"
+    },
+    {
+      "id": "4-22",
+      "nameZh": "玉双路",
+      "nameEn": "Yushuang Road",
+      "servingLineIds": [
+        "4",
+        "6"
+      ],
+      "transferLineIds": [
+        "4",
+        "6"
+      ],
+      "text": "前方到站，玉双路。换乘站：4号线、6号线。"
+    },
+    {
+      "id": "27-04",
+      "nameZh": "旃檀寺",
+      "nameEn": "Zhantan Temple",
+      "servingLineIds": [
+        "27"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，旃檀寺。"
+    },
+    {
+      "id": "6-20",
+      "nameZh": "张家寺",
+      "nameEn": "Zhangjiasi",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，张家寺。"
+    },
+    {
+      "id": "3-25",
+      "nameZh": "昭觉寺南路",
+      "nameEn": "Zhaojuesi South Road",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，昭觉寺南路。"
+    },
+    {
+      "id": "19-14",
+      "nameZh": "正兴湾",
+      "nameEn": "Zhengxingwan",
+      "servingLineIds": [
+        "19"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，正兴湾。"
+    },
+    {
+      "id": "3-29",
+      "nameZh": "植物园",
+      "nameEn": "Botanical Garden",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，植物园。"
+    },
+    {
+      "id": "4-11",
+      "nameZh": "中坝",
+      "nameEn": "Zhongba",
+      "servingLineIds": [
+        "4"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，中坝。"
+    },
+    {
+      "id": "6-21",
+      "nameZh": "中和",
+      "nameEn": "Zhonghe",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，中和。"
+    },
+    {
+      "id": "2-12",
+      "nameZh": "中医大省医院",
+      "nameEn": "Chengdu University of TCM & Sichuan Provincial People's Hospital",
+      "servingLineIds": [
+        "2",
+        "4",
+        "5"
+      ],
+      "transferLineIds": [
+        "2",
+        "4",
+        "5"
+      ],
+      "text": "前方到站，中医大省医院。换乘站：2号线、4号线、5号线。"
+    },
+    {
+      "id": "3-35",
+      "nameZh": "钟楼",
+      "nameEn": "Clock Tower",
+      "servingLineIds": [
+        "3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，钟楼。"
+    },
+    {
+      "id": "8-28",
+      "nameZh": "珠江路",
+      "nameEn": "Zhujiang Road",
+      "servingLineIds": [
+        "8",
+        "30"
+      ],
+      "transferLineIds": [
+        "8",
+        "30"
+      ],
+      "text": "前方到站，珠江路。换乘站：8号线、30号线。"
+    },
+    {
+      "id": "S3-01",
+      "nameZh": "资阳北站",
+      "nameEn": "Ziyang North Railway Station",
+      "servingLineIds": [
+        "S3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，资阳北站。"
+    },
+    {
+      "id": "S3-05",
+      "nameZh": "资阳临空",
+      "nameEn": "Ziyang Airport Economic Zone",
+      "servingLineIds": [
+        "S3"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，资阳临空。"
+    },
+    {
+      "id": "6-45",
+      "nameZh": "梓潼宫",
+      "nameEn": "Zitonggong",
+      "servingLineIds": [
+        "6"
+      ],
+      "transferLineIds": [],
+      "text": "前方到站，梓潼宫。"
+    }
+  ]
+}

@@ -1,0 +1,6573 @@
+{
+  "source": "OpenStreetMap + manual overrides",
+  "sourceUrl": "https://www.openstreetmap.org/relation/16229446",
+  "license": "ODbL-1.0",
+  "generatedAt": "2026-07-15T07:36:08.570Z",
+  "asOf": "2026-07-15",
+  "lines": [
+    {
+      "id": "CD-1",
+      "lineId": "1",
+      "lineName": "1号线",
+      "lineNameEn": "Line 1",
+      "color": "#10069F",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "1-01",
+          "stationId": "1-01",
+          "sequence": 1,
+          "nameZh": "科学城",
+          "nameEn": "Science City",
+          "target": "science city",
+          "lat": 30.3939194,
+          "lon": 104.0703492,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-02",
+          "stationId": "1-02",
+          "sequence": 2,
+          "nameZh": "兴隆湖",
+          "nameEn": "Xinglong Lake",
+          "target": "xinglong lake",
+          "lat": 30.4076202,
+          "lon": 104.073798,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-03",
+          "stationId": "1-03",
+          "sequence": 3,
+          "nameZh": "广州路",
+          "nameEn": "Guangzhou Road",
+          "target": "guangzhou road",
+          "lat": 30.4210018,
+          "lon": 104.0745627,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-04",
+          "stationId": "1-04",
+          "sequence": 4,
+          "nameZh": "西博城",
+          "nameEn": "Western China Int'l Expo City",
+          "target": "western china intl expo city",
+          "lat": 30.4268379,
+          "lon": 104.0745711,
+          "transferLineIds": [
+            "6",
+            "18"
+          ]
+        },
+        {
+          "id": "1-05",
+          "stationId": "1-05",
+          "sequence": 5,
+          "nameZh": "天府公园",
+          "nameEn": "Tianfu Park",
+          "target": "tianfu park",
+          "lat": 30.435566,
+          "lon": 104.0752452,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-06",
+          "stationId": "1-06",
+          "sequence": 6,
+          "nameZh": "武汉路",
+          "nameEn": "Wuhan Road",
+          "target": "wuhan road",
+          "lat": 30.4448249,
+          "lon": 104.0711146,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-07",
+          "stationId": "1-07",
+          "sequence": 7,
+          "nameZh": "麓湖",
+          "nameEn": "Luhu Lake",
+          "target": "luhu lake",
+          "lat": 30.4568386,
+          "lon": 104.0708214,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-08",
+          "stationId": "1-08",
+          "sequence": 8,
+          "nameZh": "红石公园",
+          "nameEn": "Hongshi Park",
+          "target": "hongshi park",
+          "lat": 30.4667392,
+          "lon": 104.0704974,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-09",
+          "stationId": "1-09",
+          "sequence": 9,
+          "nameZh": "广福",
+          "nameEn": "Guangfu",
+          "target": "guangfu",
+          "lat": 30.4808241,
+          "lon": 104.0674087,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-10",
+          "stationId": "1-10",
+          "sequence": 10,
+          "nameZh": "海昌路",
+          "nameEn": "Haichang Road",
+          "target": "haichang road",
+          "lat": 30.4948222,
+          "lon": 104.0678625,
+          "transferLineIds": [
+            "18"
+          ]
+        },
+        {
+          "id": "1-11",
+          "stationId": "1-11",
+          "sequence": 11,
+          "nameZh": "华阳",
+          "nameEn": "Huayang",
+          "target": "huayang",
+          "lat": 30.5057801,
+          "lon": 104.0677218,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-12",
+          "stationId": "1-12",
+          "sequence": 12,
+          "nameZh": "四河",
+          "nameEn": "Sihe",
+          "target": "sihe",
+          "lat": 30.5194347,
+          "lon": 104.0674253,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-13",
+          "stationId": "1-13",
+          "sequence": 13,
+          "nameZh": "华府大道",
+          "nameEn": "Huafu Avenue",
+          "target": "huafu avenue",
+          "lat": 30.528285,
+          "lon": 104.0670379,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-14",
+          "stationId": "1-14",
+          "sequence": 14,
+          "nameZh": "天府五街",
+          "nameEn": "5th Tianfu Street",
+          "target": "5th tianfu street",
+          "lat": 30.5396296,
+          "lon": 104.0666802,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-15",
+          "stationId": "1-15",
+          "sequence": 15,
+          "nameZh": "天府三街",
+          "nameEn": "3rd Tianfu Street",
+          "target": "3rd tianfu street",
+          "lat": 30.5492142,
+          "lon": 104.0663632,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-16",
+          "stationId": "1-16",
+          "sequence": 16,
+          "nameZh": "世纪城",
+          "nameEn": "Century City",
+          "target": "century city",
+          "lat": 30.5573323,
+          "lon": 104.0661694,
+          "transferLineIds": [
+            "18"
+          ]
+        },
+        {
+          "id": "1-17",
+          "stationId": "1-17",
+          "sequence": 17,
+          "nameZh": "锦城广场",
+          "nameEn": "Jincheng Plaza",
+          "target": "jincheng plaza",
+          "lat": 30.5714211,
+          "lon": 104.063453,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-18",
+          "stationId": "1-18",
+          "sequence": 18,
+          "nameZh": "孵化园",
+          "nameEn": "Incubation Park",
+          "target": "incubation park",
+          "lat": 30.5776392,
+          "lon": 104.0617829,
+          "transferLineIds": [
+            "9",
+            "18"
+          ]
+        },
+        {
+          "id": "1-19",
+          "stationId": "1-19",
+          "sequence": 19,
+          "nameZh": "金融城",
+          "nameEn": "Financial City",
+          "target": "financial city",
+          "lat": 30.5848917,
+          "lon": 104.061545,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-20",
+          "stationId": "1-20",
+          "sequence": 20,
+          "nameZh": "高新",
+          "nameEn": "Hi-Tech Zone",
+          "target": "hi-tech zone",
+          "lat": 30.596631,
+          "lon": 104.0615037,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-21",
+          "stationId": "1-21",
+          "sequence": 21,
+          "nameZh": "火车南站",
+          "nameEn": "South Railway Station",
+          "target": "south railway station",
+          "lat": 30.6076451,
+          "lon": 104.0642263,
+          "transferLineIds": [
+            "7",
+            "18"
+          ]
+        },
+        {
+          "id": "1-22",
+          "stationId": "1-22",
+          "sequence": 22,
+          "nameZh": "桐梓林",
+          "nameEn": "Tongzilin",
+          "target": "tongzilin",
+          "lat": 30.6177455,
+          "lon": 104.0647283,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-23",
+          "stationId": "1-23",
+          "sequence": 23,
+          "nameZh": "倪家桥",
+          "nameEn": "Nijiaqiao",
+          "target": "nijiaqiao",
+          "lat": 30.6272231,
+          "lon": 104.0643826,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "1-24",
+          "stationId": "1-24",
+          "sequence": 24,
+          "nameZh": "省体育馆",
+          "nameEn": "Sichuan Gymnasium",
+          "target": "sichuan gymnasium",
+          "lat": 30.6355484,
+          "lon": 104.0640349,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "1-25",
+          "stationId": "1-25",
+          "sequence": 25,
+          "nameZh": "华西坝",
+          "nameEn": "Huaxiba",
+          "target": "huaxiba",
+          "lat": 30.6453129,
+          "lon": 104.0638214,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "1-26",
+          "stationId": "1-26",
+          "sequence": 26,
+          "nameZh": "锦江宾馆",
+          "nameEn": "Jinjiang Hotel",
+          "target": "jinjiang hotel",
+          "lat": 30.6519566,
+          "lon": 104.0636743,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-27",
+          "stationId": "1-27",
+          "sequence": 27,
+          "nameZh": "天府广场",
+          "nameEn": "Tianfu Square",
+          "target": "tianfu square",
+          "lat": 30.6598362,
+          "lon": 104.0637962,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "1-28",
+          "stationId": "1-28",
+          "sequence": 28,
+          "nameZh": "骡马市",
+          "nameEn": "Luomashi",
+          "target": "luomashi",
+          "lat": 30.6686515,
+          "lon": 104.0631281,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "1-29",
+          "stationId": "1-29",
+          "sequence": 29,
+          "nameZh": "文殊院",
+          "nameEn": "Wenshu Monastery",
+          "target": "wenshu monastery",
+          "lat": 30.6744839,
+          "lon": 104.0651794,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-30",
+          "stationId": "1-30",
+          "sequence": 30,
+          "nameZh": "人民北路",
+          "nameEn": "Renmin North Road",
+          "target": "renmin north road",
+          "lat": 30.6874324,
+          "lon": 104.070635,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "1-31",
+          "stationId": "1-31",
+          "sequence": 31,
+          "nameZh": "火车北站",
+          "nameEn": "North Railway Station",
+          "target": "north railway station",
+          "lat": 30.6980112,
+          "lon": 104.0714886,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "1-32",
+          "stationId": "1-32",
+          "sequence": 32,
+          "nameZh": "升仙湖",
+          "nameEn": "Shengxian Lake",
+          "target": "shengxian lake",
+          "lat": 30.7070132,
+          "lon": 104.0810072,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-33",
+          "stationId": "1-33",
+          "sequence": 33,
+          "nameZh": "韦家碾",
+          "nameEn": "Weijianian",
+          "target": "weijianian",
+          "lat": 30.720173,
+          "lon": 104.0844471,
+          "transferLineIds": [
+            "27"
+          ]
+        },
+        {
+          "id": "1-34",
+          "stationId": "1-34",
+          "sequence": 34,
+          "nameZh": "五根松",
+          "nameEn": "Wugensong",
+          "target": "wugensong",
+          "lat": 30.5043235,
+          "lon": 104.0791522,
+          "transferLineIds": []
+        },
+        {
+          "id": "1-35",
+          "stationId": "1-35",
+          "sequence": 35,
+          "nameZh": "广都",
+          "nameEn": "Guangdu",
+          "target": "guangdu",
+          "lat": 30.5131167,
+          "lon": 104.0733969,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "1-01",
+          "1-02",
+          "1-03",
+          "1-04",
+          "1-05",
+          "1-06",
+          "1-07",
+          "1-08",
+          "1-09",
+          "1-10",
+          "1-11",
+          "1-12",
+          "1-13",
+          "1-14",
+          "1-15",
+          "1-16",
+          "1-17",
+          "1-18",
+          "1-19",
+          "1-20",
+          "1-21",
+          "1-22",
+          "1-23",
+          "1-24",
+          "1-25",
+          "1-26",
+          "1-27",
+          "1-28",
+          "1-29",
+          "1-30",
+          "1-31",
+          "1-32",
+          "1-33"
+        ],
+        [
+          "1-34",
+          "1-35",
+          "1-12",
+          "1-13",
+          "1-14",
+          "1-15",
+          "1-16",
+          "1-17",
+          "1-18",
+          "1-19",
+          "1-20",
+          "1-21",
+          "1-22",
+          "1-23",
+          "1-24",
+          "1-25",
+          "1-26",
+          "1-27",
+          "1-28",
+          "1-29",
+          "1-30",
+          "1-31",
+          "1-32",
+          "1-33"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "1-01",
+          "1-02",
+          "1-03",
+          "1-04",
+          "1-05",
+          "1-06",
+          "1-07",
+          "1-08",
+          "1-09",
+          "1-10",
+          "1-11",
+          "1-12",
+          "1-13",
+          "1-14",
+          "1-15",
+          "1-16",
+          "1-17",
+          "1-18",
+          "1-19",
+          "1-20",
+          "1-21",
+          "1-22",
+          "1-23",
+          "1-24",
+          "1-25",
+          "1-26",
+          "1-27",
+          "1-28",
+          "1-29",
+          "1-30",
+          "1-31",
+          "1-32",
+          "1-33"
+        ],
+        [
+          "1-34",
+          "1-35",
+          "1-12",
+          "1-13",
+          "1-14",
+          "1-15",
+          "1-16",
+          "1-17",
+          "1-18",
+          "1-19",
+          "1-20",
+          "1-21",
+          "1-22",
+          "1-23",
+          "1-24",
+          "1-25",
+          "1-26",
+          "1-27",
+          "1-28",
+          "1-29",
+          "1-30",
+          "1-31",
+          "1-32",
+          "1-33"
+        ]
+      ]
+    },
+    {
+      "id": "CD-2",
+      "lineId": "2",
+      "lineName": "2号线",
+      "lineNameEn": "Line 2",
+      "color": "#FF5C39",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "2-01",
+          "stationId": "2-01",
+          "sequence": 1,
+          "nameZh": "犀浦",
+          "nameEn": "Xipu Railway Station",
+          "target": "xipu railway station",
+          "lat": 30.7607166,
+          "lon": 103.9692243,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "2-02",
+          "stationId": "2-02",
+          "sequence": 2,
+          "nameZh": "天河路",
+          "nameEn": "Tianhe Road",
+          "target": "tianhe road",
+          "lat": 30.7484256,
+          "lon": 103.9740193,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-03",
+          "stationId": "2-03",
+          "sequence": 3,
+          "nameZh": "百草路",
+          "nameEn": "Baicao Road",
+          "target": "baicao road",
+          "lat": 30.7355855,
+          "lon": 103.9771484,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-04",
+          "stationId": "2-04",
+          "sequence": 4,
+          "nameZh": "金周路",
+          "nameEn": "Jinzhou Road",
+          "target": "jinzhou road",
+          "lat": 30.7240944,
+          "lon": 103.9938032,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-05",
+          "stationId": "2-05",
+          "sequence": 5,
+          "nameZh": "金科北路",
+          "nameEn": "Jinke North Road",
+          "target": "jinke north road",
+          "lat": 30.7232443,
+          "lon": 104.0042136,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-06",
+          "stationId": "2-06",
+          "sequence": 6,
+          "nameZh": "迎宾大道",
+          "nameEn": "Yingbin Avenue",
+          "target": "yingbin avenue",
+          "lat": 30.7159527,
+          "lon": 104.0110017,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-07",
+          "stationId": "2-07",
+          "sequence": 7,
+          "nameZh": "茶店子客运站",
+          "nameEn": "Chadianzi Bus Terminal Station",
+          "target": "chadianzi bus terminal station",
+          "lat": 30.7077872,
+          "lon": 104.0097177,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-08",
+          "stationId": "2-08",
+          "sequence": 8,
+          "nameZh": "羊犀立交",
+          "nameEn": "Yangxi Flyover",
+          "target": "yangxi flyover",
+          "lat": 30.696723,
+          "lon": 104.0100809,
+          "transferLineIds": [
+            "27"
+          ]
+        },
+        {
+          "id": "2-09",
+          "stationId": "2-09",
+          "sequence": 9,
+          "nameZh": "一品天下",
+          "nameEn": "Yipintianxia",
+          "target": "yipintianxia",
+          "lat": 30.6912136,
+          "lon": 104.0176346,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "2-10",
+          "stationId": "2-10",
+          "sequence": 10,
+          "nameZh": "蜀汉路东",
+          "nameEn": "Shuhan Road East",
+          "target": "shuhan road east",
+          "lat": 30.6850862,
+          "lon": 104.0271176,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-11",
+          "stationId": "2-11",
+          "sequence": 11,
+          "nameZh": "白果林",
+          "nameEn": "Baiguolin",
+          "target": "baiguolin",
+          "lat": 30.6766552,
+          "lon": 104.0309161,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-12",
+          "stationId": "2-12",
+          "sequence": 12,
+          "nameZh": "中医大省医院",
+          "nameEn": "Chengdu University of TCM & Sichuan Provincial People's Hospital",
+          "target": "chengdu university of tcm & sichuan provincial peoples hospital",
+          "lat": 30.6685672,
+          "lon": 104.0382417,
+          "transferLineIds": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "2-13",
+          "stationId": "2-13",
+          "sequence": 13,
+          "nameZh": "通惠门",
+          "nameEn": "Tonghuimen",
+          "target": "tonghuimen",
+          "lat": 30.6647426,
+          "lon": 104.0458473,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-14",
+          "stationId": "2-14",
+          "sequence": 14,
+          "nameZh": "人民公园",
+          "nameEn": "People's Park",
+          "target": "peoples park",
+          "lat": 30.6618826,
+          "lon": 104.0541094,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "2-15",
+          "stationId": "2-15",
+          "sequence": 15,
+          "nameZh": "天府广场",
+          "nameEn": "Tianfu Square",
+          "target": "tianfu square",
+          "lat": 30.6598834,
+          "lon": 104.063826,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "2-16",
+          "stationId": "2-16",
+          "sequence": 16,
+          "nameZh": "春熙路",
+          "nameEn": "Chunxi Road",
+          "target": "chunxi road",
+          "lat": 30.655928,
+          "lon": 104.0770301,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "2-17",
+          "stationId": "2-17",
+          "sequence": 17,
+          "nameZh": "东门大桥",
+          "nameEn": "Dongmen Bridge",
+          "target": "dongmen bridge",
+          "lat": 30.6505066,
+          "lon": 104.0849175,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-18",
+          "stationId": "2-18",
+          "sequence": 18,
+          "nameZh": "牛王庙",
+          "nameEn": "Niuwangmiao",
+          "target": "niuwangmiao",
+          "lat": 30.6474304,
+          "lon": 104.0917493,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "2-19",
+          "stationId": "2-19",
+          "sequence": 19,
+          "nameZh": "牛市口",
+          "nameEn": "Niushikou",
+          "target": "niushikou",
+          "lat": 30.6400592,
+          "lon": 104.1051624,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-20",
+          "stationId": "2-20",
+          "sequence": 20,
+          "nameZh": "东大路",
+          "nameEn": "Dongdalu Road",
+          "target": "dongdalu road",
+          "lat": 30.6356434,
+          "lon": 104.1100731,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "2-21",
+          "stationId": "2-21",
+          "sequence": 21,
+          "nameZh": "塔子山公园",
+          "nameEn": "Tazishan Park",
+          "target": "tazishan park",
+          "lat": 30.6318334,
+          "lon": 104.1202341,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-22",
+          "stationId": "2-22",
+          "sequence": 22,
+          "nameZh": "成都东客站",
+          "nameEn": "Chengdu East Railway Station",
+          "target": "chengdu east railway station",
+          "lat": 30.6316093,
+          "lon": 104.1375485,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "2-23",
+          "stationId": "2-23",
+          "sequence": 23,
+          "nameZh": "成渝立交",
+          "nameEn": "Chengyu Flyover",
+          "target": "chengyu flyover",
+          "lat": 30.6273326,
+          "lon": 104.1446201,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-24",
+          "stationId": "2-24",
+          "sequence": 24,
+          "nameZh": "惠王陵",
+          "nameEn": "Huiwangling",
+          "target": "huiwangling",
+          "lat": 30.6144314,
+          "lon": 104.1495961,
+          "transferLineIds": [
+            "30"
+          ]
+        },
+        {
+          "id": "2-25",
+          "stationId": "2-25",
+          "sequence": 25,
+          "nameZh": "洪河",
+          "nameEn": "Honghe",
+          "target": "honghe",
+          "lat": 30.6073228,
+          "lon": 104.1549613,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-26",
+          "stationId": "2-26",
+          "sequence": 26,
+          "nameZh": "成都行政学院",
+          "nameEn": "Chengdu Academy of Governance",
+          "target": "chengdu academy of governance",
+          "lat": 30.5995737,
+          "lon": 104.1681935,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-27",
+          "stationId": "2-27",
+          "sequence": 27,
+          "nameZh": "大面铺",
+          "nameEn": "Damianpu",
+          "target": "damianpu",
+          "lat": 30.5949733,
+          "lon": 104.198931,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-28",
+          "stationId": "2-28",
+          "sequence": 28,
+          "nameZh": "连山坡",
+          "nameEn": "Lianshanpo",
+          "target": "lianshanpo",
+          "lat": 30.5901158,
+          "lon": 104.2104647,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-29",
+          "stationId": "2-29",
+          "sequence": 29,
+          "nameZh": "界牌",
+          "nameEn": "Jiepai",
+          "target": "jiepai",
+          "lat": 30.5853424,
+          "lon": 104.2228355,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-30",
+          "stationId": "2-30",
+          "sequence": 30,
+          "nameZh": "书房",
+          "nameEn": "Shufang",
+          "target": "shufang",
+          "lat": 30.5781458,
+          "lon": 104.2397245,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-31",
+          "stationId": "2-31",
+          "sequence": 31,
+          "nameZh": "龙平路",
+          "nameEn": "Longping Road",
+          "target": "longping road",
+          "lat": 30.5755224,
+          "lon": 104.2564976,
+          "transferLineIds": []
+        },
+        {
+          "id": "2-32",
+          "stationId": "2-32",
+          "sequence": 32,
+          "nameZh": "龙泉驿",
+          "nameEn": "Longquanyi",
+          "target": "longquanyi",
+          "lat": 30.5628791,
+          "lon": 104.2659034,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "2-01",
+          "2-02",
+          "2-03",
+          "2-04",
+          "2-05",
+          "2-06",
+          "2-07",
+          "2-08",
+          "2-09",
+          "2-10",
+          "2-11",
+          "2-12",
+          "2-13",
+          "2-14",
+          "2-15",
+          "2-16",
+          "2-17",
+          "2-18",
+          "2-19",
+          "2-20",
+          "2-21",
+          "2-22",
+          "2-23",
+          "2-24",
+          "2-25",
+          "2-26",
+          "2-27",
+          "2-28",
+          "2-29",
+          "2-30",
+          "2-31",
+          "2-32"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "2-01",
+          "2-02",
+          "2-03",
+          "2-04",
+          "2-05",
+          "2-06",
+          "2-07",
+          "2-08",
+          "2-09",
+          "2-10",
+          "2-11",
+          "2-12",
+          "2-13",
+          "2-14",
+          "2-15",
+          "2-16",
+          "2-17",
+          "2-18",
+          "2-19",
+          "2-20",
+          "2-21",
+          "2-22",
+          "2-23",
+          "2-24",
+          "2-25",
+          "2-26",
+          "2-27",
+          "2-28",
+          "2-29",
+          "2-30",
+          "2-31",
+          "2-32"
+        ]
+      ]
+    },
+    {
+      "id": "CD-3",
+      "lineId": "3",
+      "lineName": "3号线",
+      "lineNameEn": "Line 3",
+      "color": "#D40F7D",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "3-01",
+          "stationId": "3-01",
+          "sequence": 1,
+          "nameZh": "双流西站",
+          "nameEn": "Shuangliu West Railway Station",
+          "target": "shuangliu west railway station",
+          "lat": 30.546134,
+          "lon": 103.9147701,
+          "transferLineIds": [
+            "10"
+          ]
+        },
+        {
+          "id": "3-02",
+          "stationId": "3-02",
+          "sequence": 2,
+          "nameZh": "三里坝",
+          "nameEn": "Sanliba",
+          "target": "sanliba",
+          "lat": 30.5565022,
+          "lon": 103.9126982,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-03",
+          "stationId": "3-03",
+          "sequence": 3,
+          "nameZh": "双流广场",
+          "nameEn": "Shuangliu Square",
+          "target": "shuangliu square",
+          "lat": 30.5676766,
+          "lon": 103.918653,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-04",
+          "stationId": "3-04",
+          "sequence": 4,
+          "nameZh": "东升",
+          "nameEn": "Dongsheng",
+          "target": "dongsheng",
+          "lat": 30.5739941,
+          "lon": 103.9233863,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-05",
+          "stationId": "3-05",
+          "sequence": 5,
+          "nameZh": "迎春桥",
+          "nameEn": "Yingchunqiao",
+          "target": "yingchunqiao",
+          "lat": 30.582309,
+          "lon": 103.9319548,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-06",
+          "stationId": "3-06",
+          "sequence": 6,
+          "nameZh": "航都大街",
+          "nameEn": "Hangdu Street",
+          "target": "hangdu street",
+          "lat": 30.5938672,
+          "lon": 103.934994,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-07",
+          "stationId": "3-07",
+          "sequence": 7,
+          "nameZh": "龙桥路",
+          "nameEn": "Longqiao Road",
+          "target": "longqiao road",
+          "lat": 30.6065948,
+          "lon": 103.9417216,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "3-08",
+          "stationId": "3-08",
+          "sequence": 8,
+          "nameZh": "双凤桥",
+          "nameEn": "Shuangfengqiao",
+          "target": "shuangfengqiao",
+          "lat": 30.6185752,
+          "lon": 103.9676191,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-09",
+          "stationId": "3-09",
+          "sequence": 9,
+          "nameZh": "武青南路",
+          "nameEn": "Wuqing South Road",
+          "target": "wuqing south road",
+          "lat": 30.6253088,
+          "lon": 103.9824107,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "3-10",
+          "stationId": "3-10",
+          "sequence": 10,
+          "nameZh": "武侯立交",
+          "nameEn": "Wuhou Flyover",
+          "target": "wuhou flyover",
+          "lat": 30.6293832,
+          "lon": 103.9913666,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-11",
+          "stationId": "3-11",
+          "sequence": 11,
+          "nameZh": "川藏立交",
+          "nameEn": "Chuanzang Flyover",
+          "target": "chuanzang flyover",
+          "lat": 30.6257655,
+          "lon": 104.0041667,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-12",
+          "stationId": "3-12",
+          "sequence": 12,
+          "nameZh": "太平园",
+          "nameEn": "Tapingyuan",
+          "target": "tapingyuan",
+          "lat": 30.6281772,
+          "lon": 104.0192301,
+          "transferLineIds": [
+            "7",
+            "10"
+          ]
+        },
+        {
+          "id": "3-13",
+          "stationId": "3-13",
+          "sequence": 13,
+          "nameZh": "红牌楼",
+          "nameEn": "Hongpailou",
+          "target": "hongpailou",
+          "lat": 30.6375329,
+          "lon": 104.0277948,
+          "transferLineIds": [
+            "10"
+          ]
+        },
+        {
+          "id": "3-14",
+          "stationId": "3-14",
+          "sequence": 14,
+          "nameZh": "高升桥",
+          "nameEn": "Gaoshengqiao",
+          "target": "gaoshengqiao",
+          "lat": 30.6419348,
+          "lon": 104.0400267,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "3-15",
+          "stationId": "3-15",
+          "sequence": 15,
+          "nameZh": "衣冠庙",
+          "nameEn": "Yiguanmiao",
+          "target": "yiguanmiao",
+          "lat": 30.6368559,
+          "lon": 104.0495561,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-16",
+          "stationId": "3-16",
+          "sequence": 16,
+          "nameZh": "省体育馆",
+          "nameEn": "Sichuan Gymnasium",
+          "target": "sichuan gymnasium",
+          "lat": 30.6358373,
+          "lon": 104.0636978,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "3-17",
+          "stationId": "3-17",
+          "sequence": 17,
+          "nameZh": "磨子桥",
+          "nameEn": "Moziqiao",
+          "target": "moziqiao",
+          "lat": 30.6399716,
+          "lon": 104.0735141,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-18",
+          "stationId": "3-18",
+          "sequence": 18,
+          "nameZh": "新南门",
+          "nameEn": "Xinnanmen",
+          "target": "xinnanmen",
+          "lat": 30.6466166,
+          "lon": 104.0726444,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "3-19",
+          "stationId": "3-19",
+          "sequence": 19,
+          "nameZh": "春熙路",
+          "nameEn": "Chunxi Road",
+          "target": "chunxi road",
+          "lat": 30.6560166,
+          "lon": 104.0769482,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "3-20",
+          "stationId": "3-20",
+          "sequence": 20,
+          "nameZh": "市二医院",
+          "nameEn": "Chengdu Second People's Hospital",
+          "target": "chengdu second peoples hospital",
+          "lat": 30.6630993,
+          "lon": 104.0815079,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "3-21",
+          "stationId": "3-21",
+          "sequence": 21,
+          "nameZh": "红星桥",
+          "nameEn": "Hongxingqiao",
+          "target": "hongxingqiao",
+          "lat": 30.6735893,
+          "lon": 104.0880253,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "3-22",
+          "stationId": "3-22",
+          "sequence": 22,
+          "nameZh": "前锋路",
+          "nameEn": "Qianfeng Road",
+          "target": "qianfeng road",
+          "lat": 30.6813238,
+          "lon": 104.0897859,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "3-23",
+          "stationId": "3-23",
+          "sequence": 23,
+          "nameZh": "李家沱",
+          "nameEn": "Lijiatuo",
+          "target": "lijiatuo",
+          "lat": 30.6917962,
+          "lon": 104.0923239,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-24",
+          "stationId": "3-24",
+          "sequence": 24,
+          "nameZh": "驷马桥",
+          "nameEn": "Sima Bridge",
+          "target": "sima bridge",
+          "lat": 30.698023,
+          "lon": 104.0909156,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "3-25",
+          "stationId": "3-25",
+          "sequence": 25,
+          "nameZh": "昭觉寺南路",
+          "nameEn": "Zhaojuesi South Road",
+          "target": "zhaojuesi south road",
+          "lat": 30.7054863,
+          "lon": 104.0945647,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-26",
+          "stationId": "3-26",
+          "sequence": 26,
+          "nameZh": "动物园",
+          "nameEn": "Chengdu Zoo",
+          "target": "chengdu zoo",
+          "lat": 30.7159822,
+          "lon": 104.1008248,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-27",
+          "stationId": "3-27",
+          "sequence": 27,
+          "nameZh": "熊猫大道",
+          "nameEn": "Panda Avenue",
+          "target": "panda avenue",
+          "lat": 30.7280261,
+          "lon": 104.1056753,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-28",
+          "stationId": "3-28",
+          "sequence": 28,
+          "nameZh": "军区总医院",
+          "nameEn": "Chengdu Junqu General Hospital",
+          "target": "chengdu junqu general hospital",
+          "lat": 30.7470011,
+          "lon": 104.1117148,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-29",
+          "stationId": "3-29",
+          "sequence": 29,
+          "nameZh": "植物园",
+          "nameEn": "Botanical Garden",
+          "target": "botanical garden",
+          "lat": 30.765713,
+          "lon": 104.1189482,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-30",
+          "stationId": "3-30",
+          "sequence": 30,
+          "nameZh": "金华寺东路",
+          "nameEn": "Jinhuasi East Road",
+          "target": "jinhuasi east road",
+          "lat": 30.7727771,
+          "lon": 104.1230508,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-31",
+          "stationId": "3-31",
+          "sequence": 31,
+          "nameZh": "三河场",
+          "nameEn": "Sanhechang",
+          "target": "sanhechang",
+          "lat": 30.7870131,
+          "lon": 104.1366543,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-32",
+          "stationId": "3-32",
+          "sequence": 32,
+          "nameZh": "锦水河",
+          "nameEn": "Jinshuihe",
+          "target": "jinshuihe",
+          "lat": 30.7995611,
+          "lon": 104.1511859,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-33",
+          "stationId": "3-33",
+          "sequence": 33,
+          "nameZh": "团结新区",
+          "nameEn": "Tuanjiexinqu",
+          "target": "tuanjiexinqu",
+          "lat": 30.8061826,
+          "lon": 104.1561838,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-34",
+          "stationId": "3-34",
+          "sequence": 34,
+          "nameZh": "马超西路",
+          "nameEn": "Machao West Road",
+          "target": "machao west road",
+          "lat": 30.8152178,
+          "lon": 104.162374,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-35",
+          "stationId": "3-35",
+          "sequence": 35,
+          "nameZh": "钟楼",
+          "nameEn": "Clock Tower",
+          "target": "clock tower",
+          "lat": 30.8230319,
+          "lon": 104.1723951,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-36",
+          "stationId": "3-36",
+          "sequence": 36,
+          "nameZh": "石油大学",
+          "nameEn": "Southwest Petroleum University",
+          "target": "southwest petroleum university",
+          "lat": 30.8210233,
+          "lon": 104.1839081,
+          "transferLineIds": []
+        },
+        {
+          "id": "3-37",
+          "stationId": "3-37",
+          "sequence": 37,
+          "nameZh": "成都医学院",
+          "nameEn": "Chengdu Medical College",
+          "target": "chengdu medical college",
+          "lat": 30.8192229,
+          "lon": 104.1921104,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "3-01",
+          "3-02",
+          "3-03",
+          "3-04",
+          "3-05",
+          "3-06",
+          "3-07",
+          "3-08",
+          "3-09",
+          "3-10",
+          "3-11",
+          "3-12",
+          "3-13",
+          "3-14",
+          "3-15",
+          "3-16",
+          "3-17",
+          "3-18",
+          "3-19",
+          "3-20",
+          "3-21",
+          "3-22",
+          "3-23",
+          "3-24",
+          "3-25",
+          "3-26",
+          "3-27",
+          "3-28",
+          "3-29",
+          "3-30",
+          "3-31",
+          "3-32",
+          "3-33",
+          "3-34",
+          "3-35",
+          "3-36",
+          "3-37"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "3-01",
+          "3-02",
+          "3-03",
+          "3-04",
+          "3-05",
+          "3-06",
+          "3-07",
+          "3-08",
+          "3-09",
+          "3-10",
+          "3-11",
+          "3-12",
+          "3-13",
+          "3-14",
+          "3-15",
+          "3-16",
+          "3-17",
+          "3-18",
+          "3-19",
+          "3-20",
+          "3-21",
+          "3-22",
+          "3-23",
+          "3-24",
+          "3-25",
+          "3-26",
+          "3-27",
+          "3-28",
+          "3-29",
+          "3-30",
+          "3-31",
+          "3-32",
+          "3-33",
+          "3-34",
+          "3-35",
+          "3-36",
+          "3-37"
+        ]
+      ]
+    },
+    {
+      "id": "CD-4",
+      "lineId": "4",
+      "lineName": "4号线",
+      "lineNameEn": "Line 4",
+      "color": "#44AF52",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "4-01",
+          "stationId": "4-01",
+          "sequence": 1,
+          "nameZh": "万盛",
+          "nameEn": "Wansheng",
+          "target": "wansheng",
+          "lat": 30.677921,
+          "lon": 103.816824,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-02",
+          "stationId": "4-02",
+          "sequence": 2,
+          "nameZh": "杨柳河",
+          "nameEn": "Yangliuhe",
+          "target": "yangliuhe",
+          "lat": 30.6834968,
+          "lon": 103.8290775,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-03",
+          "stationId": "4-03",
+          "sequence": 3,
+          "nameZh": "凤溪河",
+          "nameEn": "Fengxihe",
+          "target": "fengxihe",
+          "lat": 30.688723,
+          "lon": 103.841051,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "4-04",
+          "stationId": "4-04",
+          "sequence": 4,
+          "nameZh": "南熏大道",
+          "nameEn": "Nanxun Avenue",
+          "target": "nanxun avenue",
+          "lat": 30.6921987,
+          "lon": 103.8496735,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-05",
+          "stationId": "4-05",
+          "sequence": 5,
+          "nameZh": "光华公园",
+          "nameEn": "Guanghua Park",
+          "target": "guanghua park",
+          "lat": 30.6869895,
+          "lon": 103.8586008,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-06",
+          "stationId": "4-06",
+          "sequence": 6,
+          "nameZh": "涌泉",
+          "nameEn": "Yongquan",
+          "target": "yongquan",
+          "lat": 30.6810883,
+          "lon": 103.871377,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-07",
+          "stationId": "4-07",
+          "sequence": 7,
+          "nameZh": "凤凰大街",
+          "nameEn": "Fenghuang Avenue",
+          "target": "fenghuang avenue",
+          "lat": 30.6798074,
+          "lon": 103.8870836,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-08",
+          "stationId": "4-08",
+          "sequence": 8,
+          "nameZh": "马厂坝",
+          "nameEn": "Machangba",
+          "target": "machangba",
+          "lat": 30.6801415,
+          "lon": 103.9117294,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-09",
+          "stationId": "4-09",
+          "sequence": 9,
+          "nameZh": "非遗博览园",
+          "nameEn": "Intangible Cultural Heritage Park",
+          "target": "intangible cultural heritage park",
+          "lat": 30.6767304,
+          "lon": 103.920427,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-10",
+          "stationId": "4-10",
+          "sequence": 10,
+          "nameZh": "蔡桥",
+          "nameEn": "Caiqiao",
+          "target": "caiqiao",
+          "lat": 30.6721303,
+          "lon": 103.9429335,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-11",
+          "stationId": "4-11",
+          "sequence": 11,
+          "nameZh": "中坝",
+          "nameEn": "Zhongba",
+          "target": "zhongba",
+          "lat": 30.6759957,
+          "lon": 103.9618731,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-12",
+          "stationId": "4-12",
+          "sequence": 12,
+          "nameZh": "成都西站",
+          "nameEn": "Chengdu West Railway Station",
+          "target": "chengdu west railway station",
+          "lat": 30.6865766,
+          "lon": 103.9749981,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "4-13",
+          "stationId": "4-13",
+          "sequence": 13,
+          "nameZh": "清江西路",
+          "nameEn": "Qingjiang West Road",
+          "target": "qingjiang west road",
+          "lat": 30.6790972,
+          "lon": 103.9963288,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-14",
+          "stationId": "4-14",
+          "sequence": 14,
+          "nameZh": "文化宫",
+          "nameEn": "Cultural Palace",
+          "target": "cultural palace",
+          "lat": 30.6745873,
+          "lon": 104.0074564,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "4-15",
+          "stationId": "4-15",
+          "sequence": 15,
+          "nameZh": "西南财大",
+          "nameEn": "Southwestern University of Finance and Economics",
+          "target": "southwestern university of finance and economics",
+          "lat": 30.6728492,
+          "lon": 104.0180084,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-16",
+          "stationId": "4-16",
+          "sequence": 16,
+          "nameZh": "草堂北路",
+          "nameEn": "Caotang North Road",
+          "target": "caotang north road",
+          "lat": 30.6715248,
+          "lon": 104.0259673,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-17",
+          "stationId": "4-17",
+          "sequence": 17,
+          "nameZh": "中医大省医院",
+          "nameEn": "Chengdu University of TCM & Sichuan Provincial People's Hospital",
+          "target": "chengdu university of tcm & sichuan provincial peoples hospital",
+          "lat": 30.6685108,
+          "lon": 104.0382049,
+          "transferLineIds": [
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": "4-18",
+          "stationId": "4-18",
+          "sequence": 18,
+          "nameZh": "宽窄巷子",
+          "nameEn": "Kuanzhaixiangzi Alleys",
+          "target": "kuanzhaixiangzi alleys",
+          "lat": 30.6677163,
+          "lon": 104.0479077,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-19",
+          "stationId": "4-19",
+          "sequence": 19,
+          "nameZh": "骡马市",
+          "nameEn": "Luomashi",
+          "target": "luomashi",
+          "lat": 30.6694304,
+          "lon": 104.0637071,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "4-20",
+          "stationId": "4-20",
+          "sequence": 20,
+          "nameZh": "太升南路",
+          "nameEn": "Taisheng South Road",
+          "target": "taisheng south road",
+          "lat": 30.6671909,
+          "lon": 104.0739399,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-21",
+          "stationId": "4-21",
+          "sequence": 21,
+          "nameZh": "市二医院",
+          "nameEn": "Chengdu Second People's Hospital",
+          "target": "chengdu second peoples hospital",
+          "lat": 30.6627842,
+          "lon": 104.0820747,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "4-22",
+          "stationId": "4-22",
+          "sequence": 22,
+          "nameZh": "玉双路",
+          "nameEn": "Yushuang Road",
+          "target": "yushuang road",
+          "lat": 30.6558299,
+          "lon": 104.0967488,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "4-23",
+          "stationId": "4-23",
+          "sequence": 23,
+          "nameZh": "双桥路",
+          "nameEn": "Shuangqiao Road",
+          "target": "shuangqiao road",
+          "lat": 30.6491717,
+          "lon": 104.110925,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "4-24",
+          "stationId": "4-24",
+          "sequence": 24,
+          "nameZh": "万年场",
+          "nameEn": "Wannianchang",
+          "target": "wannianchang",
+          "lat": 30.6465919,
+          "lon": 104.1165055,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-25",
+          "stationId": "4-25",
+          "sequence": 25,
+          "nameZh": "槐树店",
+          "nameEn": "Huaishudian",
+          "target": "huaishudian",
+          "lat": 30.6511872,
+          "lon": 104.1366618,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "4-26",
+          "stationId": "4-26",
+          "sequence": 26,
+          "nameZh": "来龙",
+          "nameEn": "Lailong",
+          "target": "lailong",
+          "lat": 30.6492334,
+          "lon": 104.1619897,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-27",
+          "stationId": "4-27",
+          "sequence": 27,
+          "nameZh": "十陵",
+          "nameEn": "Shiling",
+          "target": "shiling",
+          "lat": 30.6482795,
+          "lon": 104.1702625,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-28",
+          "stationId": "4-28",
+          "sequence": 28,
+          "nameZh": "成都大学",
+          "nameEn": "Chengdu University",
+          "target": "chengdu university",
+          "lat": 30.6490115,
+          "lon": 104.1785118,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-29",
+          "stationId": "4-29",
+          "sequence": 29,
+          "nameZh": "明蜀王陵",
+          "nameEn": "Mingshuwangling",
+          "target": "mingshuwangling",
+          "lat": 30.650711,
+          "lon": 104.1941248,
+          "transferLineIds": []
+        },
+        {
+          "id": "4-30",
+          "stationId": "4-30",
+          "sequence": 30,
+          "nameZh": "西河",
+          "nameEn": "Xihe",
+          "target": "xihe",
+          "lat": 30.6497489,
+          "lon": 104.2178875,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "4-01",
+          "4-02",
+          "4-03",
+          "4-04",
+          "4-05",
+          "4-06",
+          "4-07",
+          "4-08",
+          "4-09",
+          "4-10",
+          "4-11",
+          "4-12",
+          "4-13",
+          "4-14",
+          "4-15",
+          "4-16",
+          "4-17",
+          "4-18",
+          "4-19",
+          "4-20",
+          "4-21",
+          "4-22",
+          "4-23",
+          "4-24",
+          "4-25",
+          "4-26",
+          "4-27",
+          "4-28",
+          "4-29",
+          "4-30"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "4-01",
+          "4-02",
+          "4-03",
+          "4-04",
+          "4-05",
+          "4-06",
+          "4-07",
+          "4-08",
+          "4-09",
+          "4-10",
+          "4-11",
+          "4-12",
+          "4-13",
+          "4-14",
+          "4-15",
+          "4-16",
+          "4-17",
+          "4-18",
+          "4-19",
+          "4-20",
+          "4-21",
+          "4-22",
+          "4-23",
+          "4-24",
+          "4-25",
+          "4-26",
+          "4-27",
+          "4-28",
+          "4-29",
+          "4-30"
+        ]
+      ]
+    },
+    {
+      "id": "CD-5",
+      "lineId": "5",
+      "lineName": "5号线",
+      "lineNameEn": "Line 5",
+      "color": "#BB29BB",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "5-01",
+          "stationId": "5-01",
+          "sequence": 1,
+          "nameZh": "回龙",
+          "nameEn": "Huilong",
+          "target": "huilong",
+          "lat": 30.4473366,
+          "lon": 104.0097984,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "5-02",
+          "stationId": "5-02",
+          "sequence": 2,
+          "nameZh": "龙马路",
+          "nameEn": "Longma Road",
+          "target": "longma road",
+          "lat": 30.4600952,
+          "lon": 104.0173033,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-03",
+          "stationId": "5-03",
+          "sequence": 3,
+          "nameZh": "怡心湖",
+          "nameEn": "Yixin Lake",
+          "target": "yixin lake",
+          "lat": 30.473208,
+          "lon": 104.0244809,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "5-04",
+          "stationId": "5-04",
+          "sequence": 4,
+          "nameZh": "南湖立交",
+          "nameEn": "Nanhu Flyover",
+          "target": "nanhu flyover",
+          "lat": 30.4911545,
+          "lon": 104.0309718,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-05",
+          "stationId": "5-05",
+          "sequence": 5,
+          "nameZh": "二江寺",
+          "nameEn": "Erjiang Temple",
+          "target": "erjiang temple",
+          "lat": 30.5022424,
+          "lon": 104.0333585,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-06",
+          "stationId": "5-06",
+          "sequence": 6,
+          "nameZh": "警官学院",
+          "nameEn": "The Police College",
+          "target": "the police college",
+          "lat": 30.5157942,
+          "lon": 104.0380475,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-07",
+          "stationId": "5-07",
+          "sequence": 7,
+          "nameZh": "骑龙",
+          "nameEn": "Qilong",
+          "target": "qilong",
+          "lat": 30.5268664,
+          "lon": 104.0419796,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-08",
+          "stationId": "5-08",
+          "sequence": 8,
+          "nameZh": "民乐",
+          "nameEn": "Minle",
+          "target": "minle",
+          "lat": 30.5428902,
+          "lon": 104.0444311,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-09",
+          "stationId": "5-09",
+          "sequence": 9,
+          "nameZh": "大源",
+          "nameEn": "Dayuan",
+          "target": "dayuan",
+          "lat": 30.5518713,
+          "lon": 104.0443507,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-10",
+          "stationId": "5-10",
+          "sequence": 10,
+          "nameZh": "锦城湖",
+          "nameEn": "Jincheng Lake",
+          "target": "jincheng lake",
+          "lat": 30.5668979,
+          "lon": 104.0441307,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-11",
+          "stationId": "5-11",
+          "sequence": 11,
+          "nameZh": "锦城大道",
+          "nameEn": "Jincheng Avenue",
+          "target": "jincheng avenue",
+          "lat": 30.5766306,
+          "lon": 104.0480398,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "5-12",
+          "stationId": "5-12",
+          "sequence": 12,
+          "nameZh": "交子大道",
+          "nameEn": "Jiaozi Avenue",
+          "target": "jiaozi avenue",
+          "lat": 30.5841931,
+          "lon": 104.047789,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-13",
+          "stationId": "5-13",
+          "sequence": 13,
+          "nameZh": "市一医院",
+          "nameEn": "Chengdu First People's Hospital",
+          "target": "chengdu first peoples hospital",
+          "lat": 30.5922377,
+          "lon": 104.0480857,
+          "transferLineIds": [
+            "30"
+          ]
+        },
+        {
+          "id": "5-14",
+          "stationId": "5-14",
+          "sequence": 14,
+          "nameZh": "石羊立交",
+          "nameEn": "Shiyang Flyover",
+          "target": "shiyang flyover",
+          "lat": 30.5979837,
+          "lon": 104.0484161,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-15",
+          "stationId": "5-15",
+          "sequence": 15,
+          "nameZh": "神仙树",
+          "nameEn": "Shenxianshu",
+          "target": "shenxianshu",
+          "lat": 30.6130303,
+          "lon": 104.0456381,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "5-16",
+          "stationId": "5-16",
+          "sequence": 16,
+          "nameZh": "九兴大道",
+          "nameEn": "Jiuxing Avenue",
+          "target": "jiuxing avenue",
+          "lat": 30.6231774,
+          "lon": 104.0377953,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "5-17",
+          "stationId": "5-17",
+          "sequence": 17,
+          "nameZh": "科园",
+          "nameEn": "Keyuan",
+          "target": "keyuan",
+          "lat": 30.6301385,
+          "lon": 104.0353706,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-18",
+          "stationId": "5-18",
+          "sequence": 18,
+          "nameZh": "高升桥",
+          "nameEn": "Gaoshengqiao",
+          "target": "gaoshengqiao",
+          "lat": 30.6419959,
+          "lon": 104.0395368,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "5-19",
+          "stationId": "5-19",
+          "sequence": 19,
+          "nameZh": "省骨科医院",
+          "nameEn": "Provincial Orthopaedics Hospital",
+          "target": "provincial orthopaedics hospital",
+          "lat": 30.6537177,
+          "lon": 104.0386789,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "5-20",
+          "stationId": "5-20",
+          "sequence": 20,
+          "nameZh": "青羊宫",
+          "nameEn": "Qingyang Taoist Temple",
+          "target": "qingyang taoist temple",
+          "lat": 30.6630712,
+          "lon": 104.0384249,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "5-21",
+          "stationId": "5-21",
+          "sequence": 21,
+          "nameZh": "中医大省医院",
+          "nameEn": "Chengdu University of TCM & Sichuan Provincial People's Hospital",
+          "target": "chengdu university of tcm & sichuan provincial peoples hospital",
+          "lat": 30.6685257,
+          "lon": 104.0383544,
+          "transferLineIds": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "5-22",
+          "stationId": "5-22",
+          "sequence": 22,
+          "nameZh": "抚琴",
+          "nameEn": "Fuqin",
+          "target": "fuqin",
+          "lat": 30.6790461,
+          "lon": 104.039288,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-23",
+          "stationId": "5-23",
+          "sequence": 23,
+          "nameZh": "花牌坊",
+          "nameEn": "Huapaifang",
+          "target": "huapaifang",
+          "lat": 30.685957,
+          "lon": 104.0462939,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-24",
+          "stationId": "5-24",
+          "sequence": 24,
+          "nameZh": "西北桥",
+          "nameEn": "Xibei Bridge",
+          "target": "xibei bridge",
+          "lat": 30.688063,
+          "lon": 104.0556468,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "5-25",
+          "stationId": "5-25",
+          "sequence": 25,
+          "nameZh": "北站西二路",
+          "nameEn": "2nd Beizhan West Road",
+          "target": "2nd beizhan west road",
+          "lat": 30.6961622,
+          "lon": 104.0638811,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "5-26",
+          "stationId": "5-26",
+          "sequence": 26,
+          "nameZh": "赛云台",
+          "nameEn": "Saiyuntai",
+          "target": "saiyuntai",
+          "lat": 30.7033291,
+          "lon": 104.0640702,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-27",
+          "stationId": "5-27",
+          "sequence": 27,
+          "nameZh": "五块石",
+          "nameEn": "Wukuaishi",
+          "target": "wukuaishi",
+          "lat": 30.7092582,
+          "lon": 104.0625964,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-28",
+          "stationId": "5-28",
+          "sequence": 28,
+          "nameZh": "福宁路",
+          "nameEn": "Funing Road",
+          "target": "funing road",
+          "lat": 30.7169221,
+          "lon": 104.0573392,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-29",
+          "stationId": "5-29",
+          "sequence": 29,
+          "nameZh": "洞子口",
+          "nameEn": "Dongzikou",
+          "target": "dongzikou",
+          "lat": 30.7238811,
+          "lon": 104.0560303,
+          "transferLineIds": [
+            "27"
+          ]
+        },
+        {
+          "id": "5-30",
+          "stationId": "5-30",
+          "sequence": 30,
+          "nameZh": "泉水路",
+          "nameEn": "Quanshui Road",
+          "target": "quanshui road",
+          "lat": 30.7325333,
+          "lon": 104.0559616,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-31",
+          "stationId": "5-31",
+          "sequence": 31,
+          "nameZh": "陆家桥",
+          "nameEn": "Lujiaqiao",
+          "target": "lujiaqiao",
+          "lat": 30.7449394,
+          "lon": 104.0566848,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-32",
+          "stationId": "5-32",
+          "sequence": 32,
+          "nameZh": "皇花园",
+          "nameEn": "Huanghuayuan",
+          "target": "huanghuayuan",
+          "lat": 30.7548251,
+          "lon": 104.057316,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-33",
+          "stationId": "5-33",
+          "sequence": 33,
+          "nameZh": "石犀公园",
+          "nameEn": "Shixi Park",
+          "target": "shixi park",
+          "lat": 30.7622224,
+          "lon": 104.05735,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-34",
+          "stationId": "5-34",
+          "sequence": 34,
+          "nameZh": "大丰",
+          "nameEn": "Dafeng",
+          "target": "dafeng",
+          "lat": 30.7739293,
+          "lon": 104.0632198,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-35",
+          "stationId": "5-35",
+          "sequence": 35,
+          "nameZh": "杜家碾",
+          "nameEn": "Dujianian",
+          "target": "dujianian",
+          "lat": 30.7738979,
+          "lon": 104.0723811,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-36",
+          "stationId": "5-36",
+          "sequence": 36,
+          "nameZh": "九道堰",
+          "nameEn": "Jiudiaoyan",
+          "target": "jiudiaoyan",
+          "lat": 30.7738223,
+          "lon": 104.0801782,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-37",
+          "stationId": "5-37",
+          "sequence": 37,
+          "nameZh": "幸福桥",
+          "nameEn": "Xingfuqiao",
+          "target": "xingfuqiao",
+          "lat": 30.7792868,
+          "lon": 104.0857972,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-38",
+          "stationId": "5-38",
+          "sequence": 38,
+          "nameZh": "北部商贸城",
+          "nameEn": "Beibu Shopping Mall",
+          "target": "beibu shopping mall",
+          "lat": 30.7934609,
+          "lon": 104.0864848,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-39",
+          "stationId": "5-39",
+          "sequence": 39,
+          "nameZh": "廖家湾",
+          "nameEn": "Liaojiawan",
+          "target": "liaojiawan",
+          "lat": 30.8107222,
+          "lon": 104.0885651,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-40",
+          "stationId": "5-40",
+          "sequence": 40,
+          "nameZh": "柏水场",
+          "nameEn": "Baishuichang",
+          "target": "baishuichang",
+          "lat": 30.8177893,
+          "lon": 104.0918422,
+          "transferLineIds": []
+        },
+        {
+          "id": "5-41",
+          "stationId": "5-41",
+          "sequence": 41,
+          "nameZh": "华桂路",
+          "nameEn": "Huagui Road",
+          "target": "huagui road",
+          "lat": 30.8275017,
+          "lon": 104.0959066,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "5-01",
+          "5-02",
+          "5-03",
+          "5-04",
+          "5-05",
+          "5-06",
+          "5-07",
+          "5-08",
+          "5-09",
+          "5-10",
+          "5-11",
+          "5-12",
+          "5-13",
+          "5-14",
+          "5-15",
+          "5-16",
+          "5-17",
+          "5-18",
+          "5-19",
+          "5-20",
+          "5-21",
+          "5-22",
+          "5-23",
+          "5-24",
+          "5-25",
+          "5-26",
+          "5-27",
+          "5-28",
+          "5-29",
+          "5-30",
+          "5-31",
+          "5-32",
+          "5-33",
+          "5-34",
+          "5-35",
+          "5-36",
+          "5-37",
+          "5-38",
+          "5-39",
+          "5-40",
+          "5-41"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "5-01",
+          "5-02",
+          "5-03",
+          "5-04",
+          "5-05",
+          "5-06",
+          "5-07",
+          "5-08",
+          "5-09",
+          "5-10",
+          "5-11",
+          "5-12",
+          "5-13",
+          "5-14",
+          "5-15",
+          "5-16",
+          "5-17",
+          "5-18",
+          "5-19",
+          "5-20",
+          "5-21",
+          "5-22",
+          "5-23",
+          "5-24",
+          "5-25",
+          "5-26",
+          "5-27",
+          "5-28",
+          "5-29",
+          "5-30",
+          "5-31",
+          "5-32",
+          "5-33",
+          "5-34",
+          "5-35",
+          "5-36",
+          "5-37",
+          "5-38",
+          "5-39",
+          "5-40",
+          "5-41"
+        ]
+      ]
+    },
+    {
+      "id": "CD-6",
+      "lineId": "6",
+      "lineName": "6号线",
+      "lineNameEn": "Line 6",
+      "color": "#B36924",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "6-01",
+          "stationId": "6-01",
+          "sequence": 1,
+          "nameZh": "兰家沟",
+          "nameEn": "Lanjiagou",
+          "target": "lanjiagou",
+          "lat": 30.4458073,
+          "lon": 103.9943178,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-02",
+          "stationId": "6-02",
+          "sequence": 2,
+          "nameZh": "回龙",
+          "nameEn": "Huilong",
+          "target": "huilong",
+          "lat": 30.4464295,
+          "lon": 104.0107842,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "6-03",
+          "stationId": "6-03",
+          "sequence": 3,
+          "nameZh": "钓鱼嘴",
+          "nameEn": "Diaoyuzui",
+          "target": "diaoyuzui",
+          "lat": 30.4389487,
+          "lon": 104.0300539,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-04",
+          "stationId": "6-04",
+          "sequence": 4,
+          "nameZh": "松林",
+          "nameEn": "Songlin",
+          "target": "songlin",
+          "lat": 30.4285163,
+          "lon": 104.0437142,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-05",
+          "stationId": "6-05",
+          "sequence": 5,
+          "nameZh": "秦皇寺",
+          "nameEn": "Qinhuangsi",
+          "target": "qinhuangsi",
+          "lat": 30.4268853,
+          "lon": 104.0593201,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-06",
+          "stationId": "6-06",
+          "sequence": 6,
+          "nameZh": "西博城",
+          "nameEn": "Western China Int'l Expo City",
+          "target": "western china intl expo city",
+          "lat": 30.427199,
+          "lon": 104.0731616,
+          "transferLineIds": [
+            "1",
+            "18"
+          ]
+        },
+        {
+          "id": "6-07",
+          "stationId": "6-07",
+          "sequence": 7,
+          "nameZh": "天府商务区",
+          "nameEn": "Tianfu Commercial District",
+          "target": "tianfu commercial district",
+          "lat": 30.4325778,
+          "lon": 104.0839395,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "6-08",
+          "stationId": "6-08",
+          "sequence": 8,
+          "nameZh": "杭州路",
+          "nameEn": "Hangzhou Road",
+          "target": "hangzhou road",
+          "lat": 30.441507,
+          "lon": 104.0869778,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-09",
+          "stationId": "6-09",
+          "sequence": 9,
+          "nameZh": "昌公堰",
+          "nameEn": "Changgongyan",
+          "target": "changgongyan",
+          "lat": 30.4510256,
+          "lon": 104.0921393,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-10",
+          "stationId": "6-10",
+          "sequence": 10,
+          "nameZh": "青岛路",
+          "nameEn": "Qingdao Road",
+          "target": "qingdao road",
+          "lat": 30.4615554,
+          "lon": 104.099886,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-11",
+          "stationId": "6-11",
+          "sequence": 11,
+          "nameZh": "沈阳路",
+          "nameEn": "Shenyang Road",
+          "target": "shenyang road",
+          "lat": 30.4700548,
+          "lon": 104.0990543,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-12",
+          "stationId": "6-12",
+          "sequence": 12,
+          "nameZh": "麓山大道",
+          "nameEn": "Lushan Avenue",
+          "target": "lushan avenue",
+          "lat": 30.4855168,
+          "lon": 104.1008503,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-13",
+          "stationId": "6-13",
+          "sequence": 13,
+          "nameZh": "万安",
+          "nameEn": "Wan'an",
+          "target": "wanan",
+          "lat": 30.4975206,
+          "lon": 104.0968955,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-14",
+          "stationId": "6-14",
+          "sequence": 14,
+          "nameZh": "蒲草塘",
+          "nameEn": "Pucaotang",
+          "target": "pucaotang",
+          "lat": 30.5042052,
+          "lon": 104.0959937,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-15",
+          "stationId": "6-15",
+          "sequence": 15,
+          "nameZh": "龙灯山",
+          "nameEn": "Longdengshan",
+          "target": "longdengshan",
+          "lat": 30.5114207,
+          "lon": 104.0987618,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-16",
+          "stationId": "6-16",
+          "sequence": 16,
+          "nameZh": "新川路",
+          "nameEn": "Xinchuan Road",
+          "target": "xinchuan road",
+          "lat": 30.5179357,
+          "lon": 104.0981886,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-17",
+          "stationId": "6-17",
+          "sequence": 17,
+          "nameZh": "新通大道",
+          "nameEn": "Xintong Avenue",
+          "target": "xintong avenue",
+          "lat": 30.5239933,
+          "lon": 104.0960256,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-18",
+          "stationId": "6-18",
+          "sequence": 18,
+          "nameZh": "观东",
+          "nameEn": "Guandong",
+          "target": "guandong",
+          "lat": 30.5333745,
+          "lon": 104.0960057,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-19",
+          "stationId": "6-19",
+          "sequence": 19,
+          "nameZh": "陆肖",
+          "nameEn": "Luxiao",
+          "target": "luxiao",
+          "lat": 30.5415478,
+          "lon": 104.095922,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-20",
+          "stationId": "6-20",
+          "sequence": 20,
+          "nameZh": "张家寺",
+          "nameEn": "Zhangjiasi",
+          "target": "zhangjiasi",
+          "lat": 30.5520301,
+          "lon": 104.0959895,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-21",
+          "stationId": "6-21",
+          "sequence": 21,
+          "nameZh": "中和",
+          "nameEn": "Zhonghe",
+          "target": "zhonghe",
+          "lat": 30.5605367,
+          "lon": 104.0940575,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-22",
+          "stationId": "6-22",
+          "sequence": 22,
+          "nameZh": "金融城东",
+          "nameEn": "Financial City East",
+          "target": "financial city east",
+          "lat": 30.5821448,
+          "lon": 104.0817851,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "6-23",
+          "stationId": "6-23",
+          "sequence": 23,
+          "nameZh": "金石路",
+          "nameEn": "Jinshi Road",
+          "target": "jinshi road",
+          "lat": 30.5925631,
+          "lon": 104.0866883,
+          "transferLineIds": [
+            "30"
+          ]
+        },
+        {
+          "id": "6-24",
+          "stationId": "6-24",
+          "sequence": 24,
+          "nameZh": "琉三路",
+          "nameEn": "Liusan Road",
+          "target": "liusan road",
+          "lat": 30.6030219,
+          "lon": 104.0956836,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-25",
+          "stationId": "6-25",
+          "sequence": 25,
+          "nameZh": "琉璃场",
+          "nameEn": "Liulichang",
+          "target": "liulichang",
+          "lat": 30.6094186,
+          "lon": 104.0962732,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "6-26",
+          "stationId": "6-26",
+          "sequence": 26,
+          "nameZh": "东光",
+          "nameEn": "Dongguang",
+          "target": "dongguang",
+          "lat": 30.6220577,
+          "lon": 104.0960491,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "6-27",
+          "stationId": "6-27",
+          "sequence": 27,
+          "nameZh": "三官堂",
+          "nameEn": "Sanguantang",
+          "target": "sanguantang",
+          "lat": 30.6307946,
+          "lon": 104.0921297,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "6-28",
+          "stationId": "6-28",
+          "sequence": 28,
+          "nameZh": "顺江路",
+          "nameEn": "Shunjiang Road",
+          "target": "shunjiang road",
+          "lat": 30.6375116,
+          "lon": 104.0906708,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-29",
+          "stationId": "6-29",
+          "sequence": 29,
+          "nameZh": "牛王庙",
+          "nameEn": "Niuwangmiao",
+          "target": "niuwangmiao",
+          "lat": 30.6468733,
+          "lon": 104.0902574,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "6-30",
+          "stationId": "6-30",
+          "sequence": 30,
+          "nameZh": "玉双路",
+          "nameEn": "Yushuang Road",
+          "target": "yushuang road",
+          "lat": 30.656414,
+          "lon": 104.0963414,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "6-31",
+          "stationId": "6-31",
+          "sequence": 31,
+          "nameZh": "新鸿路",
+          "nameEn": "Xinhong Road",
+          "target": "xinhong road",
+          "lat": 30.6654346,
+          "lon": 104.0995556,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-32",
+          "stationId": "6-32",
+          "sequence": 32,
+          "nameZh": "建设北路",
+          "nameEn": "Jianshe North Road",
+          "target": "jianshe north road",
+          "lat": 30.6735598,
+          "lon": 104.096301,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "6-33",
+          "stationId": "6-33",
+          "sequence": 33,
+          "nameZh": "前锋路",
+          "nameEn": "Qianfeng Road",
+          "target": "qianfeng road",
+          "lat": 30.6801296,
+          "lon": 104.0904769,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "6-34",
+          "stationId": "6-34",
+          "sequence": 34,
+          "nameZh": "梁家巷",
+          "nameEn": "Liangjiaxiang",
+          "target": "liangjiaxiang",
+          "lat": 30.6848801,
+          "lon": 104.0805036,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-35",
+          "stationId": "6-35",
+          "sequence": 35,
+          "nameZh": "人民北路",
+          "nameEn": "Renmin North Road",
+          "target": "renmin north road",
+          "lat": 30.6882891,
+          "lon": 104.0690851,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "6-36",
+          "stationId": "6-36",
+          "sequence": 36,
+          "nameZh": "西北桥",
+          "nameEn": "Xibei Bridge",
+          "target": "xibei bridge",
+          "lat": 30.6882009,
+          "lon": 104.0556094,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "6-37",
+          "stationId": "6-37",
+          "sequence": 37,
+          "nameZh": "沙湾",
+          "nameEn": "Shawan",
+          "target": "shawan",
+          "lat": 30.6920237,
+          "lon": 104.0486824,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-38",
+          "stationId": "6-38",
+          "sequence": 38,
+          "nameZh": "西南交大",
+          "nameEn": "Southwest Jiaotong University",
+          "target": "southwest jiaotong university",
+          "lat": 30.6979875,
+          "lon": 104.0466438,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "6-39",
+          "stationId": "6-39",
+          "sequence": 39,
+          "nameZh": "星河",
+          "nameEn": "Xinghe",
+          "target": "xinghe",
+          "lat": 30.7047323,
+          "lon": 104.0417214,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-40",
+          "stationId": "6-40",
+          "sequence": 40,
+          "nameZh": "金府",
+          "nameEn": "Jinfu",
+          "target": "jinfu",
+          "lat": 30.7139454,
+          "lon": 104.0348529,
+          "transferLineIds": [
+            "27"
+          ]
+        },
+        {
+          "id": "6-41",
+          "stationId": "6-41",
+          "sequence": 41,
+          "nameZh": "西华大道",
+          "nameEn": "Xihua Avenue",
+          "target": "xihua avenue",
+          "lat": 30.7212333,
+          "lon": 104.0294766,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-42",
+          "stationId": "6-42",
+          "sequence": 42,
+          "nameZh": "青杠",
+          "nameEn": "Qinggang",
+          "target": "qinggang",
+          "lat": 30.728004,
+          "lon": 104.0236165,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-43",
+          "stationId": "6-43",
+          "sequence": 43,
+          "nameZh": "兴盛",
+          "nameEn": "Xingsheng",
+          "target": "xingsheng",
+          "lat": 30.7333483,
+          "lon": 104.0192767,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-44",
+          "stationId": "6-44",
+          "sequence": 44,
+          "nameZh": "侯家桥",
+          "nameEn": "Houjiaqiao",
+          "target": "houjiaqiao",
+          "lat": 30.7392849,
+          "lon": 104.0024821,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-45",
+          "stationId": "6-45",
+          "sequence": 45,
+          "nameZh": "梓潼宫",
+          "nameEn": "Zitonggong",
+          "target": "zitonggong",
+          "lat": 30.7504983,
+          "lon": 103.9910678,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-46",
+          "stationId": "6-46",
+          "sequence": 46,
+          "nameZh": "兴业北街",
+          "nameEn": "Xingye North Street",
+          "target": "xingye north street",
+          "lat": 30.7612337,
+          "lon": 103.9811368,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-47",
+          "stationId": "6-47",
+          "sequence": 47,
+          "nameZh": "犀浦",
+          "nameEn": "Xipu Railway Station",
+          "target": "xipu railway station",
+          "lat": 30.7602384,
+          "lon": 103.9674176,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "6-48",
+          "stationId": "6-48",
+          "sequence": 48,
+          "nameZh": "天宇路",
+          "nameEn": "Tianyu Road",
+          "target": "tianyu road",
+          "lat": 30.7573993,
+          "lon": 103.9512844,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-49",
+          "stationId": "6-49",
+          "sequence": 49,
+          "nameZh": "红高路",
+          "nameEn": "Honggao Road",
+          "target": "honggao road",
+          "lat": 30.7724459,
+          "lon": 103.934699,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-50",
+          "stationId": "6-50",
+          "sequence": 50,
+          "nameZh": "尚锦路",
+          "nameEn": "Shangjin Road",
+          "target": "shangjin road",
+          "lat": 30.7797905,
+          "lon": 103.9218199,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-51",
+          "stationId": "6-51",
+          "sequence": 51,
+          "nameZh": "檬梓",
+          "nameEn": "Mengzi",
+          "target": "mengzi",
+          "lat": 30.7874352,
+          "lon": 103.9122847,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-52",
+          "stationId": "6-52",
+          "sequence": 52,
+          "nameZh": "蜀新大道",
+          "nameEn": "Shuxin Avenue",
+          "target": "shuxin avenue",
+          "lat": 30.7937782,
+          "lon": 103.9014031,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-53",
+          "stationId": "6-53",
+          "sequence": 53,
+          "nameZh": "郫筒",
+          "nameEn": "Pitong",
+          "target": "pitong",
+          "lat": 30.7988009,
+          "lon": 103.8924683,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-54",
+          "stationId": "6-54",
+          "sequence": 54,
+          "nameZh": "和平街",
+          "nameEn": "Heping Street",
+          "target": "heping street",
+          "lat": 30.8032252,
+          "lon": 103.8851341,
+          "transferLineIds": []
+        },
+        {
+          "id": "6-55",
+          "stationId": "6-55",
+          "sequence": 55,
+          "nameZh": "望丛祠",
+          "nameEn": "Wangcong Temple",
+          "target": "wangcong temple",
+          "lat": 30.8103557,
+          "lon": 103.8756762,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "6-01",
+          "6-02",
+          "6-03",
+          "6-04",
+          "6-05",
+          "6-06",
+          "6-07",
+          "6-08",
+          "6-09",
+          "6-10",
+          "6-11",
+          "6-12",
+          "6-13",
+          "6-14",
+          "6-15",
+          "6-16",
+          "6-17",
+          "6-18",
+          "6-19",
+          "6-20",
+          "6-21",
+          "6-22",
+          "6-23",
+          "6-24",
+          "6-25",
+          "6-26",
+          "6-27",
+          "6-28",
+          "6-29",
+          "6-30",
+          "6-31",
+          "6-32",
+          "6-33",
+          "6-34",
+          "6-35",
+          "6-36",
+          "6-37",
+          "6-38",
+          "6-39",
+          "6-40",
+          "6-41",
+          "6-42",
+          "6-43",
+          "6-44",
+          "6-45",
+          "6-46",
+          "6-47",
+          "6-48",
+          "6-49",
+          "6-50",
+          "6-51",
+          "6-52",
+          "6-53",
+          "6-54",
+          "6-55"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "6-01",
+          "6-02",
+          "6-03",
+          "6-04",
+          "6-05",
+          "6-06",
+          "6-07",
+          "6-08",
+          "6-09",
+          "6-10",
+          "6-11",
+          "6-12",
+          "6-13",
+          "6-14",
+          "6-15",
+          "6-16",
+          "6-17",
+          "6-18",
+          "6-19",
+          "6-20",
+          "6-21",
+          "6-22",
+          "6-23",
+          "6-24",
+          "6-25",
+          "6-26",
+          "6-27",
+          "6-28",
+          "6-29",
+          "6-30",
+          "6-31",
+          "6-32",
+          "6-33",
+          "6-34",
+          "6-35",
+          "6-36",
+          "6-37",
+          "6-38",
+          "6-39",
+          "6-40",
+          "6-41",
+          "6-42",
+          "6-43",
+          "6-44",
+          "6-45",
+          "6-46",
+          "6-47",
+          "6-48",
+          "6-49",
+          "6-50",
+          "6-51",
+          "6-52",
+          "6-53",
+          "6-54",
+          "6-55"
+        ]
+      ]
+    },
+    {
+      "id": "CD-7",
+      "lineId": "7",
+      "lineName": "7号线",
+      "lineNameEn": "Line 7",
+      "color": "#6AD1E3",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "7-01",
+          "stationId": "7-01",
+          "sequence": 1,
+          "nameZh": "崔家店",
+          "nameEn": "Cuijiadian",
+          "target": "cuijiadian",
+          "lat": 30.6677553,
+          "lon": 104.1339365,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-02",
+          "stationId": "7-02",
+          "sequence": 2,
+          "nameZh": "理工大学",
+          "nameEn": "Chengdu University of Technology",
+          "target": "chengdu university of technology",
+          "lat": 30.6766516,
+          "lon": 104.132587,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "7-03",
+          "stationId": "7-03",
+          "sequence": 3,
+          "nameZh": "二仙桥",
+          "nameEn": "Erxianqiao",
+          "target": "erxianqiao",
+          "lat": 30.6831632,
+          "lon": 104.123817,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "7-04",
+          "stationId": "7-04",
+          "sequence": 4,
+          "nameZh": "八里庄",
+          "nameEn": "Balizhuang",
+          "target": "balizhuang",
+          "lat": 30.6893211,
+          "lon": 104.1155497,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-05",
+          "stationId": "7-05",
+          "sequence": 5,
+          "nameZh": "府青路",
+          "nameEn": "Fuqing Road",
+          "target": "fuqing road",
+          "lat": 30.6966685,
+          "lon": 104.1042977,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-06",
+          "stationId": "7-06",
+          "sequence": 6,
+          "nameZh": "驷马桥",
+          "nameEn": "Sima Bridge",
+          "target": "sima bridge",
+          "lat": 30.6979533,
+          "lon": 104.091863,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "7-07",
+          "stationId": "7-07",
+          "sequence": 7,
+          "nameZh": "火车北站",
+          "nameEn": "North Railway Station",
+          "target": "north railway station",
+          "lat": 30.6978257,
+          "lon": 104.071789,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "7-08",
+          "stationId": "7-08",
+          "sequence": 8,
+          "nameZh": "北站西二路",
+          "nameEn": "2nd Beizhan West Road",
+          "target": "2nd beizhan west road",
+          "lat": 30.6971055,
+          "lon": 104.0633759,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "7-09",
+          "stationId": "7-09",
+          "sequence": 9,
+          "nameZh": "九里堤",
+          "nameEn": "Jiulidi",
+          "target": "jiulidi",
+          "lat": 30.6971991,
+          "lon": 104.0548298,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-10",
+          "stationId": "7-10",
+          "sequence": 10,
+          "nameZh": "西南交大",
+          "nameEn": "Southwest Jiaotong University",
+          "target": "southwest jiaotong university",
+          "lat": 30.69693,
+          "lon": 104.0462891,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "7-11",
+          "stationId": "7-11",
+          "sequence": 11,
+          "nameZh": "花照壁",
+          "nameEn": "Huazhaobi",
+          "target": "huazhaobi",
+          "lat": 30.6991199,
+          "lon": 104.0384457,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-12",
+          "stationId": "7-12",
+          "sequence": 12,
+          "nameZh": "茶店子",
+          "nameEn": "Chadianzi",
+          "target": "chadianzi",
+          "lat": 30.699005,
+          "lon": 104.0288461,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-13",
+          "stationId": "7-13",
+          "sequence": 13,
+          "nameZh": "一品天下",
+          "nameEn": "Yipintianxia",
+          "target": "yipintianxia",
+          "lat": 30.6916538,
+          "lon": 104.018662,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "7-14",
+          "stationId": "7-14",
+          "sequence": 14,
+          "nameZh": "金沙博物馆",
+          "nameEn": "Jinsha Site Museum",
+          "target": "jinsha site museum",
+          "lat": 30.6800647,
+          "lon": 104.0101341,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-15",
+          "stationId": "7-15",
+          "sequence": 15,
+          "nameZh": "文化宫",
+          "nameEn": "Cultural Palace",
+          "target": "cultural palace",
+          "lat": 30.673915,
+          "lon": 104.0070201,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "7-16",
+          "stationId": "7-16",
+          "sequence": 16,
+          "nameZh": "东坡路",
+          "nameEn": "Dongpo Road",
+          "target": "dongpo road",
+          "lat": 30.6633865,
+          "lon": 104.0058513,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "7-17",
+          "stationId": "7-17",
+          "sequence": 17,
+          "nameZh": "龙爪堰",
+          "nameEn": "Longzhuayan",
+          "target": "longzhuayan",
+          "lat": 30.6533595,
+          "lon": 104.0060552,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "7-18",
+          "stationId": "7-18",
+          "sequence": 18,
+          "nameZh": "武侯大道",
+          "nameEn": "Wuhou Avenue",
+          "target": "wuhou avenue",
+          "lat": 30.639881,
+          "lon": 104.0103005,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-19",
+          "stationId": "7-19",
+          "sequence": 19,
+          "nameZh": "太平园",
+          "nameEn": "Tapingyuan",
+          "target": "tapingyuan",
+          "lat": 30.6277903,
+          "lon": 104.0188214,
+          "transferLineIds": [
+            "3",
+            "10"
+          ]
+        },
+        {
+          "id": "7-20",
+          "stationId": "7-20",
+          "sequence": 20,
+          "nameZh": "高朋大道",
+          "nameEn": "Gaopeng Avenue",
+          "target": "gaopeng avenue",
+          "lat": 30.6192707,
+          "lon": 104.0307817,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "7-21",
+          "stationId": "7-21",
+          "sequence": 21,
+          "nameZh": "神仙树",
+          "nameEn": "Shenxianshu",
+          "target": "shenxianshu",
+          "lat": 30.6118782,
+          "lon": 104.0453845,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "7-22",
+          "stationId": "7-22",
+          "sequence": 22,
+          "nameZh": "火车南站",
+          "nameEn": "South Railway Station",
+          "target": "south railway station",
+          "lat": 30.6075913,
+          "lon": 104.0637698,
+          "transferLineIds": [
+            "1",
+            "18"
+          ]
+        },
+        {
+          "id": "7-23",
+          "stationId": "7-23",
+          "sequence": 23,
+          "nameZh": "三瓦窑",
+          "nameEn": "Sanwayao",
+          "target": "sanwayao",
+          "lat": 30.6065361,
+          "lon": 104.0750563,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-24",
+          "stationId": "7-24",
+          "sequence": 24,
+          "nameZh": "琉璃场",
+          "nameEn": "Liulichang",
+          "target": "liulichang",
+          "lat": 30.6098714,
+          "lon": 104.0980624,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "7-25",
+          "stationId": "7-25",
+          "sequence": 25,
+          "nameZh": "四川师大",
+          "nameEn": "Sichuan Normal University",
+          "target": "sichuan normal university",
+          "lat": 30.6118475,
+          "lon": 104.1139323,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "7-26",
+          "stationId": "7-26",
+          "sequence": 26,
+          "nameZh": "狮子山",
+          "nameEn": "Shizishan",
+          "target": "shizishan",
+          "lat": 30.6186854,
+          "lon": 104.1220498,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-27",
+          "stationId": "7-27",
+          "sequence": 27,
+          "nameZh": "大观",
+          "nameEn": "Daguan",
+          "target": "daguan",
+          "lat": 30.6238725,
+          "lon": 104.1301784,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-28",
+          "stationId": "7-28",
+          "sequence": 28,
+          "nameZh": "成都东客站",
+          "nameEn": "Chengdu East Railway Station",
+          "target": "chengdu east railway station",
+          "lat": 30.6318379,
+          "lon": 104.1373107,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "7-29",
+          "stationId": "7-29",
+          "sequence": 29,
+          "nameZh": "迎晖路",
+          "nameEn": "Yinghui Road",
+          "target": "yinghui road",
+          "lat": 30.6404393,
+          "lon": 104.1368059,
+          "transferLineIds": []
+        },
+        {
+          "id": "7-30",
+          "stationId": "7-30",
+          "sequence": 30,
+          "nameZh": "槐树店",
+          "nameEn": "Huaishudian",
+          "target": "huaishudian",
+          "lat": 30.6529742,
+          "lon": 104.1371513,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "7-31",
+          "stationId": "7-31",
+          "sequence": 31,
+          "nameZh": "双店路",
+          "nameEn": "Shaungdian Road",
+          "target": "shaungdian road",
+          "lat": 30.6600116,
+          "lon": 104.1341144,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "7-01",
+          "7-02",
+          "7-03",
+          "7-04",
+          "7-05",
+          "7-06",
+          "7-07",
+          "7-08",
+          "7-09",
+          "7-10",
+          "7-11",
+          "7-12",
+          "7-13",
+          "7-14",
+          "7-15",
+          "7-16",
+          "7-17",
+          "7-18",
+          "7-19",
+          "7-20",
+          "7-21",
+          "7-22",
+          "7-23",
+          "7-24",
+          "7-25",
+          "7-26",
+          "7-27",
+          "7-28",
+          "7-29",
+          "7-30",
+          "7-31",
+          "7-01"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "7-01",
+          "7-02",
+          "7-03",
+          "7-04",
+          "7-05",
+          "7-06",
+          "7-07",
+          "7-08",
+          "7-09",
+          "7-10",
+          "7-11",
+          "7-12",
+          "7-13",
+          "7-14",
+          "7-15",
+          "7-16",
+          "7-17",
+          "7-18",
+          "7-19",
+          "7-20",
+          "7-21",
+          "7-22",
+          "7-23",
+          "7-24",
+          "7-25",
+          "7-26",
+          "7-27",
+          "7-28",
+          "7-29",
+          "7-30",
+          "7-31",
+          "7-01"
+        ]
+      ]
+    },
+    {
+      "id": "CD-8",
+      "lineId": "8",
+      "lineName": "8号线",
+      "lineNameEn": "Line 8",
+      "color": "#88DD00",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "8-01",
+          "stationId": "8-01",
+          "sequence": 1,
+          "nameZh": "桂龙路",
+          "nameEn": "Guilong Road",
+          "target": "guilong road",
+          "lat": 30.7193592,
+          "lon": 104.1862675,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-02",
+          "stationId": "8-02",
+          "sequence": 2,
+          "nameZh": "桂林",
+          "nameEn": "Guilin",
+          "target": "guilin",
+          "lat": 30.7193169,
+          "lon": 104.1766851,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-03",
+          "stationId": "8-03",
+          "sequence": 3,
+          "nameZh": "同乐",
+          "nameEn": "Tongle",
+          "target": "tongle",
+          "lat": 30.7143433,
+          "lon": 104.1678116,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-04",
+          "stationId": "8-04",
+          "sequence": 4,
+          "nameZh": "龙潭寺",
+          "nameEn": "Longtan Temple",
+          "target": "longtan temple",
+          "lat": 30.7043928,
+          "lon": 104.1624554,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-05",
+          "stationId": "8-05",
+          "sequence": 5,
+          "nameZh": "龙潭立交",
+          "nameEn": "Longtan Flyover",
+          "target": "longtan flyover",
+          "lat": 30.6967258,
+          "lon": 104.1551565,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-06",
+          "stationId": "8-06",
+          "sequence": 6,
+          "nameZh": "圣灯公园",
+          "nameEn": "Shengdeng Park",
+          "target": "shengdeng park",
+          "lat": 30.6900114,
+          "lon": 104.1488015,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-07",
+          "stationId": "8-07",
+          "sequence": 7,
+          "nameZh": "十里店",
+          "nameEn": "Shilidian",
+          "target": "shilidian",
+          "lat": 30.6816536,
+          "lon": 104.1413874,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-08",
+          "stationId": "8-08",
+          "sequence": 8,
+          "nameZh": "理工大学",
+          "nameEn": "Chengdu University of Technology",
+          "target": "chengdu university of technology",
+          "lat": 30.676003,
+          "lon": 104.1356618,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "8-09",
+          "stationId": "8-09",
+          "sequence": 9,
+          "nameZh": "东郊记忆",
+          "nameEn": "Dongjiao Memory",
+          "target": "dongjiao memory",
+          "lat": 30.6708891,
+          "lon": 104.1263072,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-10",
+          "stationId": "8-10",
+          "sequence": 10,
+          "nameZh": "杉板桥",
+          "nameEn": "Shanbanqiao",
+          "target": "shanbanqiao",
+          "lat": 30.666714,
+          "lon": 104.116862,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-11",
+          "stationId": "8-11",
+          "sequence": 11,
+          "nameZh": "万年路",
+          "nameEn": "Wannian Road",
+          "target": "wannian road",
+          "lat": 30.6573418,
+          "lon": 104.1123993,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-12",
+          "stationId": "8-12",
+          "sequence": 12,
+          "nameZh": "双桥路",
+          "nameEn": "Shuangqiao Road",
+          "target": "shuangqiao road",
+          "lat": 30.648352,
+          "lon": 104.111189,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "8-13",
+          "stationId": "8-13",
+          "sequence": 13,
+          "nameZh": "东大路",
+          "nameEn": "Dongdalu Road",
+          "target": "dongdalu road",
+          "lat": 30.6359016,
+          "lon": 104.1094445,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "8-14",
+          "stationId": "8-14",
+          "sequence": 14,
+          "nameZh": "净居寺",
+          "nameEn": "Jingjusi",
+          "target": "jingjusi",
+          "lat": 30.6248965,
+          "lon": 104.1018014,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "8-15",
+          "stationId": "8-15",
+          "sequence": 15,
+          "nameZh": "东光",
+          "nameEn": "Dongguang",
+          "target": "dongguang",
+          "lat": 30.6220587,
+          "lon": 104.0953158,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "8-16",
+          "stationId": "8-16",
+          "sequence": 16,
+          "nameZh": "东湖公园",
+          "nameEn": "Donghu Park",
+          "target": "donghu park",
+          "lat": 30.622063,
+          "lon": 104.0853412,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-17",
+          "stationId": "8-17",
+          "sequence": 17,
+          "nameZh": "川大望江校区",
+          "nameEn": "Sichuan University Wangjiang Campus",
+          "target": "sichuan university wangjiang campus",
+          "lat": 30.6276469,
+          "lon": 104.0730489,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-18",
+          "stationId": "8-18",
+          "sequence": 18,
+          "nameZh": "倪家桥",
+          "nameEn": "Nijiaqiao",
+          "target": "nijiaqiao",
+          "lat": 30.6273869,
+          "lon": 104.0624697,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "8-19",
+          "stationId": "8-19",
+          "sequence": 19,
+          "nameZh": "芳草街",
+          "nameEn": "Fangcao Street",
+          "target": "fangcao street",
+          "lat": 30.6283427,
+          "lon": 104.0500625,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-20",
+          "stationId": "8-20",
+          "sequence": 20,
+          "nameZh": "永丰",
+          "nameEn": "Yongfeng",
+          "target": "yongfeng",
+          "lat": 30.6307327,
+          "lon": 104.0443138,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-21",
+          "stationId": "8-21",
+          "sequence": 21,
+          "nameZh": "九兴大道",
+          "nameEn": "Jiuxing Avenue",
+          "target": "jiuxing avenue",
+          "lat": 30.6254538,
+          "lon": 104.0362172,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "8-22",
+          "stationId": "8-22",
+          "sequence": 22,
+          "nameZh": "高朋大道",
+          "nameEn": "Gaopeng Avenue",
+          "target": "gaopeng avenue",
+          "lat": 30.6193719,
+          "lon": 104.0322734,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "8-23",
+          "stationId": "8-23",
+          "sequence": 23,
+          "nameZh": "殷家林",
+          "nameEn": "Yinjialin",
+          "target": "yinjialin",
+          "lat": 30.6087609,
+          "lon": 104.0317748,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-24",
+          "stationId": "8-24",
+          "sequence": 24,
+          "nameZh": "庆安",
+          "nameEn": "Qing'an",
+          "target": "qingan",
+          "lat": 30.6008651,
+          "lon": 104.0315273,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-25",
+          "stationId": "8-25",
+          "sequence": 25,
+          "nameZh": "石羊",
+          "nameEn": "Shiyang",
+          "target": "shiyang",
+          "lat": 30.5872173,
+          "lon": 104.0280988,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-26",
+          "stationId": "8-26",
+          "sequence": 26,
+          "nameZh": "三元",
+          "nameEn": "Sanyuan",
+          "target": "sanyuan",
+          "lat": 30.583437,
+          "lon": 104.0236488,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "8-27",
+          "stationId": "8-27",
+          "sequence": 27,
+          "nameZh": "顺风",
+          "nameEn": "Shunfeng",
+          "target": "shunfeng",
+          "lat": 30.5795109,
+          "lon": 104.0087991,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-28",
+          "stationId": "8-28",
+          "sequence": 28,
+          "nameZh": "珠江路",
+          "nameEn": "Zhujiang Road",
+          "target": "zhujiang road",
+          "lat": 30.5689544,
+          "lon": 104.005467,
+          "transferLineIds": [
+            "30"
+          ]
+        },
+        {
+          "id": "8-29",
+          "stationId": "8-29",
+          "sequence": 29,
+          "nameZh": "川大江安校区",
+          "nameEn": "Sichuan University Jiang'an Campus",
+          "target": "sichuan university jiangan campus",
+          "lat": 30.5578592,
+          "lon": 104.0046675,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-30",
+          "stationId": "8-30",
+          "sequence": 30,
+          "nameZh": "文星",
+          "nameEn": "Wenxing",
+          "target": "wenxing",
+          "lat": 30.5533182,
+          "lon": 103.9883441,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-31",
+          "stationId": "8-31",
+          "sequence": 31,
+          "nameZh": "莲花",
+          "nameEn": "Lianhua",
+          "target": "lianhua",
+          "lat": 30.5486089,
+          "lon": 103.9770306,
+          "transferLineIds": []
+        },
+        {
+          "id": "8-32",
+          "stationId": "8-32",
+          "sequence": 32,
+          "nameZh": "龙港",
+          "nameEn": "Longgang",
+          "target": "longgang",
+          "lat": 30.5373654,
+          "lon": 103.9715713,
+          "transferLineIds": [
+            "19"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "8-01",
+          "8-02",
+          "8-03",
+          "8-04",
+          "8-05",
+          "8-06",
+          "8-07",
+          "8-08",
+          "8-09",
+          "8-10",
+          "8-11",
+          "8-12",
+          "8-13",
+          "8-14",
+          "8-15",
+          "8-16",
+          "8-17",
+          "8-18",
+          "8-19",
+          "8-20",
+          "8-21",
+          "8-22",
+          "8-23",
+          "8-24",
+          "8-25",
+          "8-26",
+          "8-27",
+          "8-28",
+          "8-29",
+          "8-30",
+          "8-31",
+          "8-32"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "8-01",
+          "8-02",
+          "8-03",
+          "8-04",
+          "8-05",
+          "8-06",
+          "8-07",
+          "8-08",
+          "8-09",
+          "8-10",
+          "8-11",
+          "8-12",
+          "8-13",
+          "8-14",
+          "8-15",
+          "8-16",
+          "8-17",
+          "8-18",
+          "8-19",
+          "8-20",
+          "8-21",
+          "8-22",
+          "8-23",
+          "8-24",
+          "8-25",
+          "8-26",
+          "8-27",
+          "8-28",
+          "8-29",
+          "8-30",
+          "8-31",
+          "8-32"
+        ]
+      ]
+    },
+    {
+      "id": "CD-9",
+      "lineId": "9",
+      "lineName": "9号线",
+      "lineNameEn": "Line 9",
+      "color": "#FFB81C",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "9-01",
+          "stationId": "9-01",
+          "sequence": 1,
+          "nameZh": "黄田坝",
+          "nameEn": "Huangtianba",
+          "target": "huangtianba",
+          "lat": 30.7006457,
+          "lon": 103.9690196,
+          "transferLineIds": []
+        },
+        {
+          "id": "9-02",
+          "stationId": "9-02",
+          "sequence": 2,
+          "nameZh": "成都西站",
+          "nameEn": "Chengdu West Railway Station",
+          "target": "chengdu west railway station",
+          "lat": 30.6873679,
+          "lon": 103.9732407,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "9-03",
+          "stationId": "9-03",
+          "sequence": 3,
+          "nameZh": "培风",
+          "nameEn": "Peifeng",
+          "target": "peifeng",
+          "lat": 30.6631936,
+          "lon": 103.9748012,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "9-04",
+          "stationId": "9-04",
+          "sequence": 4,
+          "nameZh": "机投桥",
+          "nameEn": "Jitouqiao",
+          "target": "jitouqiao",
+          "lat": 30.6489586,
+          "lon": 103.9757173,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "9-05",
+          "stationId": "9-05",
+          "sequence": 5,
+          "nameZh": "武青南路",
+          "nameEn": "Wuqing South Road",
+          "target": "wuqing south road",
+          "lat": 30.6243327,
+          "lon": 103.9828751,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "9-06",
+          "stationId": "9-06",
+          "sequence": 6,
+          "nameZh": "簇桥",
+          "nameEn": "Cuqiao",
+          "target": "cuqiao",
+          "lat": 30.609663,
+          "lon": 103.98807,
+          "transferLineIds": []
+        },
+        {
+          "id": "9-07",
+          "stationId": "9-07",
+          "sequence": 7,
+          "nameZh": "华兴",
+          "nameEn": "Huaxing",
+          "target": "huaxing",
+          "lat": 30.6009328,
+          "lon": 103.9998133,
+          "transferLineIds": [
+            "10"
+          ]
+        },
+        {
+          "id": "9-08",
+          "stationId": "9-08",
+          "sequence": 8,
+          "nameZh": "太平寺",
+          "nameEn": "Taiping Temple",
+          "target": "taiping temple",
+          "lat": 30.5936859,
+          "lon": 104.0098003,
+          "transferLineIds": []
+        },
+        {
+          "id": "9-09",
+          "stationId": "9-09",
+          "sequence": 9,
+          "nameZh": "三元",
+          "nameEn": "Sanyuan",
+          "target": "sanyuan",
+          "lat": 30.5841677,
+          "lon": 104.0231539,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "9-10",
+          "stationId": "9-10",
+          "sequence": 10,
+          "nameZh": "锦城大道",
+          "nameEn": "Jincheng Avenue",
+          "target": "jincheng avenue",
+          "lat": 30.5776337,
+          "lon": 104.0479539,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "9-11",
+          "stationId": "9-11",
+          "sequence": 11,
+          "nameZh": "孵化园",
+          "nameEn": "Incubation Park",
+          "target": "incubation park",
+          "lat": 30.5778421,
+          "lon": 104.0637342,
+          "transferLineIds": [
+            "1",
+            "18"
+          ]
+        },
+        {
+          "id": "9-12",
+          "stationId": "9-12",
+          "sequence": 12,
+          "nameZh": "心岛",
+          "nameEn": "Xindao",
+          "target": "xindao",
+          "lat": 30.5781787,
+          "lon": 104.0703354,
+          "transferLineIds": []
+        },
+        {
+          "id": "9-13",
+          "stationId": "9-13",
+          "sequence": 13,
+          "nameZh": "金融城东",
+          "nameEn": "Financial City East",
+          "target": "financial city east",
+          "lat": 30.5815439,
+          "lon": 104.0827311,
+          "transferLineIds": [
+            "6"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "9-01",
+          "9-02",
+          "9-03",
+          "9-04",
+          "9-05",
+          "9-06",
+          "9-07",
+          "9-08",
+          "9-09",
+          "9-10",
+          "9-11",
+          "9-12",
+          "9-13"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "9-01",
+          "9-02",
+          "9-03",
+          "9-04",
+          "9-05",
+          "9-06",
+          "9-07",
+          "9-08",
+          "9-09",
+          "9-10",
+          "9-11",
+          "9-12",
+          "9-13"
+        ]
+      ]
+    },
+    {
+      "id": "CD-10",
+      "lineId": "10",
+      "lineName": "10号线",
+      "lineNameEn": "Line 10",
+      "color": "#003DA5",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "10-01",
+          "stationId": "10-01",
+          "sequence": 1,
+          "nameZh": "武侯祠",
+          "nameEn": "Wohou Shrine",
+          "target": "wohou shrine",
+          "lat": 30.6475237,
+          "lon": 104.0489576,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-02",
+          "stationId": "10-02",
+          "sequence": 2,
+          "nameZh": "红牌楼",
+          "nameEn": "Hongpailou",
+          "target": "hongpailou",
+          "lat": 30.6373359,
+          "lon": 104.0278718,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "10-03",
+          "stationId": "10-03",
+          "sequence": 3,
+          "nameZh": "太平园",
+          "nameEn": "Tapingyuan",
+          "target": "tapingyuan",
+          "lat": 30.6279967,
+          "lon": 104.019454,
+          "transferLineIds": [
+            "3",
+            "7"
+          ]
+        },
+        {
+          "id": "10-04",
+          "stationId": "10-04",
+          "sequence": 4,
+          "nameZh": "簇锦",
+          "nameEn": "Cujin",
+          "target": "cujin",
+          "lat": 30.6138099,
+          "lon": 104.0059568,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-05",
+          "stationId": "10-05",
+          "sequence": 5,
+          "nameZh": "华兴",
+          "nameEn": "Huaxing",
+          "target": "huaxing",
+          "lat": 30.6013512,
+          "lon": 103.9989423,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "10-06",
+          "stationId": "10-06",
+          "sequence": 6,
+          "nameZh": "金花",
+          "nameEn": "Jinhua",
+          "target": "jinhua",
+          "lat": 30.5942623,
+          "lon": 103.9678621,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-07",
+          "stationId": "10-07",
+          "sequence": 7,
+          "nameZh": "双流机场1航站楼",
+          "nameEn": "Terminal 1 of Shuangliu International Airport",
+          "target": "terminal 1 of shuangliu international airport",
+          "lat": 30.58134,
+          "lon": 103.9572694,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-08",
+          "stationId": "10-08",
+          "sequence": 8,
+          "nameZh": "双流机场2航站楼",
+          "nameEn": "Terminal 2 of Shuangliu International Airport",
+          "target": "terminal 2 of shuangliu international airport",
+          "lat": 30.5722939,
+          "lon": 103.9540351,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-09",
+          "stationId": "10-09",
+          "sequence": 9,
+          "nameZh": "双流西站",
+          "nameEn": "Shuangliu West Railway Station",
+          "target": "shuangliu west railway station",
+          "lat": 30.5457527,
+          "lon": 103.9149808,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "10-10",
+          "stationId": "10-10",
+          "sequence": 10,
+          "nameZh": "应天寺",
+          "nameEn": "Yingtian Temple",
+          "target": "yingtian temple",
+          "lat": 30.5385382,
+          "lon": 103.9026726,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-11",
+          "stationId": "10-11",
+          "sequence": 11,
+          "nameZh": "黄水",
+          "nameEn": "Huangshui",
+          "target": "huangshui",
+          "lat": 30.521909,
+          "lon": 103.8891967,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-12",
+          "stationId": "10-12",
+          "sequence": 12,
+          "nameZh": "花源",
+          "nameEn": "Huayuan",
+          "target": "huayuan",
+          "lat": 30.4881459,
+          "lon": 103.878762,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-13",
+          "stationId": "10-13",
+          "sequence": 13,
+          "nameZh": "新津站",
+          "nameEn": "Xinjin Railway Station",
+          "target": "xinjin railway station",
+          "lat": 30.4658357,
+          "lon": 103.8711948,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-14",
+          "stationId": "10-14",
+          "sequence": 14,
+          "nameZh": "花桥",
+          "nameEn": "Huaqiao",
+          "target": "huaqiao",
+          "lat": 30.444471,
+          "lon": 103.8551451,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-15",
+          "stationId": "10-15",
+          "sequence": 15,
+          "nameZh": "五津",
+          "nameEn": "Wujin",
+          "target": "wujin",
+          "lat": 30.4261196,
+          "lon": 103.8108142,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-16",
+          "stationId": "10-16",
+          "sequence": 16,
+          "nameZh": "儒林路",
+          "nameEn": "Rulin Road",
+          "target": "rulin road",
+          "lat": 30.4191823,
+          "lon": 103.8011404,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-17",
+          "stationId": "10-17",
+          "sequence": 17,
+          "nameZh": "刘家碾",
+          "nameEn": "Liujianian",
+          "target": "liujianian",
+          "lat": 30.4180515,
+          "lon": 103.7891832,
+          "transferLineIds": []
+        },
+        {
+          "id": "10-18",
+          "stationId": "10-18",
+          "sequence": 18,
+          "nameZh": "新平",
+          "nameEn": "Xinping",
+          "target": "xinping",
+          "lat": 30.4111882,
+          "lon": 103.7793515,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "10-01",
+          "10-02",
+          "10-03",
+          "10-04",
+          "10-05",
+          "10-06",
+          "10-07",
+          "10-08",
+          "10-09",
+          "10-10",
+          "10-11",
+          "10-12",
+          "10-13",
+          "10-14",
+          "10-15",
+          "10-16",
+          "10-17",
+          "10-18"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "10-01",
+          "10-02",
+          "10-03",
+          "10-04",
+          "10-05",
+          "10-06",
+          "10-07",
+          "10-08",
+          "10-09",
+          "10-10",
+          "10-11",
+          "10-12",
+          "10-13",
+          "10-14",
+          "10-15",
+          "10-16",
+          "10-17",
+          "10-18"
+        ]
+      ]
+    },
+    {
+      "id": "CD-13",
+      "lineId": "13",
+      "lineName": "13号线",
+      "lineNameEn": "Line 13",
+      "color": "#C5A900",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "13-01",
+          "stationId": "13-01",
+          "sequence": 1,
+          "nameZh": "龙安",
+          "nameEn": "Long'an",
+          "target": "longan",
+          "lat": 30.5661872,
+          "lon": 104.1932902,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-02",
+          "stationId": "13-02",
+          "sequence": 2,
+          "nameZh": "龙华寺",
+          "nameEn": "Longhuasi",
+          "target": "longhuasi",
+          "lat": 30.573694,
+          "lon": 104.1775543,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-03",
+          "stationId": "13-03",
+          "sequence": 3,
+          "nameZh": "三圣花乡",
+          "nameEn": "Sansheng Flower Town",
+          "target": "sansheng flower town",
+          "lat": 30.5781733,
+          "lon": 104.1421949,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-04",
+          "stationId": "13-04",
+          "sequence": 4,
+          "nameZh": "幸福梅林",
+          "nameEn": "Xingfu Meilin",
+          "target": "xingfu meilin",
+          "lat": 30.5914138,
+          "lon": 104.1308031,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-05",
+          "stationId": "13-05",
+          "sequence": 5,
+          "nameZh": "娇子立交",
+          "nameEn": "Jiaozi Flyover",
+          "target": "jiaozi flyover",
+          "lat": 30.6023345,
+          "lon": 104.1261437,
+          "transferLineIds": [
+            "30"
+          ]
+        },
+        {
+          "id": "13-06",
+          "stationId": "13-06",
+          "sequence": 6,
+          "nameZh": "四川师大",
+          "nameEn": "Sichuan Normal University",
+          "target": "sichuan normal university",
+          "lat": 30.6118475,
+          "lon": 104.1139323,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "13-07",
+          "stationId": "13-07",
+          "sequence": 7,
+          "nameZh": "净居寺",
+          "nameEn": "Jingjusi",
+          "target": "jingjusi",
+          "lat": 30.6248965,
+          "lon": 104.1018014,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "13-08",
+          "stationId": "13-08",
+          "sequence": 8,
+          "nameZh": "三官堂",
+          "nameEn": "Sanguantang",
+          "target": "sanguantang",
+          "lat": 30.6308188,
+          "lon": 104.0920026,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "13-09",
+          "stationId": "13-09",
+          "sequence": 9,
+          "nameZh": "九眼桥",
+          "nameEn": "Jiuyan Bridge",
+          "target": "jiuyan bridge",
+          "lat": 30.6423694,
+          "lon": 104.0863304,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-10",
+          "stationId": "13-10",
+          "sequence": 10,
+          "nameZh": "新南门",
+          "nameEn": "Xinnanmen",
+          "target": "xinnanmen",
+          "lat": 30.6466166,
+          "lon": 104.0726444,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "13-11",
+          "stationId": "13-11",
+          "sequence": 11,
+          "nameZh": "华西坝",
+          "nameEn": "Huaxiba",
+          "target": "huaxiba",
+          "lat": 30.6453129,
+          "lon": 104.0638214,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "13-12",
+          "stationId": "13-12",
+          "sequence": 12,
+          "nameZh": "文翁石室",
+          "nameEn": "Wenweng Shishi",
+          "target": "wenweng shishi",
+          "lat": 30.6514612,
+          "lon": 104.0547819,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-13",
+          "stationId": "13-13",
+          "sequence": 13,
+          "nameZh": "小南街",
+          "nameEn": "Xiaonan Street",
+          "target": "xiaonan street",
+          "lat": 30.6557475,
+          "lon": 104.0501211,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "13-14",
+          "stationId": "13-14",
+          "sequence": 14,
+          "nameZh": "青羊宫",
+          "nameEn": "Qingyang Taoist Temple",
+          "target": "qingyang taoist temple",
+          "lat": 30.663072,
+          "lon": 104.0383144,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "13-15",
+          "stationId": "13-15",
+          "sequence": 15,
+          "nameZh": "杜甫草堂",
+          "nameEn": "Du Fu Thatched Cottage",
+          "target": "du fu thatched cottage",
+          "lat": 30.6628531,
+          "lon": 104.0262287,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-16",
+          "stationId": "13-16",
+          "sequence": 16,
+          "nameZh": "光华村",
+          "nameEn": "Guanghuacun",
+          "target": "guanghuacun",
+          "lat": 30.6647559,
+          "lon": 104.0193017,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-17",
+          "stationId": "13-17",
+          "sequence": 17,
+          "nameZh": "东坡路",
+          "nameEn": "Dongpo Road",
+          "target": "dongpo road",
+          "lat": 30.6633865,
+          "lon": 104.0058513,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "13-18",
+          "stationId": "13-18",
+          "sequence": 18,
+          "nameZh": "万寿桥",
+          "nameEn": "Wanshou Bridge",
+          "target": "wanshou bridge",
+          "lat": 30.663953,
+          "lon": 103.9904311,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-19",
+          "stationId": "13-19",
+          "sequence": 19,
+          "nameZh": "培风",
+          "nameEn": "Peifeng",
+          "target": "peifeng",
+          "lat": 30.6631987,
+          "lon": 103.9750161,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "13-20",
+          "stationId": "13-20",
+          "sequence": 20,
+          "nameZh": "万家湾",
+          "nameEn": "Wanjiawan",
+          "target": "wanjiawan",
+          "lat": 30.6654453,
+          "lon": 103.9609387,
+          "transferLineIds": []
+        },
+        {
+          "id": "13-21",
+          "stationId": "13-21",
+          "sequence": 21,
+          "nameZh": "瓦窑滩",
+          "nameEn": "Wayaotan",
+          "target": "wayaotan",
+          "lat": 30.6647282,
+          "lon": 103.9461183,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "13-01",
+          "13-02",
+          "13-03",
+          "13-04",
+          "13-05",
+          "13-06",
+          "13-07",
+          "13-08",
+          "13-09",
+          "13-10",
+          "13-11",
+          "13-12",
+          "13-13",
+          "13-14",
+          "13-15",
+          "13-16",
+          "13-17",
+          "13-18",
+          "13-19",
+          "13-20",
+          "13-21"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "13-01",
+          "13-02",
+          "13-03",
+          "13-04",
+          "13-05",
+          "13-06",
+          "13-07",
+          "13-08",
+          "13-09",
+          "13-10",
+          "13-11",
+          "13-12",
+          "13-13",
+          "13-14",
+          "13-15",
+          "13-16",
+          "13-17",
+          "13-18",
+          "13-19",
+          "13-20",
+          "13-21"
+        ]
+      ]
+    },
+    {
+      "id": "CD-17",
+      "lineId": "17",
+      "lineName": "17号线",
+      "lineNameEn": "Line 17",
+      "color": "#80E0A7",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "17-01",
+          "stationId": "17-01",
+          "sequence": 1,
+          "nameZh": "高洪",
+          "nameEn": "Gaohong",
+          "target": "gaohong",
+          "lat": 30.6926103,
+          "lon": 104.1923997,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-02",
+          "stationId": "17-02",
+          "sequence": 2,
+          "nameZh": "威灵",
+          "nameEn": "Weiling",
+          "target": "weiling",
+          "lat": 30.6917914,
+          "lon": 104.1771774,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-03",
+          "stationId": "17-03",
+          "sequence": 3,
+          "nameZh": "航天路",
+          "nameEn": "Hangtian Road",
+          "target": "hangtian road",
+          "lat": 30.691112,
+          "lon": 104.1630875,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-04",
+          "stationId": "17-04",
+          "sequence": 4,
+          "nameZh": "人民塘",
+          "nameEn": "Renmintang",
+          "target": "renmintang",
+          "lat": 30.6930339,
+          "lon": 104.1484393,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-05",
+          "stationId": "17-05",
+          "sequence": 5,
+          "nameZh": "机车厂",
+          "nameEn": "Jichechang",
+          "target": "jichechang",
+          "lat": 30.6903188,
+          "lon": 104.1309596,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-06",
+          "stationId": "17-06",
+          "sequence": 6,
+          "nameZh": "二仙桥",
+          "nameEn": "Erxianqiao",
+          "target": "erxianqiao",
+          "lat": 30.6841036,
+          "lon": 104.1244577,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "17-07",
+          "stationId": "17-07",
+          "sequence": 7,
+          "nameZh": "踏水桥",
+          "nameEn": "Tashui Bridge",
+          "target": "tashui bridge",
+          "lat": 30.6776039,
+          "lon": 104.10571,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-08",
+          "stationId": "17-08",
+          "sequence": 8,
+          "nameZh": "建设北路",
+          "nameEn": "Jianshe North Road",
+          "target": "jianshe north road",
+          "lat": 30.6751996,
+          "lon": 104.0976207,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "17-09",
+          "stationId": "17-09",
+          "sequence": 9,
+          "nameZh": "红星桥",
+          "nameEn": "Hongxing Bridge",
+          "target": "hongxing bridge",
+          "lat": 30.6762907,
+          "lon": 104.0881995,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "17-10",
+          "stationId": "17-10",
+          "sequence": 10,
+          "nameZh": "城隍庙",
+          "nameEn": "Chenghuangmiao",
+          "target": "chenghuangmiao",
+          "lat": 30.681687,
+          "lon": 104.0773844,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-11",
+          "stationId": "17-11",
+          "sequence": 11,
+          "nameZh": "西大街",
+          "nameEn": "Xidajie Street",
+          "target": "xidajie street",
+          "lat": 30.6766505,
+          "lon": 104.0563714,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-12",
+          "stationId": "17-12",
+          "sequence": 12,
+          "nameZh": "人民公园",
+          "nameEn": "People's Park",
+          "target": "peoples park",
+          "lat": 30.6610621,
+          "lon": 104.0530935,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "17-13",
+          "stationId": "17-13",
+          "sequence": 13,
+          "nameZh": "小南街",
+          "nameEn": "Xiaonan Street",
+          "target": "xiaonan street",
+          "lat": 30.655768,
+          "lon": 104.0500881,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "17-14",
+          "stationId": "17-14",
+          "sequence": 14,
+          "nameZh": "省骨科医院",
+          "nameEn": "Provincial Orthopaedics Hospital",
+          "target": "provincial orthopaedics hospital",
+          "lat": 30.6542564,
+          "lon": 104.0396783,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "17-15",
+          "stationId": "17-15",
+          "sequence": 15,
+          "nameZh": "浣花里",
+          "nameEn": "Huanhua Lane",
+          "target": "huanhua lane",
+          "lat": 30.6533453,
+          "lon": 104.029588,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-16",
+          "stationId": "17-16",
+          "sequence": 16,
+          "nameZh": "清水河大桥",
+          "nameEn": "Qingshuihe Bridge",
+          "target": "qingshuihe bridge",
+          "lat": 30.6543084,
+          "lon": 104.0181261,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-17",
+          "stationId": "17-17",
+          "sequence": 17,
+          "nameZh": "龙爪堰",
+          "nameEn": "Longzhuayan",
+          "target": "longzhuayan",
+          "lat": 30.6545913,
+          "lon": 104.0069675,
+          "transferLineIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "17-18",
+          "stationId": "17-18",
+          "sequence": 18,
+          "nameZh": "阳公桥",
+          "nameEn": "Yanggongqiao",
+          "target": "yanggongqiao",
+          "lat": 30.6518751,
+          "lon": 103.9937999,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-19",
+          "stationId": "17-19",
+          "sequence": 19,
+          "nameZh": "机投桥",
+          "nameEn": "Jitouqiao",
+          "target": "jitouqiao",
+          "lat": 30.6475197,
+          "lon": 103.9757844,
+          "transferLineIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "17-20",
+          "stationId": "17-20",
+          "sequence": 20,
+          "nameZh": "白佛桥",
+          "nameEn": "Baifoqiao",
+          "target": "baifoqiao",
+          "lat": 30.6440029,
+          "lon": 103.9619004,
+          "transferLineIds": []
+        },
+        {
+          "id": "17-21",
+          "stationId": "17-21",
+          "sequence": 21,
+          "nameZh": "九江北",
+          "nameEn": "Jiujiang North",
+          "target": "jiujiang north",
+          "lat": 30.6373286,
+          "lon": 103.9195093,
+          "transferLineIds": [
+            "19"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "17-01",
+          "17-02",
+          "17-03",
+          "17-04",
+          "17-05",
+          "17-06",
+          "17-07",
+          "17-08",
+          "17-09",
+          "17-10",
+          "17-11",
+          "17-12",
+          "17-13",
+          "17-14",
+          "17-15",
+          "17-16",
+          "17-17",
+          "17-18",
+          "17-19",
+          "17-20",
+          "17-21"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "17-01",
+          "17-02",
+          "17-03",
+          "17-04",
+          "17-05",
+          "17-06",
+          "17-07",
+          "17-08",
+          "17-09",
+          "17-10",
+          "17-11",
+          "17-12",
+          "17-13",
+          "17-14",
+          "17-15",
+          "17-16",
+          "17-17",
+          "17-18",
+          "17-19",
+          "17-20",
+          "17-21"
+        ]
+      ]
+    },
+    {
+      "id": "CD-18",
+      "lineId": "18",
+      "lineName": "18号线",
+      "lineNameEn": "Line 18",
+      "color": "#006272",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "18-01",
+          "stationId": "18-01",
+          "sequence": 1,
+          "nameZh": "火车南站",
+          "nameEn": "South Railway Station",
+          "target": "south railway station",
+          "lat": 30.6054862,
+          "lon": 104.06526,
+          "transferLineIds": [
+            "1",
+            "7"
+          ]
+        },
+        {
+          "id": "18-02",
+          "stationId": "18-02",
+          "sequence": 2,
+          "nameZh": "孵化园",
+          "nameEn": "Incubation Park",
+          "target": "incubation park",
+          "lat": 30.579055,
+          "lon": 104.0654712,
+          "transferLineIds": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "id": "18-03",
+          "stationId": "18-03",
+          "sequence": 3,
+          "nameZh": "锦城广场东",
+          "nameEn": "Jincheng Plaza East",
+          "target": "jincheng plaza east",
+          "lat": 30.5712234,
+          "lon": 104.0666403,
+          "transferLineIds": []
+        },
+        {
+          "id": "18-04",
+          "stationId": "18-04",
+          "sequence": 4,
+          "nameZh": "世纪城",
+          "nameEn": "Century City",
+          "target": "century city",
+          "lat": 30.5573138,
+          "lon": 104.0666488,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "18-05",
+          "stationId": "18-05",
+          "sequence": 5,
+          "nameZh": "海昌路",
+          "nameEn": "Haichang Road",
+          "target": "haichang road",
+          "lat": 30.4953144,
+          "lon": 104.0689899,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "18-06",
+          "stationId": "18-06",
+          "sequence": 6,
+          "nameZh": "西博城",
+          "nameEn": "Western China Int'l Expo City",
+          "target": "western china intl expo city",
+          "lat": 30.4263663,
+          "lon": 104.0718429,
+          "transferLineIds": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "18-07",
+          "stationId": "18-07",
+          "sequence": 7,
+          "nameZh": "兴隆",
+          "nameEn": "Xinglong",
+          "target": "xinglong",
+          "lat": 30.4120691,
+          "lon": 104.1001254,
+          "transferLineIds": []
+        },
+        {
+          "id": "18-08",
+          "stationId": "18-08",
+          "sequence": 8,
+          "nameZh": "天府站",
+          "nameEn": "Tianfu Railway Station",
+          "target": "tianfu railway station",
+          "lat": 30.3927325,
+          "lon": 104.1485773,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "18-09",
+          "stationId": "18-09",
+          "sequence": 9,
+          "nameZh": "三岔",
+          "nameEn": "Sancha",
+          "target": "sancha",
+          "lat": 30.3138383,
+          "lon": 104.31463,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "18-10",
+          "stationId": "18-10",
+          "sequence": 10,
+          "nameZh": "福田",
+          "nameEn": "Futian",
+          "target": "futian",
+          "lat": 30.2806126,
+          "lon": 104.3847591,
+          "transferLineIds": [
+            "19",
+            "S3"
+          ]
+        },
+        {
+          "id": "18-11",
+          "stationId": "18-11",
+          "sequence": 11,
+          "nameZh": "天府机场1号2号航站楼",
+          "nameEn": "Terminals 1 & 2 of Tianfu International Airport",
+          "target": "terminals 1 & 2 of tianfu international airport",
+          "lat": 30.3153663,
+          "lon": 104.4425804,
+          "transferLineIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "18-12",
+          "stationId": "18-12",
+          "sequence": 12,
+          "nameZh": "天府机场北",
+          "nameEn": "Tianfu International Airport North",
+          "target": "tianfu international airport north",
+          "lat": 30.3369355,
+          "lon": 104.452756,
+          "transferLineIds": [
+            "19"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "18-01",
+          "18-02",
+          "18-03",
+          "18-04",
+          "18-05",
+          "18-06",
+          "18-07",
+          "18-08",
+          "18-09",
+          "18-10",
+          "18-11",
+          "18-12"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "18-01",
+          "18-02",
+          "18-03",
+          "18-04",
+          "18-05",
+          "18-06",
+          "18-07",
+          "18-08",
+          "18-09",
+          "18-10",
+          "18-11",
+          "18-12"
+        ]
+      ]
+    },
+    {
+      "id": "CD-19",
+      "lineId": "19",
+      "lineName": "19号线",
+      "lineNameEn": "Line 19",
+      "color": "#5C88DB",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "19-01",
+          "stationId": "19-01",
+          "sequence": 1,
+          "nameZh": "金星",
+          "nameEn": "Jinxing",
+          "target": "jinxing",
+          "lat": 30.7586914,
+          "lon": 103.7919301,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-02",
+          "stationId": "19-02",
+          "sequence": 2,
+          "nameZh": "黄石",
+          "nameEn": "Huangshi",
+          "target": "huangshi",
+          "lat": 30.7243059,
+          "lon": 103.8118419,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-03",
+          "stationId": "19-03",
+          "sequence": 3,
+          "nameZh": "市五医院",
+          "nameEn": "Chengdu Fifth People's Hospital",
+          "target": "chengdu fifth peoples hospital",
+          "lat": 30.7019712,
+          "lon": 103.8270303,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-04",
+          "stationId": "19-04",
+          "sequence": 4,
+          "nameZh": "凤溪河",
+          "nameEn": "Fengxihe",
+          "target": "fengxihe",
+          "lat": 30.6906363,
+          "lon": 103.8410495,
+          "transferLineIds": [
+            "4"
+          ]
+        },
+        {
+          "id": "19-05",
+          "stationId": "19-05",
+          "sequence": 5,
+          "nameZh": "温泉大道",
+          "nameEn": "Wenquan Avenue",
+          "target": "wenquan avenue",
+          "lat": 30.6752314,
+          "lon": 103.8534488,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-06",
+          "stationId": "19-06",
+          "sequence": 6,
+          "nameZh": "明光",
+          "nameEn": "Mingguang",
+          "target": "mingguang",
+          "lat": 30.661291,
+          "lon": 103.866312,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-07",
+          "stationId": "19-07",
+          "sequence": 7,
+          "nameZh": "九江北",
+          "nameEn": "Jiujiang North",
+          "target": "jiujiang north",
+          "lat": 30.6374515,
+          "lon": 103.9195071,
+          "transferLineIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "19-08",
+          "stationId": "19-08",
+          "sequence": 8,
+          "nameZh": "龙桥路",
+          "nameEn": "龙桥路",
+          "target": "龙桥路",
+          "lat": 30.6087531,
+          "lon": 103.9430416,
+          "transferLineIds": [
+            "3"
+          ]
+        },
+        {
+          "id": "19-09",
+          "stationId": "19-09",
+          "sequence": 9,
+          "nameZh": "双流机场2航站楼东",
+          "nameEn": "East of Terminal 2 of Shuangliu International Airport",
+          "target": "east of terminal 2 of shuangliu international airport",
+          "lat": 30.5717189,
+          "lon": 103.9557758,
+          "transferLineIds": [
+            "30"
+          ]
+        },
+        {
+          "id": "19-10",
+          "stationId": "19-10",
+          "sequence": 10,
+          "nameZh": "龙港",
+          "nameEn": "龙港",
+          "target": "龙港",
+          "lat": 30.5383489,
+          "lon": 103.9714914,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "19-11",
+          "stationId": "19-11",
+          "sequence": 11,
+          "nameZh": "温家山",
+          "nameEn": "温家山",
+          "target": "温家山",
+          "lat": 30.5014838,
+          "lon": 104.0068728,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-12",
+          "stationId": "19-12",
+          "sequence": 12,
+          "nameZh": "牧华路",
+          "nameEn": "牧华路",
+          "target": "牧华路",
+          "lat": 30.4867768,
+          "lon": 104.0091689,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-13",
+          "stationId": "19-13",
+          "sequence": 13,
+          "nameZh": "怡心湖",
+          "nameEn": "怡心湖",
+          "target": "怡心湖",
+          "lat": 30.4736058,
+          "lon": 104.0233964,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "19-14",
+          "stationId": "19-14",
+          "sequence": 14,
+          "nameZh": "正兴湾",
+          "nameEn": "Zhengxingwan",
+          "target": "zhengxingwan",
+          "lat": 30.4551885,
+          "lon": 104.0394015,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-15",
+          "stationId": "19-15",
+          "sequence": 15,
+          "nameZh": "红莲",
+          "nameEn": "红莲",
+          "target": "红莲",
+          "lat": 30.4353052,
+          "lon": 104.0597982,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-16",
+          "stationId": "19-16",
+          "sequence": 16,
+          "nameZh": "天府商务区",
+          "nameEn": "天府商务区",
+          "target": "天府商务区",
+          "lat": 30.4327045,
+          "lon": 104.0838417,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "19-17",
+          "stationId": "19-17",
+          "sequence": 17,
+          "nameZh": "蓝家店",
+          "nameEn": "蓝家店",
+          "target": "蓝家店",
+          "lat": 30.4202445,
+          "lon": 104.1066545,
+          "transferLineIds": []
+        },
+        {
+          "id": "19-18",
+          "stationId": "19-18",
+          "sequence": 18,
+          "nameZh": "天府站",
+          "nameEn": "Tianfu Railway Station",
+          "target": "tianfu railway station",
+          "lat": 30.392982,
+          "lon": 104.1487069,
+          "transferLineIds": [
+            "18"
+          ]
+        },
+        {
+          "id": "19-19",
+          "stationId": "19-19",
+          "sequence": 19,
+          "nameZh": "三岔",
+          "nameEn": "Sancha",
+          "target": "sancha",
+          "lat": 30.3139229,
+          "lon": 104.3149893,
+          "transferLineIds": [
+            "18"
+          ]
+        },
+        {
+          "id": "19-20",
+          "stationId": "19-20",
+          "sequence": 20,
+          "nameZh": "福田",
+          "nameEn": "Futian",
+          "target": "futian",
+          "lat": 30.2809067,
+          "lon": 104.3849476,
+          "transferLineIds": [
+            "18",
+            "S3"
+          ]
+        },
+        {
+          "id": "19-21",
+          "stationId": "19-21",
+          "sequence": 21,
+          "nameZh": "天府机场1号2号航站楼",
+          "nameEn": "Terminals 1 & 2 of Tianfu International Airport",
+          "target": "terminals 1 & 2 of tianfu international airport",
+          "lat": 30.3154012,
+          "lon": 104.4424855,
+          "transferLineIds": [
+            "18"
+          ]
+        },
+        {
+          "id": "19-22",
+          "stationId": "19-22",
+          "sequence": 22,
+          "nameZh": "天府机场北",
+          "nameEn": "Tianfu International Airport North",
+          "target": "tianfu international airport north",
+          "lat": 30.3369666,
+          "lon": 104.4526642,
+          "transferLineIds": [
+            "18"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "19-01",
+          "19-02",
+          "19-03",
+          "19-04",
+          "19-05",
+          "19-06",
+          "19-07",
+          "19-08",
+          "19-09",
+          "19-10",
+          "19-11",
+          "19-12",
+          "19-13",
+          "19-14",
+          "19-15",
+          "19-16",
+          "19-17",
+          "19-18",
+          "19-19",
+          "19-20",
+          "19-21",
+          "19-22"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "19-01",
+          "19-02",
+          "19-03",
+          "19-04",
+          "19-05",
+          "19-06",
+          "19-07",
+          "19-08",
+          "19-09",
+          "19-10",
+          "19-11",
+          "19-12",
+          "19-13",
+          "19-14",
+          "19-15",
+          "19-16",
+          "19-17",
+          "19-18",
+          "19-19",
+          "19-20",
+          "19-21",
+          "19-22"
+        ]
+      ]
+    },
+    {
+      "id": "CD-27",
+      "lineId": "27",
+      "lineName": "27号线",
+      "lineNameEn": "Line 27",
+      "color": "#E87722",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "27-01",
+          "stationId": "27-01",
+          "sequence": 1,
+          "nameZh": "石佛",
+          "nameEn": "Shifo",
+          "target": "shifo",
+          "lat": 30.8275278,
+          "lon": 104.1092041,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-02",
+          "stationId": "27-02",
+          "sequence": 2,
+          "nameZh": "慈义",
+          "nameEn": "Ciyi",
+          "target": "ciyi",
+          "lat": 30.8198702,
+          "lon": 104.1123095,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-03",
+          "stationId": "27-03",
+          "sequence": 3,
+          "nameZh": "兴城大道",
+          "nameEn": "Xingcheng Avenue",
+          "target": "xingcheng avenue",
+          "lat": 30.8124473,
+          "lon": 104.1076319,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-04",
+          "stationId": "27-04",
+          "sequence": 4,
+          "nameZh": "旃檀寺",
+          "nameEn": "Zhantan Temple",
+          "target": "zhantan temple",
+          "lat": 30.8018635,
+          "lon": 104.103018,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-05",
+          "stationId": "27-05",
+          "sequence": 5,
+          "nameZh": "石门坎",
+          "nameEn": "Shimenkan",
+          "target": "shimenkan",
+          "lat": 30.7790957,
+          "lon": 104.0991415,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-06",
+          "stationId": "27-06",
+          "sequence": 6,
+          "nameZh": "三圣寺",
+          "nameEn": "Sanshengsi",
+          "target": "sanshengsi",
+          "lat": 30.7725651,
+          "lon": 104.0992679,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-07",
+          "stationId": "27-07",
+          "sequence": 7,
+          "nameZh": "范家巷",
+          "nameEn": "Fanjia Alley",
+          "target": "fanjia alley",
+          "lat": 30.7626965,
+          "lon": 104.0998552,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-08",
+          "stationId": "27-08",
+          "sequence": 8,
+          "nameZh": "鲤鱼湾",
+          "nameEn": "Liyuwan",
+          "target": "liyuwan",
+          "lat": 30.754914,
+          "lon": 104.0967526,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-09",
+          "stationId": "27-09",
+          "sequence": 9,
+          "nameZh": "赖家店",
+          "nameEn": "Laijiadian",
+          "target": "laijiadian",
+          "lat": 30.7351259,
+          "lon": 104.0865704,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-10",
+          "stationId": "27-10",
+          "sequence": 10,
+          "nameZh": "韦家碾",
+          "nameEn": "Weijianian",
+          "target": "weijianian",
+          "lat": 30.720173,
+          "lon": 104.0844471,
+          "transferLineIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "27-11",
+          "stationId": "27-11",
+          "sequence": 11,
+          "nameZh": "双水碾",
+          "nameEn": "Shuangshuinian",
+          "target": "shuangshuinian",
+          "lat": 30.7153506,
+          "lon": 104.0736586,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-12",
+          "stationId": "27-12",
+          "sequence": 12,
+          "nameZh": "王贾桥",
+          "nameEn": "Wangjiaqiao",
+          "target": "wangjiaqiao",
+          "lat": 30.7194798,
+          "lon": 104.0663453,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-13",
+          "stationId": "27-13",
+          "sequence": 13,
+          "nameZh": "洞子口",
+          "nameEn": "Dongzikou",
+          "target": "dongzikou",
+          "lat": 30.7238673,
+          "lon": 104.0559366,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "27-14",
+          "stationId": "27-14",
+          "sequence": 14,
+          "nameZh": "沙河源",
+          "nameEn": "Shaheyuan",
+          "target": "shaheyuan",
+          "lat": 30.725164,
+          "lon": 104.0481855,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-15",
+          "stationId": "27-15",
+          "sequence": 15,
+          "nameZh": "新桥",
+          "nameEn": "Xinqiao",
+          "target": "xinqiao",
+          "lat": 30.7192253,
+          "lon": 104.0415293,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-16",
+          "stationId": "27-16",
+          "sequence": 16,
+          "nameZh": "金府",
+          "nameEn": "Jinfu",
+          "target": "jinfu",
+          "lat": 30.7139015,
+          "lon": 104.0347776,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "27-17",
+          "stationId": "27-17",
+          "sequence": 17,
+          "nameZh": "花照壁北",
+          "nameEn": "Huazhaobi North",
+          "target": "huazhaobi north",
+          "lat": 30.7106265,
+          "lon": 104.0277612,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-18",
+          "stationId": "27-18",
+          "sequence": 18,
+          "nameZh": "金牛公园",
+          "nameEn": "Jinniu Park",
+          "target": "jinniu park",
+          "lat": 30.7068949,
+          "lon": 104.0206083,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-19",
+          "stationId": "27-19",
+          "sequence": 19,
+          "nameZh": "羊犀立交",
+          "nameEn": "Yangxi Flyover",
+          "target": "yangxi flyover",
+          "lat": 30.6967834,
+          "lon": 104.0101606,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "27-20",
+          "stationId": "27-20",
+          "sequence": 20,
+          "nameZh": "黄忠",
+          "nameEn": "Huangzhong",
+          "target": "huangzhong",
+          "lat": 30.6899624,
+          "lon": 104.0054025,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-21",
+          "stationId": "27-21",
+          "sequence": 21,
+          "nameZh": "金沙滨河公园",
+          "nameEn": "Jinsha Binhe Park",
+          "target": "jinsha binhe park",
+          "lat": 30.6887924,
+          "lon": 103.9991166,
+          "transferLineIds": []
+        },
+        {
+          "id": "27-22",
+          "stationId": "27-22",
+          "sequence": 22,
+          "nameZh": "蜀鑫路",
+          "nameEn": "Shuxin Road",
+          "target": "shuxin road",
+          "lat": 30.6919617,
+          "lon": 103.9913553,
+          "transferLineIds": []
+        }
+      ],
+      "segments": [
+        [
+          "27-01",
+          "27-02",
+          "27-03",
+          "27-04",
+          "27-05",
+          "27-06",
+          "27-07",
+          "27-08",
+          "27-09",
+          "27-10",
+          "27-11",
+          "27-12",
+          "27-13",
+          "27-14",
+          "27-15",
+          "27-16",
+          "27-17",
+          "27-18",
+          "27-19",
+          "27-20",
+          "27-21",
+          "27-22"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "27-01",
+          "27-02",
+          "27-03",
+          "27-04",
+          "27-05",
+          "27-06",
+          "27-07",
+          "27-08",
+          "27-09",
+          "27-10",
+          "27-11",
+          "27-12",
+          "27-13",
+          "27-14",
+          "27-15",
+          "27-16",
+          "27-17",
+          "27-18",
+          "27-19",
+          "27-20",
+          "27-21",
+          "27-22"
+        ]
+      ]
+    },
+    {
+      "id": "CD-30",
+      "lineId": "30",
+      "lineName": "30号线",
+      "lineNameEn": "Line 30",
+      "color": "#F67599",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "30-01",
+          "stationId": "30-01",
+          "sequence": 1,
+          "nameZh": "龙泉驿火车站南",
+          "nameEn": "Longquanyi Railway Station South",
+          "target": "longquanyi railway station south",
+          "lat": 30.5957038,
+          "lon": 104.1940965,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-02",
+          "stationId": "30-02",
+          "sequence": 2,
+          "nameZh": "玉石",
+          "nameEn": "Yushi",
+          "target": "yushi",
+          "lat": 30.6149784,
+          "lon": 104.1647607,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-03",
+          "stationId": "30-03",
+          "sequence": 3,
+          "nameZh": "惠王陵",
+          "nameEn": "Huiwangling",
+          "target": "huiwangling",
+          "lat": 30.6144402,
+          "lon": 104.1497077,
+          "transferLineIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "30-04",
+          "stationId": "30-04",
+          "sequence": 4,
+          "nameZh": "航天立交",
+          "nameEn": "Hangtian Flyover",
+          "target": "hangtian flyover",
+          "lat": 30.6118348,
+          "lon": 104.1370319,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-05",
+          "stationId": "30-05",
+          "sequence": 5,
+          "nameZh": "海桐街",
+          "nameEn": "Haitong Street",
+          "target": "haitong street",
+          "lat": 30.6084152,
+          "lon": 104.1351827,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-06",
+          "stationId": "30-06",
+          "sequence": 6,
+          "nameZh": "娇子立交",
+          "nameEn": "Jiaozi Flyover",
+          "target": "jiaozi flyover",
+          "lat": 30.6023345,
+          "lon": 104.1261437,
+          "transferLineIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "30-07",
+          "stationId": "30-07",
+          "sequence": 7,
+          "nameZh": "锦逸",
+          "nameEn": "Jinyi",
+          "target": "jinyi",
+          "lat": 30.5981176,
+          "lon": 104.1113343,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-08",
+          "stationId": "30-08",
+          "sequence": 8,
+          "nameZh": "棬子树",
+          "nameEn": "Juanzishu",
+          "target": "juanzishu",
+          "lat": 30.5970109,
+          "lon": 104.1000702,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-09",
+          "stationId": "30-09",
+          "sequence": 9,
+          "nameZh": "金石路",
+          "nameEn": "Jinshi Road",
+          "target": "jinshi road",
+          "lat": 30.5926021,
+          "lon": 104.0865207,
+          "transferLineIds": [
+            "6"
+          ]
+        },
+        {
+          "id": "30-10",
+          "stationId": "30-10",
+          "sequence": 10,
+          "nameZh": "府城桥",
+          "nameEn": "Fucheng Bridge",
+          "target": "fucheng bridge",
+          "lat": 30.5912769,
+          "lon": 104.0731875,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-11",
+          "stationId": "30-11",
+          "sequence": 11,
+          "nameZh": "金融城北",
+          "nameEn": "Financial City North",
+          "target": "financial city north",
+          "lat": 30.5910068,
+          "lon": 104.0672093,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-12",
+          "stationId": "30-12",
+          "sequence": 12,
+          "nameZh": "益州大道",
+          "nameEn": "Yizhou Avenue",
+          "target": "yizhou avenue",
+          "lat": 30.6029693,
+          "lon": 104.057952,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-13",
+          "stationId": "30-13",
+          "sequence": 13,
+          "nameZh": "市一医院",
+          "nameEn": "Chengdu First People's Hospital",
+          "target": "chengdu first peoples hospital",
+          "lat": 30.5922415,
+          "lon": 104.0479365,
+          "transferLineIds": [
+            "5"
+          ]
+        },
+        {
+          "id": "30-14",
+          "stationId": "30-14",
+          "sequence": 14,
+          "nameZh": "新园大道",
+          "nameEn": "Xinyuan Avenue",
+          "target": "xinyuan avenue",
+          "lat": 30.5910326,
+          "lon": 104.0349603,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-15",
+          "stationId": "30-15",
+          "sequence": 15,
+          "nameZh": "石羊东",
+          "nameEn": "Shiyangdong",
+          "target": "shiyangdong",
+          "lat": 30.586455,
+          "lon": 104.0306541,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-16",
+          "stationId": "30-16",
+          "sequence": 16,
+          "nameZh": "大同",
+          "nameEn": "Datong",
+          "target": "datong",
+          "lat": 30.5752522,
+          "lon": 104.0146206,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-17",
+          "stationId": "30-17",
+          "sequence": 17,
+          "nameZh": "珠江路",
+          "nameEn": "Zhujiang Road",
+          "target": "zhujiang road",
+          "lat": 30.5689544,
+          "lon": 104.005467,
+          "transferLineIds": [
+            "8"
+          ]
+        },
+        {
+          "id": "30-18",
+          "stationId": "30-18",
+          "sequence": 18,
+          "nameZh": "谢家渡",
+          "nameEn": "Xiejiadu",
+          "target": "xiejiadu",
+          "lat": 30.5666351,
+          "lon": 103.9971821,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-19",
+          "stationId": "30-19",
+          "sequence": 19,
+          "nameZh": "光明",
+          "nameEn": "Guangming",
+          "target": "guangming",
+          "lat": 30.5642522,
+          "lon": 103.9842418,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-20",
+          "stationId": "30-20",
+          "sequence": 20,
+          "nameZh": "星月",
+          "nameEn": "Xingyue",
+          "target": "xingyue",
+          "lat": 30.5643567,
+          "lon": 103.9757093,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-21",
+          "stationId": "30-21",
+          "sequence": 21,
+          "nameZh": "寺圣",
+          "nameEn": "Sisheng",
+          "target": "sisheng",
+          "lat": 30.5629167,
+          "lon": 103.9673044,
+          "transferLineIds": []
+        },
+        {
+          "id": "30-22",
+          "stationId": "30-22",
+          "sequence": 22,
+          "nameZh": "双流机场2航站楼东",
+          "nameEn": "East of Terminal 2 of Shuangliu International Airport",
+          "target": "east of terminal 2 of shuangliu international airport",
+          "lat": 30.5717727,
+          "lon": 103.9556491,
+          "transferLineIds": [
+            "19"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "30-01",
+          "30-02",
+          "30-03",
+          "30-04",
+          "30-05",
+          "30-06",
+          "30-07",
+          "30-08",
+          "30-09",
+          "30-10",
+          "30-11",
+          "30-12",
+          "30-13",
+          "30-14",
+          "30-15",
+          "30-16",
+          "30-17",
+          "30-18",
+          "30-19",
+          "30-20",
+          "30-21",
+          "30-22"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "30-01",
+          "30-02",
+          "30-03",
+          "30-04",
+          "30-05",
+          "30-06",
+          "30-07",
+          "30-08",
+          "30-09",
+          "30-10",
+          "30-11",
+          "30-12",
+          "30-13",
+          "30-14",
+          "30-15",
+          "30-16",
+          "30-17",
+          "30-18",
+          "30-19",
+          "30-20",
+          "30-21",
+          "30-22"
+        ]
+      ]
+    },
+    {
+      "id": "CD-S3",
+      "lineId": "S3",
+      "lineName": "S3资阳线",
+      "lineNameEn": "S3 Ziyang Line",
+      "color": "#9D9D9E",
+      "operatorName": "成都地铁",
+      "stations": [
+        {
+          "id": "S3-01",
+          "stationId": "S3-01",
+          "sequence": 1,
+          "nameZh": "资阳北站",
+          "nameEn": "Ziyang North Railway Station",
+          "target": "ziyang north railway station",
+          "lat": 30.1294604,
+          "lon": 104.6785458,
+          "transferLineIds": []
+        },
+        {
+          "id": "S3-02",
+          "stationId": "S3-02",
+          "sequence": 2,
+          "nameZh": "宝台",
+          "nameEn": "Baotai",
+          "target": "baotai",
+          "lat": 30.1167704,
+          "lon": 104.6712633,
+          "transferLineIds": []
+        },
+        {
+          "id": "S3-03",
+          "stationId": "S3-03",
+          "sequence": 3,
+          "nameZh": "苌弘广场",
+          "nameEn": "Changhong Square",
+          "target": "changhong square",
+          "lat": 30.1119242,
+          "lon": 104.6482143,
+          "transferLineIds": []
+        },
+        {
+          "id": "S3-04",
+          "stationId": "S3-04",
+          "sequence": 4,
+          "nameZh": "幸福大道",
+          "nameEn": "Xingfu Avenue",
+          "target": "xingfu avenue",
+          "lat": 30.1301549,
+          "lon": 104.6192895,
+          "transferLineIds": []
+        },
+        {
+          "id": "S3-05",
+          "stationId": "S3-05",
+          "sequence": 5,
+          "nameZh": "资阳临空",
+          "nameEn": "Ziyang Airport Economic Zone",
+          "target": "ziyang airport economic zone",
+          "lat": 30.1757467,
+          "lon": 104.582575,
+          "transferLineIds": []
+        },
+        {
+          "id": "S3-06",
+          "stationId": "S3-06",
+          "sequence": 6,
+          "nameZh": "福田",
+          "nameEn": "Futian",
+          "target": "futian",
+          "lat": 30.2807738,
+          "lon": 104.3848546,
+          "transferLineIds": [
+            "18",
+            "19"
+          ]
+        }
+      ],
+      "segments": [
+        [
+          "S3-01",
+          "S3-02",
+          "S3-03",
+          "S3-04",
+          "S3-05",
+          "S3-06"
+        ]
+      ],
+      "mapSegments": [
+        [
+          "S3-01",
+          "S3-02",
+          "S3-03",
+          "S3-04",
+          "S3-05",
+          "S3-06"
+        ]
+      ]
+    }
+  ]
+}

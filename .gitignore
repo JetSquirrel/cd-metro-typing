@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+!.env.example
+data/raw/
+*.log
+.vite
+tools/audio/.venv/
+tools/audio/__pycache__/
+*.pyc
+.qwen-tts-cache/
+.cursor/
+.wrangler/

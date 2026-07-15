@@ -1,0 +1,181 @@
+{
+  "generatedFor": "cd-metro-typing",
+  "asOf": "2026-07-15",
+  "operatorName": "成都地铁",
+  "operatorNameEn": "Chengdu Metro",
+  "includedLineRefs": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "13", "17", "18", "19", "27", "30", "S3"],
+  "excludedNetworks": ["蓉2号线", "有轨电车"],
+  "lineColors": {
+    "1": "#10069F",
+    "2": "#FF5C39",
+    "3": "#D40F7D",
+    "4": "#44AF52",
+    "5": "#BB29BB",
+    "6": "#B36924",
+    "7": "#6AD1E3",
+    "8": "#88DD00",
+    "9": "#FFB81C",
+    "10": "#003DA5",
+    "13": "#C5A900",
+    "17": "#80E0A7",
+    "18": "#006272",
+    "19": "#5C88DB",
+    "27": "#E87722",
+    "30": "#F67599",
+    "S3": "#9D9D9E"
+  },
+  "lineNames": {
+    "1": { "zh": "1号线", "en": "Line 1" },
+    "2": { "zh": "2号线", "en": "Line 2" },
+    "3": { "zh": "3号线", "en": "Line 3" },
+    "4": { "zh": "4号线", "en": "Line 4" },
+    "5": { "zh": "5号线", "en": "Line 5" },
+    "6": { "zh": "6号线", "en": "Line 6" },
+    "7": { "zh": "7号线", "en": "Line 7" },
+    "8": { "zh": "8号线", "en": "Line 8" },
+    "9": { "zh": "9号线", "en": "Line 9" },
+    "10": { "zh": "10号线", "en": "Line 10" },
+    "13": { "zh": "13号线", "en": "Line 13" },
+    "17": { "zh": "17号线", "en": "Line 17" },
+    "18": { "zh": "18号线", "en": "Line 18" },
+    "19": { "zh": "19号线", "en": "Line 19" },
+    "27": { "zh": "27号线", "en": "Line 27" },
+    "30": { "zh": "30号线", "en": "Line 30" },
+    "S3": { "zh": "S3资阳线", "en": "S3 Ziyang Line" }
+  },
+  "deferredStationNamesZh": ["玉虹路", "分水", "白仁店", "芦葭"],
+  "manualLines": {
+    "13": {
+      "color": "#C5A900",
+      "runs": [
+        {
+          "id": "13-main",
+          "labelZh": "龙安 → 瓦窑滩",
+          "labelEn": "Long'an → Wayaotan",
+          "stations": [
+            { "zh": "龙安", "en": "Long'an", "code": "1301" },
+            { "zh": "龙华寺", "en": "Longhuasi", "code": "1302" },
+            { "zh": "三圣花乡", "en": "Sansheng Flower Town", "code": "1303" },
+            { "zh": "幸福梅林", "en": "Xingfu Meilin", "code": "1304" },
+            { "zh": "娇子立交", "en": "Jiaozi Flyover", "code": "1305" },
+            { "zh": "四川师大", "en": "Sichuan Normal University", "code": "1306" },
+            { "zh": "净居寺", "en": "Jingjusi", "code": "1307" },
+            { "zh": "三官堂", "en": "Sanguantang", "code": "1308" },
+            { "zh": "九眼桥", "en": "Jiuyan Bridge", "code": "1309" },
+            { "zh": "新南门", "en": "Xinnanmen", "code": "1310" },
+            { "zh": "华西坝", "en": "Huaxiba", "code": "1311" },
+            { "zh": "文翁石室", "en": "Wenweng Shishi", "code": "1312" },
+            { "zh": "小南街", "en": "Xiaonan Street", "code": "1313" },
+            { "zh": "青羊宫", "en": "Qingyang Taoist Temple", "code": "1314" },
+            { "zh": "杜甫草堂", "en": "Du Fu Thatched Cottage", "code": "1315" },
+            { "zh": "光华村", "en": "Guanghuacun", "code": "1316" },
+            { "zh": "东坡路", "en": "Dongpo Road", "code": "1317" },
+            { "zh": "万寿桥", "en": "Wanshou Bridge", "code": "1318" },
+            { "zh": "培风", "en": "Peifeng", "code": "1319" },
+            { "zh": "万家湾", "en": "Wanjiawan", "code": "1320" },
+            { "zh": "瓦窑滩", "en": "Wayaotan", "code": "1321" }
+          ]
+        }
+      ]
+    },
+    "27": {
+      "color": "#E87722",
+      "runs": [
+        {
+          "id": "27-main",
+          "labelZh": "石佛 → 蜀鑫路",
+          "labelEn": "Shifo → Shuxin Road",
+          "stations": [
+            { "zh": "石佛", "en": "Shifo", "code": "2701" },
+            { "zh": "慈义", "en": "Ciyi", "code": "2702" },
+            { "zh": "兴城大道", "en": "Xingcheng Avenue", "code": "2703" },
+            { "zh": "旃檀寺", "en": "Zhantan Temple", "code": "2704" },
+            { "zh": "石门坎", "en": "Shimenkan", "code": "2705" },
+            { "zh": "三圣寺", "en": "Sanshengsi", "code": "2706" },
+            { "zh": "范家巷", "en": "Fanjia Alley", "code": "2707" },
+            { "zh": "鲤鱼湾", "en": "Liyuwan", "code": "2708" },
+            { "zh": "赖家店", "en": "Laijiadian", "code": "2710" },
+            { "zh": "韦家碾", "en": "Weijianian", "code": "2711" },
+            { "zh": "双水碾", "en": "Shuangshuinian", "code": "2712" },
+            { "zh": "王贾桥", "en": "Wangjiaqiao", "code": "2713" },
+            { "zh": "洞子口", "en": "Dongzikou", "code": "2714" },
+            { "zh": "沙河源", "en": "Shaheyuan", "code": "2715" },
+            { "zh": "新桥", "en": "Xinqiao", "code": "2716" },
+            { "zh": "金府", "en": "Jinfu", "code": "2717" },
+            { "zh": "花照壁北", "en": "Huazhaobi North", "code": "2718" },
+            { "zh": "金牛公园", "en": "Jinniu Park", "code": "2719" },
+            { "zh": "羊犀立交", "en": "Yangxi Flyover", "code": "2720" },
+            { "zh": "黄忠", "en": "Huangzhong", "code": "2721" },
+            { "zh": "金沙滨河公园", "en": "Jinsha Binhe Park", "code": "2722" },
+            { "zh": "蜀鑫路", "en": "Shuxin Road", "code": "2723" }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "color": "#F67599",
+      "runs": [
+        {
+          "id": "30-main",
+          "labelZh": "龙泉驿火车站南 → 双流机场2航站楼东",
+          "labelEn": "Longquanyi Railway Station South → Shuangliu Airport T2 East",
+          "stations": [
+            { "zh": "龙泉驿火车站南", "en": "Longquanyi Railway Station South", "code": "3001" },
+            { "zh": "玉石", "en": "Yushi", "code": "3004" },
+            { "zh": "惠王陵", "en": "Huiwangling", "code": "3005" },
+            { "zh": "航天立交", "en": "Hangtian Flyover", "code": "3006" },
+            { "zh": "海桐街", "en": "Haitong Street", "code": "3007" },
+            { "zh": "娇子立交", "en": "Jiaozi Flyover", "code": "3008" },
+            { "zh": "锦逸", "en": "Jinyi", "code": "3009" },
+            { "zh": "棬子树", "en": "Juanzishu", "code": "3010" },
+            { "zh": "金石路", "en": "Jinshi Road", "code": "3011" },
+            { "zh": "府城桥", "en": "Fucheng Bridge", "code": "3012" },
+            { "zh": "金融城北", "en": "Financial City North", "code": "3013" },
+            { "zh": "益州大道", "en": "Yizhou Avenue", "code": "3014" },
+            { "zh": "市一医院", "en": "Chengdu First People's Hospital", "code": "3015" },
+            { "zh": "新园大道", "en": "Xinyuan Avenue", "code": "3016" },
+            { "zh": "石羊东", "en": "Shiyangdong", "code": "3017" },
+            { "zh": "大同", "en": "Datong", "code": "3018" },
+            { "zh": "珠江路", "en": "Zhujiang Road", "code": "3019" },
+            { "zh": "谢家渡", "en": "Xiejiadu", "code": "3020" },
+            { "zh": "光明", "en": "Guangming", "code": "3021" },
+            { "zh": "星月", "en": "Xingyue", "code": "3022" },
+            { "zh": "寺圣", "en": "Sisheng", "code": "3023" },
+            {
+              "zh": "双流机场2航站楼东",
+              "en": "East of Terminal 2 of Shuangliu International Airport",
+              "code": "3024"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "stationCoordinates": {
+    "大同": {
+      "lat": 30.5752522,
+      "lon": 104.0146206,
+      "note": "OSM node 13380485925 (Chengdu Metro Line 30); Nominatim hits 青白江区大同街道"
+    }
+  },
+  "nameOverrides": {
+    "中医大省医院": {
+      "en": "Chengdu University of TCM & Sichuan Provincial People's Hospital"
+    },
+    "双流机场2航站楼": {
+      "en": "Terminal 2 of Shuangliu International Airport"
+    },
+    "双流机场1航站楼": {
+      "en": "Terminal 1 of Shuangliu International Airport"
+    },
+    "天府机场1号2号航站楼": {
+      "en": "Terminals 1 & 2 of Tianfu International Airport"
+    }
+  },
+  "stationAliases": {
+    "中医大·省医院": "中医大省医院",
+    "省体育馆": "省体育馆"
+  },
+  "expressRouteKeywords": ["快线", "Express", "express"],
+  "preferDirectionKeywords": ["=>", "→", "往"]
+}

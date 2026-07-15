@@ -1,0 +1,7 @@
+node_modules
+dist
+data/raw
+public/audio/**/*.wav
+public/audio/**/*.opus
+tools/audio/.venv
+*.log
