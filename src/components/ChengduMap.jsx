@@ -23,7 +23,8 @@ export default memo(function ChengduMap({ mapModel, selectedLineId, onSelect }) 
     const maxSegments = Math.max(
       ...mapModel.lines.map((line) => Math.max(line.polylines?.length || 1, 1)),
     );
-    const introDuration = (0.25 + mapModel.lines.length * 0.1 + maxSegments * 0.35 + 1.6) * 1000;
+    // Keep intro short even with 17 lines: overlap draws, avoid long serial waits.
+    const introDuration = (0.12 + mapModel.lines.length * 0.045 + maxSegments * 0.18 + 0.85) * 1000;
     const timer = setTimeout(() => setIntro(false), introDuration);
     return () => clearTimeout(timer);
   }, [mapModel]);
@@ -92,7 +93,7 @@ export default memo(function ChengduMap({ mapModel, selectedLineId, onSelect }) 
       <g className="home-routes">
         {(mapModel.lines || []).map((line, routeIndex) => {
           const selected = line.lineId === selectedLineId;
-          const routeDelay = 0.25 + routeIndex * 0.1;
+          const routeDelay = 0.12 + routeIndex * 0.045;
           const nodes = (line.stations || [])
             .filter((station) => station.x != null && station.y != null)
             .map((station) => [station.x, station.y]);
@@ -118,7 +119,7 @@ export default memo(function ChengduMap({ mapModel, selectedLineId, onSelect }) 
                   <g
                     key={`${line.lineId}-${index}`}
                     style={{
-                      "--seg-delay": `${(routeDelay + index * 0.35).toFixed(2)}s`,
+                      "--seg-delay": `${(routeDelay + index * 0.18).toFixed(2)}s`,
                     }}
                   >
                     <polyline className="home-route-hit" points={points} />
@@ -134,7 +135,7 @@ export default memo(function ChengduMap({ mapModel, selectedLineId, onSelect }) 
               })}
               {selected
                 ? nodes.map(([x, y], index) => (
-                    <circle key={index} className="home-route-node" cx={x} cy={y} r="3.1" />
+                    <circle key={index} className="home-route-node" cx={x} cy={y} r="3.6" />
                   ))
                 : null}
             </g>

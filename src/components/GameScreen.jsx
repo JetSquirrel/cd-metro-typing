@@ -1,10 +1,16 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import MetroMap from "./MetroMap.jsx";
-import { getTypingTarget } from "../lib/typing.js";
+import { getMatchedTypingLength, getTypingTarget } from "../lib/typing.js";
 
 function formatSeconds(total) {
   return Math.max(0, Math.floor(total));
 }
+
+const VOICE_STATUS = {
+  off: { label: "报站关闭", detail: "静音" },
+  mandarin: { label: "普通话报站", detail: "普通话" },
+  sichuan: { label: "四川话报站·测试", detail: "四川话·测试" },
+};
 
 export default function GameScreen({
   mapModel,
@@ -15,6 +21,7 @@ export default function GameScreen({
   typedBuffer,
   composing,
   typingLanguage,
+  voice = "off",
   remainingMs,
   elapsedMs,
   cpm,
@@ -26,13 +33,15 @@ export default function GameScreen({
 }) {
   const station = stations[stationIndex];
   const next = stations[stationIndex + 1] ?? null;
+  const destination = stations[stations.length - 1] ?? null;
   const target = getTypingTarget(station, typingLanguage);
   const targetCharacters = [...(target || "")];
-  const typedCharacters = composing ? [] : [...(typedBuffer || "")];
-  const typedIndex = composing ? 0 : Math.min(typedCharacters.length, targetCharacters.length);
+  const matchedLength = composing ? 0 : getMatchedTypingLength(target, typedBuffer, typingLanguage);
+  const typedIndex = Math.min(matchedLength, targetCharacters.length);
   const trainProgress = targetCharacters.length ? typedIndex / targetCharacters.length : 0;
   const isChinese = typingLanguage === "zh";
   const compositionText = composing ? typedBuffer : "";
+  const voiceStatus = VOICE_STATUS[voice] || VOICE_STATUS.off;
   const timeValue =
     mode === "timed"
       ? formatSeconds((remainingMs ?? 0) / 1000)
@@ -43,7 +52,10 @@ export default function GameScreen({
   return (
     <section className="game" style={{ "--active-route": line.color }}>
       <p className="screen-reader-status" aria-live="polite" aria-atomic="true">
-        目前车站 {station.nameZh}，请输入 {isChinese ? station.nameZh : station.nameEn}
+        当前到站 {station.nameZh}
+        {station.nameEn ? `，${station.nameEn}` : ""}。请输入{" "}
+        {isChinese ? station.nameZh : station.nameEn}
+        {composing ? "。正在选字" : ""}。报站：{voiceStatus.label}
       </p>
       <MetroMap
         mapModel={mapModel}
@@ -56,8 +68,16 @@ export default function GameScreen({
         <button className="back-button" type="button" onClick={onBack}>
           <ArrowLeft size={15} /> 返回选线 <kbd>ESC</kbd>
         </button>
-        <div className="route-pill" style={{ background: line.color }}>
-          {line.lineName} · 往 {stations[stations.length - 1]?.nameZh}
+        <div className="game-chrome-end">
+          <span
+            className={`voice-chip${voice === "sichuan" ? " is-test" : ""}`}
+            title={voiceStatus.label}
+          >
+            {voiceStatus.detail}
+          </span>
+          <div className="route-pill" style={{ background: line.color }}>
+            {line.lineName} · 开往 {destination?.nameZh || "终点"}
+          </div>
         </div>
       </div>
       <div className="scorebar">
@@ -71,7 +91,7 @@ export default function GameScreen({
           <span>{String(stationIndex + 1).padStart(2, "0")}</span>
           <span>
             {station.transferLineIds?.length
-              ? `换乘 ${station.transferLineIds
+              ? `可换乘 ${station.transferLineIds
                   .map((id) =>
                     String(id).toUpperCase().startsWith("S") ? String(id) : `${id}号线`,
                   )
@@ -81,12 +101,17 @@ export default function GameScreen({
         </div>
         <div className="station-main">
           <div>
-            <p>NOW ARRIVING</p>
+            <p className="arrive-kicker">
+              当前到站 <small>Now arriving</small>
+            </p>
             <h2>{station.nameZh}</h2>
+            <p className="station-en">{station.nameEn}</p>
+            {destination ? <p className="bound-for">本次列车开往 {destination.nameZh}</p> : null}
           </div>
           <div className={`next-station${next ? "" : " is-terminal"}`}>
             <span>{next ? "下一站" : "终点站"}</span>
             <strong>{next?.nameZh ?? "本线终点"}</strong>
+            {next?.nameEn ? <em>{next.nameEn}</em> : null}
             {next ? (
               <b>
                 <ArrowRight size={22} />
@@ -121,7 +146,7 @@ export default function GameScreen({
                   选字中 · <strong>{compositionText}</strong>
                 </>
               ) : (
-                "使用输入法选字"
+                "使用中文输入法选字后上屏"
               )}
             </p>
           ) : (

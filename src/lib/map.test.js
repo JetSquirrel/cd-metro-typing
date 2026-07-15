@@ -6,8 +6,10 @@ import {
   getLineRuns,
   getPlayableStations,
   getRouteViewBox,
+  getRouteViewBoxArray,
   pointsToString,
   buildMapModel,
+  MAP_VIEWBOX,
 } from "./map.js";
 
 const sampleLine = {
@@ -130,6 +132,22 @@ describe("pointsToString / getRouteViewBox", () => {
     assert.equal(box.minY, 190);
     assert.equal(box.width, 60);
     assert.equal(box.height, 80);
+  });
+
+  it("builds a focused viewBox array tighter than the city frame", () => {
+    const focused = getRouteViewBoxArray(
+      [
+        [120, 180],
+        [160, 220],
+      ],
+      12,
+      24,
+    );
+    assert.equal(focused.length, 4);
+    assert.ok(focused[2] < MAP_VIEWBOX[2], "focused width should be smaller than city map");
+    assert.ok(focused[3] < MAP_VIEWBOX[3], "focused height should be smaller than city map");
+    assert.ok(focused[0] <= 120 - 12);
+    assert.ok(focused[1] <= 180 - 12);
   });
 });
 

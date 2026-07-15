@@ -15,14 +15,15 @@ export function buildAnnouncementText(station, lineNameById = new Map()) {
 /**
  * Resolve clip path from voice pack manifest.
  * Manifest entry may be a string path or { path | file | url }.
- * Keys tried: stationId, id, nameZh, nameEn.
+ * Prefer stationId / id so transfer hubs do not reuse another line's clip.
+ * Fallback order: stationId → id → nameZh → nameEn.
  */
 export function resolveClipPath(manifest, voice, station) {
   if (!manifest || !voice || voice === "off" || !station) return null;
   const pack = manifest.voices?.[voice];
   if (!pack || typeof pack !== "object") return null;
 
-  const keys = [station.nameZh, station.stationId, station.id, station.nameEn]
+  const keys = [station.stationId, station.id, station.nameZh, station.nameEn]
     .filter(Boolean)
     .map(String);
 

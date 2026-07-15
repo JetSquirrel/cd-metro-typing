@@ -332,7 +332,11 @@ export default function App() {
       {showSiteChrome ? (
         <header className="topbar">
           <button className="brand" type="button" onClick={backToHome} aria-label="回到首页">
-            <span>CHENGDU METRO TYPING</span>
+            <span className="brand-mark" aria-hidden="true" />
+            <span className="brand-text">
+              <strong>成都地铁打字</strong>
+              <small>Chengdu Metro Typing</small>
+            </span>
           </button>
           <div className="top-actions">
             <button
@@ -364,6 +368,7 @@ export default function App() {
             cpm={cpm}
             wpm={wpm}
             accuracy={accuracy}
+            voice={voice}
             shake={shake}
             onBack={() => {
               announcement.stop();
@@ -414,7 +419,7 @@ export default function App() {
       {showSiteChrome ? (
         <footer>
           <div className="footer-brand">
-            <span className="footer-wordmark">CHENGDU METRO TYPING</span>
+            <span className="footer-wordmark">成都地铁打字</span>
             <div className="footer-lines" aria-hidden="true">
               {lines.slice(0, 8).map((line) => (
                 <i key={line.lineId} style={{ background: line.color }} />
@@ -423,10 +428,10 @@ export default function App() {
           </div>
           <div className="footer-meta">
             <span>
-              <span className="footer-label">OSM</span>
-              真实线网站位 · 中英文站名
+              <span className="footer-label">蓉城</span>
+              真实线网 · 双语站名 · 合成报站
             </span>
-            <span>普通话 / 四川话报站可选</span>
+            <span>四川话报站为测试片段，非官方录音</span>
           </div>
         </footer>
       ) : null}

@@ -49,3 +49,22 @@ export function isTypingTargetComplete(target, committed, typingLanguage = "en")
   if (typingLanguage === "zh") return left === right;
   return left.toLocaleLowerCase("en") === right.toLocaleLowerCase("en");
 }
+
+/**
+ * Length of the correct prefix of committed input.
+ * Wrong characters do not count toward train / progress advancement.
+ */
+export function getMatchedTypingLength(target, committed, typingLanguage = "en") {
+  if (!target) return 0;
+  const targetChars = [...String(target)];
+  const typedChars = [...String(committed ?? "")];
+  let matched = 0;
+  while (
+    matched < typedChars.length &&
+    matched < targetChars.length &&
+    isTypingCharacterMatch(targetChars[matched], typedChars[matched], typingLanguage)
+  ) {
+    matched += 1;
+  }
+  return matched;
+}

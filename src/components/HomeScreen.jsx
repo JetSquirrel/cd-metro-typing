@@ -3,8 +3,8 @@ import ChengduMap from "./ChengduMap.jsx";
 import { getLineRuns, getPlayableStations } from "../lib/map.js";
 
 const LANGUAGE_OPTIONS = [
-  { value: "en", label: "英文" },
   { value: "zh", label: "中文" },
+  { value: "en", label: "英文" },
 ];
 
 const GAME_MODE_OPTIONS = [
@@ -15,7 +15,7 @@ const GAME_MODE_OPTIONS = [
 const VOICE_OPTIONS = [
   { value: "off", label: "静音" },
   { value: "mandarin", label: "普通话" },
-  { value: "sichuan", label: "四川话" },
+  { value: "sichuan", label: "四川话·测试" },
 ];
 
 export default function HomeScreen({
@@ -48,6 +48,18 @@ export default function HomeScreen({
 
   return (
     <section className={`home-map-screen${selectedLine ? " focused" : ""}`}>
+      <div className="solar-motif" aria-hidden="true">
+        <i className="solar-ring solar-ring-a" />
+        <i className="solar-ring solar-ring-b" />
+        <i className="solar-ring solar-ring-c" />
+        <i className="solar-ray solar-ray-1" />
+        <i className="solar-ray solar-ray-2" />
+        <i className="solar-ray solar-ray-3" />
+        <i className="solar-ray solar-ray-4" />
+        <i className="solar-ray solar-ray-5" />
+        <i className="solar-ray solar-ray-6" />
+      </div>
+
       {loading ? (
         <div className="loading">
           <span />
@@ -68,20 +80,20 @@ export default function HomeScreen({
 
       <div className="home-copy" aria-hidden={selectedLine ? "true" : undefined}>
         <div className="eyebrow">
-          <span /> REAL ROUTES · REAL STATIONS
+          <span /> 真实线网 · 蓉城站名
         </div>
         <h1>
-          一站一站，<em>越打越顺。</em>
+          沿着成都，<em>打一站是一站。</em>
         </h1>
         <p className="lede">
-          在真实成都地图上选择线路，沿着精确站位完成中文或英文站名。每打对一站，列车就往下一站前进。
+          从金星到天府机场，从龙泉驿到温江——在真实线网里选一条路，把站名一站一站敲过去。列车只跟着对的字前进。
         </p>
         <div className="home-instruction">
           <b>01</b>
-          <span>从地图或下方路线列选择线路</span>
+          <span>选条线路，再开始这趟</span>
         </div>
         <span className="data-status">
-          {lines.length} 条线路 · {stationCount} 笔站位坐标
+          {lines.length} 条线路 · {stationCount} 个站位
         </span>
       </div>
 
@@ -91,7 +103,7 @@ export default function HomeScreen({
             <ArrowLeft size={15} /> 返回成都全图 <kbd>ESC</kbd>
           </button>
           <div className="route-focus-card" aria-live="polite">
-            <span className="focus-kicker">SELECTED ROUTE</span>
+            <span className="focus-kicker">已选线路</span>
             <div className="focus-route-title">
               <span className="focus-line-code" style={{ "--focus-color": selectedLine.color }}>
                 {selectedLine.lineId}
@@ -108,12 +120,14 @@ export default function HomeScreen({
       ) : null}
 
       <div className="home-control-deck">
-        <div className="route-carousel" aria-label="可选择的地铁线路">
+        <div className="route-carousel" role="listbox" aria-label="选条线路">
           {lines.map((line) => (
             <button
               key={line.lineId}
               className={`route-button${selectedLine?.lineId === line.lineId ? " selected" : ""}`}
               type="button"
+              role="option"
+              aria-selected={selectedLine?.lineId === line.lineId}
               style={{ "--route": line.color }}
               onClick={() => onSelectLine(line.lineId)}
             >
@@ -188,12 +202,15 @@ export default function HomeScreen({
                 options={VOICE_OPTIONS}
               />
               <button className="start-button" type="button" onClick={onStart}>
-                <span>开始这趟练习</span>
+                <span>开始这趟</span>
                 <b>
                   <ArrowRight size={20} />
                 </b>
               </button>
             </div>
+            {voice === "sichuan" ? (
+              <p className="voice-test-note">四川话报站仍为测试片段，覆盖不全。</p>
+            ) : null}
           </div>
         ) : null}
       </div>

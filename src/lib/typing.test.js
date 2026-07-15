@@ -6,6 +6,7 @@ import {
   normalizeCommittedText,
   isTypingCharacterMatch,
   isTypingTargetComplete,
+  getMatchedTypingLength,
 } from "./typing.js";
 
 describe("TYPING_LANGUAGES", () => {
@@ -66,5 +67,18 @@ describe("isTypingTargetComplete", () => {
   it("completes Chinese exactly after normalize", () => {
     assert.equal(isTypingTargetComplete("天府广场", "天府广场", "zh"), true);
     assert.equal(isTypingTargetComplete("天府广场", "天府广", "zh"), false);
+  });
+});
+
+describe("getMatchedTypingLength", () => {
+  it("stops before the first wrong character so train progress does not advance", () => {
+    assert.equal(getMatchedTypingLength("天府广场", "天府", "zh"), 2);
+    assert.equal(getMatchedTypingLength("天府广场", "天府路", "zh"), 2);
+    assert.equal(getMatchedTypingLength("Tianfu", "Tiax", "en"), 3);
+  });
+
+  it("counts a full correct prefix", () => {
+    assert.equal(getMatchedTypingLength("春熙路", "春熙路", "zh"), 3);
+    assert.equal(getMatchedTypingLength("ABC", "abc", "en"), 3);
   });
 });

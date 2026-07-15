@@ -1,17 +1,17 @@
 # Chengdu Metro Typing · 成都地铁打字
 
-在真实成都地图上选择地铁线路，沿着精确站位练习**中文 / 英文站名**打字。到站时可播放**普通话**或**四川话**（合成）报站。
+在真实成都地图上选择地铁线路，沿着精确站位练习**中文 / 英文站名**打字。到站时可播放**普通话**或**四川话（测试）**合成报站。
 
-> 独立作品，交互灵感来自台湾捷运打字练习类应用；本仓库为 clean-room 实现，未复制其源码。
+视觉与交互布局衍生自 [ridemountainpig/tw-metro-typing](https://github.com/ridemountainpig/tw-metro-typing) 的地图优先结构；本仓库以成都线网、双语站名与城市导视风格重新实现内容与样式，并保留本地数据管线与报站能力。详见 [`NOTICE.md`](NOTICE.md)。
 
 ## Features
 
 - 17 条运营线路：1–10、13、17–19、27、30、S3（不含有轨电车蓉 2）
 - 真实 WGS-84 站位与区间（OpenStreetMap）
 - 计时 30 秒 / 整条线路两种模式
-- 中英文输入（中文支持 IME 组字）
-- 到站播报：静音 / 普通话 / 四川话
-- 浅色 / 深色主题
+- 中英文输入（中文支持 IME 选字；错误字符不推动列车）
+- 到站播报：静音 / 普通话 / 四川话（测试片段）
+- 成都城市导视浅色 / 深色主题
 
 ## Quick start
 
@@ -30,12 +30,12 @@ npm run build
 
 ## Data pipeline
 
-| Command | Purpose |
-| --- | --- |
-| `npm run data:fetch` | Snapshot OSM network + route_master + full routes via `api.openstreetmap.org` |
-| `npm run data:build` | Merge OSM + [`data/manual-overrides.json`](data/manual-overrides.json) → `public/data/chengdu-metro.json` + districts TopoJSON |
-| `npm run data:validate` | Fail on missing lines/coords/names, deferred stations, bad segments |
-| `npm run data:refresh` | fetch → build → validate |
+| Command                 | Purpose                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `npm run data:fetch`    | Snapshot OSM network + route_master + full routes via `api.openstreetmap.org`                                                  |
+| `npm run data:build`    | Merge OSM + [`data/manual-overrides.json`](data/manual-overrides.json) → `public/data/chengdu-metro.json` + districts TopoJSON |
+| `npm run data:validate` | Fail on missing lines/coords/names, deferred stations, bad segments                                                            |
+| `npm run data:refresh`  | fetch → build → validate                                                                                                       |
 
 **Provenance**
 
@@ -51,7 +51,7 @@ Snapshot date is recorded in `public/data/chengdu-metro.json` (`asOf` / `generat
 
 Scripts live in [`audio/scripts.json`](audio/scripts.json):
 
-> 前方到站，{站名}。换乘站：{线路列表}。
+> 前方到站，{站名}。可换乘{线路}。
 
 Build-time synthesis uses [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) (Apache-2.0):
 
@@ -72,25 +72,21 @@ npm run audio:placeholder       # silent stubs for UI wiring
 tools/audio/.venv/bin/python tools/audio/generate_qwen_tts.py --limit 10 --voice sichuan --skip-existing
 ```
 
-Clips are stored under `public/audio/{mandarin,sichuan}/` with `public/audio/manifest.json`.
+Clips are stored under `public/audio/{mandarin,sichuan}/` with `public/audio/manifest.json`. Playback resolves clips by **stationId** first so transfer hubs do not reuse another line's audio.
 
-Current pack status (paused to spare the machine):
+Current pack status:
 
-- **普通话**: nearly full Qwen3-TTS render (~361/362)
-- **四川话**: 5 real Eric samples + silent placeholders for the rest
+- **普通话**: nearly full Qwen3-TTS render
+- **四川话**: mostly placeholders / sample clips — UI 标注为「测试」，勿对外承诺完整覆盖
 
 Resume later without redoing finished files:
 
 ```bash
 export QWEN_TTS_MODEL=~/.cache/huggingface/hub/models--Qwen--Qwen3-TTS-12Hz-0.6B-CustomVoice/snapshots/<hash>
 PYTHONUNBUFFERED=1 npm run audio:generate -- --voice sichuan --skip-existing
-# optional: finish any remaining Mandarin
-PYTHONUNBUFFERED=1 npm run audio:generate -- --voice mandarin --skip-existing
 ```
 
-**Important:** these are **synthetic / unofficial** announcements, not Chengdu Metro onboard audio. Do not present them as official broadcasts. Polyphonic / local pronunciations should be reviewed by a Sichuan speaker before public release.
-
-Optional: install `ffmpeg` to emit Opus instead of WAV.
+**Important:** these are **synthetic / unofficial** announcements, not Chengdu Metro onboard audio. Do not present them as official broadcasts.
 
 ## Project layout
 

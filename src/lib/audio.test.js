@@ -24,13 +24,22 @@ describe("resolveClipPath", () => {
       sichuan: {
         天府广场: { path: "/audio/sichuan/1-07.wav" },
         "1-07": { path: "/audio/sichuan/1-07.wav" },
+        "2-12": { path: "/audio/sichuan/2-12.wav" },
       },
     },
   };
 
-  it("resolves by Chinese name across lines", () => {
+  it("prefers stationId over shared Chinese name at transfer hubs", () => {
     const path = resolveClipPath(manifest, "sichuan", {
       stationId: "2-12",
+      nameZh: "天府广场",
+    });
+    assert.equal(path, "/audio/sichuan/2-12.wav");
+  });
+
+  it("falls back to Chinese name when stationId missing from pack", () => {
+    const path = resolveClipPath(manifest, "sichuan", {
+      stationId: "7-99",
       nameZh: "天府广场",
     });
     assert.equal(path, "/audio/sichuan/1-07.wav");

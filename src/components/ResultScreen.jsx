@@ -14,14 +14,15 @@ export default function ResultScreen({
   const elapsed = Math.max(0, Math.floor((elapsedMs || 0) / 1000));
   const speed = typingLanguage === "zh" ? cpm : wpm;
   const speedUnit = typingLanguage === "zh" ? "CPM" : "WPM";
+  const smooth = accuracy >= 95;
 
   return (
     <section className="results" style={{ "--result-route": routeColor }}>
       <div className="result-card">
-        <span className="result-kicker">JOURNEY COMPLETE</span>
-        <h2>这班车，跑得很顺。</h2>
+        <span className="result-kicker">稳稳到站</span>
+        <h2>{smooth ? "这趟跑得很顺。" : "这趟到站了。"}</h2>
         <p>
-          你在 {elapsed} 秒内通过了 {stationsCompleted} 个车站。
+          用时 {elapsed} 秒，走过 {stationsCompleted} 站。
         </p>
         <div className="result-metrics">
           <div>
@@ -39,10 +40,10 @@ export default function ResultScreen({
         </div>
         <div className="result-actions">
           <button className="secondary-button" type="button" onClick={onBack}>
-            重新选线
+            返回成都全图
           </button>
           <button className="start-button" type="button" onClick={onRetry}>
-            <span>再跑一次</span>
+            <span>再跑一趟</span>
             <b>
               <RotateCcw size={19} />
             </b>
