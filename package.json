@@ -10,7 +10,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && node scripts/write-assetsignore.mjs && wrangler deploy",
     "test": "node --test src/**/*.test.js scripts/**/*.test.mjs",
     "format": "prettier --write .",
     "data:fetch": "node scripts/fetch-osm-data.mjs",
@@ -19,7 +19,8 @@
     "data:refresh": "npm run data:fetch && npm run data:build && npm run data:validate",
     "audio:scripts": "node scripts/generate-audio-scripts.mjs",
     "audio:generate": "tools/audio/.venv/bin/python tools/audio/generate_qwen_tts.py --model ${QWEN_TTS_MODEL:-Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice}",
-    "audio:placeholder": "python3 tools/audio/generate_qwen_tts.py --placeholder"
+    "audio:placeholder": "python3 tools/audio/generate_qwen_tts.py --placeholder",
+    "audio:upload": "node scripts/upload-audio-r2.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

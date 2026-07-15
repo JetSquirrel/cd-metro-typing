@@ -1,6 +1,12 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import { buildAnnouncementText, resolveClipPath, lineNameLookup } from "./audio.js";
+import {
+  buildAnnouncementText,
+  resolveClipPath,
+  lineNameLookup,
+  withAudioBase,
+  getManifestUrl,
+} from "./audio.js";
 
 describe("buildAnnouncementText", () => {
   it("omits transfer sentence when alone", () => {
@@ -48,5 +54,12 @@ describe("resolveClipPath", () => {
   it("returns null when muted or missing", () => {
     assert.equal(resolveClipPath(manifest, "off", { nameZh: "天府广场" }), null);
     assert.equal(resolveClipPath(manifest, "mandarin", { nameZh: "天府广场" }), null);
+  });
+});
+
+describe("withAudioBase / getManifestUrl", () => {
+  it("leaves same-origin paths unchanged without VITE_AUDIO_BASE", () => {
+    assert.equal(withAudioBase("/audio/mandarin/1-01.wav"), "/audio/mandarin/1-01.wav");
+    assert.equal(getManifestUrl(), "/audio/manifest.json");
   });
 });

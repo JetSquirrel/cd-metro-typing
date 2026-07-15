@@ -12,6 +12,28 @@ export function buildAnnouncementText(station, lineNameById = new Map()) {
   return `前方到站，${station.nameZh}。${transfer}`.replace(/。。/gu, "。");
 }
 
+/** Optional CDN / origin prefix from Vite (`VITE_AUDIO_BASE`), no trailing slash. */
+export function getAudioBase() {
+  try {
+    return String(import.meta.env?.VITE_AUDIO_BASE ?? "").replace(/\/$/, "");
+  } catch {
+    return "";
+  }
+}
+
+/** Prefix a same-origin `/audio/...` path when `VITE_AUDIO_BASE` is set. */
+export function withAudioBase(path) {
+  if (!path) return path;
+  if (/^https?:\/\//i.test(path)) return path;
+  const base = getAudioBase();
+  if (!base) return path;
+  return path.startsWith("/") ? `${base}${path}` : `${base}/${path}`;
+}
+
+export function getManifestUrl() {
+  return withAudioBase("/audio/manifest.json");
+}
+
 /**
  * Resolve clip path from voice pack manifest.
  * Manifest entry may be a string path or { path | file | url }.
@@ -33,10 +55,13 @@ export function resolveClipPath(manifest, voice, station) {
     const relative =
       typeof entry === "string" ? entry : entry.path || entry.file || entry.url || null;
     if (!relative) continue;
-    if (/^https?:\/\//i.test(relative) || relative.startsWith("/")) {
+    if (/^https?:\/\//i.test(relative)) {
       return relative;
     }
-    return `/audio/${voice}/${relative.replace(/^\.?\//, "")}`;
+    if (relative.startsWith("/")) {
+      return withAudioBase(relative);
+    }
+    return withAudioBase(`/audio/${voice}/${relative.replace(/^\.?\//, "")}`);
   }
   return null;
 }

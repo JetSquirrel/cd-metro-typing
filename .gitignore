@@ -13,3 +13,6 @@ tools/audio/__pycache__/
 .qwen-tts-cache/
 .cursor/
 .wrangler/
+
+# Local TTS clips — production serves these from Cloudflare R2
+public/audio/**/*.wav

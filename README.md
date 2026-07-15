@@ -58,8 +58,10 @@ Build-time synthesis uses [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) (Apac
 - 普通话 → speaker `Vivian`
 - 四川话 → speaker `Eric`（成都口音）
 
+**Hosting:** `*.wav` 不进 Git。本地可生成在 `public/audio/{mandarin,sichuan}/`（已 gitignore）；生产由 Cloudflare R2 桶 `cd-metro-typing-audio` 托管，Worker 同源提供 `/audio/*.wav`。仓库只保留轻量 [`public/audio/manifest.json`](public/audio/manifest.json)。播放解析优先 **stationId**。
+
 ```bash
-# one-time
+# one-time TTS toolchain
 python3 -m venv tools/audio/.venv
 tools/audio/.venv/bin/pip install -r tools/audio/requirements.txt
 
@@ -67,39 +69,44 @@ npm run audio:scripts
 # Prefer a local HF snapshot if hub access is flaky:
 #   export QWEN_TTS_MODEL=~/.cache/huggingface/hub/models--Qwen--Qwen3-TTS-12Hz-0.6B-CustomVoice/snapshots/<hash>
 npm run audio:generate -- --skip-existing
-# or
-npm run audio:placeholder       # silent stubs for UI wiring
-tools/audio/.venv/bin/python tools/audio/generate_qwen_tts.py --limit 10 --voice sichuan --skip-existing
+
+# Create R2 bucket once, then upload local wavs
+npx wrangler r2 bucket create cd-metro-typing-audio
+npm run audio:upload
+# npm run audio:upload -- --voice mandarin
+# npm run audio:upload -- --dry-run
+
+npm run deploy
 ```
 
-Clips are stored under `public/audio/{mandarin,sichuan}/` with `public/audio/manifest.json`. Playback resolves clips by **stationId** first so transfer hubs do not reuse another line's audio.
+可选：`VITE_AUDIO_BASE=https://other-origin` 将 manifest / 片段指到外部前缀（默认空 = 同源 `/audio`）。
 
-Current pack status:
+Current pack status (see `manifest.json`):
 
 - **普通话**: nearly full Qwen3-TTS render
-- **四川话**: mostly placeholders / sample clips — UI 标注为「测试」，勿对外承诺完整覆盖
+- **四川话**: mostly placeholders / sample clips — UI 标注为「测试」
 
-Resume later without redoing finished files:
-
-```bash
-export QWEN_TTS_MODEL=~/.cache/huggingface/hub/models--Qwen--Qwen3-TTS-12Hz-0.6B-CustomVoice/snapshots/<hash>
-PYTHONUNBUFFERED=1 npm run audio:generate -- --voice sichuan --skip-existing
-```
-
-**Important:** these are **synthetic / unofficial** announcements, not Chengdu Metro onboard audio. Do not present them as official broadcasts.
+**Important:** these are **synthetic / unofficial** announcements, not Chengdu Metro onboard audio.
 
 ## Project layout
 
 ```
 data/manual-overrides.json   # colors, deferred stations, manual lines 13/27/30
 data/raw/                    # OSM snapshots (gitignored)
-scripts/                     # fetch / build / validate / audio scripts
+scripts/                     # fetch / build / validate / audio / R2 upload
 public/data/                 # playable metro + districts TopoJSON
-public/audio/                # voice packs + manifest
+public/audio/manifest.json   # voice index (wavs are local-only / R2)
+workers/audio-assets.js      # SPA assets + R2 /audio proxy
 src/                         # React app (Vite)
 tools/audio/                 # Qwen3-TTS offline generator
 ```
 
 ## License & attribution
 
-See [`NOTICE.md`](NOTICE.md). Application code is provided for this project; third-party data/models retain their own licenses.
+第三方来源与许可分项见 [`NOTICE.md`](NOTICE.md)：
+
+1. **TW Metro Typing** — UI 结构衍生来源；上游**未声明许可证**  
+2. **OpenStreetMap** — 线网数据，ODbL 1.0  
+3. **Qwen3-TTS** — 合成报站，Apache-2.0  
+
+应用自有代码尚未单独发布 `LICENSE` 文件；第三方数据与模型仍按其原许可证约束。

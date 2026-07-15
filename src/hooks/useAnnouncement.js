@@ -1,7 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { resolveClipPath } from "../lib/audio.js";
-
-const MANIFEST_URL = "/audio/manifest.json";
+import { getManifestUrl, resolveClipPath } from "../lib/audio.js";
 
 /**
  * Voice announcement playback.
@@ -77,7 +75,7 @@ export function useAnnouncement(voice = "off") {
 
   useEffect(() => {
     let cancelled = false;
-    fetch(MANIFEST_URL)
+    fetch(getManifestUrl())
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (cancelled) return;

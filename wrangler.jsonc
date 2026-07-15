@@ -1,11 +1,21 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "cd-metro-typing",
+  "main": "workers/audio-assets.js",
   "compatibility_date": "2026-07-14",
   "assets": {
     "directory": "./dist/",
-    "not_found_handling": "single-page-application"
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    // Only audio clips need the Worker first; SPA assets stay asset-first.
+    "run_worker_first": ["/audio/*"]
   },
+  "r2_buckets": [
+    {
+      "binding": "AUDIO",
+      "bucket_name": "cd-metro-typing-audio"
+    }
+  ],
   "routes": [
     {
       "pattern": "cd-metro-typing.jetsquirrel.cloud",
