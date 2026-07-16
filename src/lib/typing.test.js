@@ -7,6 +7,7 @@ import {
   isTypingCharacterMatch,
   isTypingTargetComplete,
   getMatchedTypingLength,
+  scoreCommittedDelta,
 } from "./typing.js";
 
 describe("TYPING_LANGUAGES", () => {
@@ -80,5 +81,31 @@ describe("getMatchedTypingLength", () => {
   it("counts a full correct prefix", () => {
     assert.equal(getMatchedTypingLength("春熙路", "春熙路", "zh"), 3);
     assert.equal(getMatchedTypingLength("ABC", "abc", "en"), 3);
+  });
+});
+
+describe("scoreCommittedDelta", () => {
+  it("scores newly committed Chinese characters from the previous commit only", () => {
+    assert.deepEqual(scoreCommittedDelta("回龙", "", "回", "zh"), {
+      added: 1,
+      correct: 1,
+      hasWrong: false,
+    });
+    assert.deepEqual(scoreCommittedDelta("回龙", "回", "回龙", "zh"), {
+      added: 1,
+      correct: 1,
+      hasWrong: false,
+    });
+  });
+
+  it("does not treat IME preview as already committed (regression)", () => {
+    // If prev were wrongly updated to "回" during composition, compositionend
+    // with "回" would score nothing — keep prev at "" until commit.
+    assert.deepEqual(scoreCommittedDelta("回龙", "", "回", "zh").correct, 1);
+    assert.deepEqual(scoreCommittedDelta("回龙", "回", "回", "zh"), {
+      added: 0,
+      correct: 0,
+      hasWrong: false,
+    });
   });
 });

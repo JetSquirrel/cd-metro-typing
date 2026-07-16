@@ -68,3 +68,27 @@ export function getMatchedTypingLength(target, committed, typingLanguage = "en")
   }
   return matched;
 }
+
+/**
+ * Score newly committed characters since the previous committed buffer.
+ * `prev` must be the last *committed* value (not IME preview), otherwise
+ * Chinese composition can look "already typed" and skip scoring on compositionend.
+ */
+export function scoreCommittedDelta(target, prev, next, typingLanguage = "en") {
+  const prevChars = [...String(prev ?? "")];
+  const nextChars = [...String(next ?? "")];
+  if (nextChars.length <= prevChars.length) {
+    return { added: 0, correct: 0, hasWrong: false };
+  }
+  const added = nextChars.slice(prevChars.length);
+  const targetChars = [...String(target ?? "")];
+  let correct = 0;
+  let hasWrong = false;
+  for (let i = 0; i < added.length; i += 1) {
+    const expected = targetChars[prevChars.length + i];
+    if (expected == null) break;
+    if (isTypingCharacterMatch(expected, added[i], typingLanguage)) correct += 1;
+    else hasWrong = true;
+  }
+  return { added: added.length, correct, hasWrong };
+}

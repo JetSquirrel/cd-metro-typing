@@ -15,7 +15,7 @@ const GAME_MODE_OPTIONS = [
 const VOICE_OPTIONS = [
   { value: "off", label: "静音" },
   { value: "mandarin", label: "普通话" },
-  { value: "sichuan", label: "四川话·测试" },
+  { value: "sichuan", label: "四川话" },
 ];
 
 export default function HomeScreen({
@@ -74,6 +74,7 @@ export default function HomeScreen({
         <ChengduMap
           mapModel={mapModel}
           selectedLineId={selectedLine?.lineId ?? null}
+          focusStationIds={playableStations.map((station) => station.stationId ?? station.id)}
           onSelect={onSelectLine}
         />
       )}
@@ -208,9 +209,6 @@ export default function HomeScreen({
                 </b>
               </button>
             </div>
-            {voice === "sichuan" ? (
-              <p className="voice-test-note">四川话报站仍为测试片段，覆盖不全。</p>
-            ) : null}
           </div>
         ) : null}
       </div>

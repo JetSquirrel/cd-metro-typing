@@ -7,6 +7,9 @@ import {
   getPlayableStations,
   getRouteViewBox,
   getRouteViewBoxArray,
+  getOverlayAwareRouteViewBox,
+  getFollowingCameraViewBox,
+  sliceRouteCameraPoints,
   pointsToString,
   buildMapModel,
   MAP_VIEWBOX,
@@ -148,6 +151,40 @@ describe("pointsToString / getRouteViewBox", () => {
     assert.ok(focused[3] < MAP_VIEWBOX[3], "focused height should be smaller than city map");
     assert.ok(focused[0] <= 120 - 12);
     assert.ok(focused[1] <= 180 - 12);
+  });
+
+  it("expands tall routes so chrome insets leave the line in the middle band", () => {
+    // Long N–S corridor similar to Line 5
+    const tight = getRouteViewBoxArray(
+      [
+        [200, 40],
+        [210, 520],
+      ],
+      10,
+      24,
+    );
+    const framed = getOverlayAwareRouteViewBox(
+      [
+        [200, 40],
+        [210, 520],
+      ],
+      { pad: 10, minSpan: 24, topInset: 0.18, bottomInset: 0.36, sideInset: 0.1 },
+    );
+    assert.ok(framed[3] > tight[3], "overlay frame should be taller than tight fit");
+    assert.ok(framed[1] < tight[1], "should add space above the route");
+    assert.ok(framed[2] > tight[2], "should widen skinny N–S corridors");
+    const contentBottom = tight[1] + tight[3];
+    const frameBottom = framed[1] + framed[3];
+    assert.ok(frameBottom > contentBottom, "should add space below the route");
+  });
+
+  it("follows a local camera window instead of the full long route", () => {
+    const corridor = Array.from({ length: 20 }, (_, index) => [100, index * 30]);
+    const windowPoints = sliceRouteCameraPoints(corridor, 4, 2, 5);
+    assert.equal(windowPoints.length, 8);
+    const full = getFollowingCameraViewBox(corridor, { pad: 8, minSpan: 40 });
+    const local = getFollowingCameraViewBox(windowPoints, { pad: 8, minSpan: 40 });
+    assert.ok(local[3] < full[3] * 0.6, "local window should be much shorter than full line");
   });
 });
 

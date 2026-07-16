@@ -6,7 +6,7 @@ import ResultScreen from "./components/ResultScreen.jsx";
 import { useMapData } from "./hooks/useMapData.js";
 import { useAnnouncement } from "./hooks/useAnnouncement.js";
 import { getLineRuns, getPlayableStations } from "./lib/map.js";
-import { getTypingTarget, isTypingCharacterMatch, isTypingTargetComplete } from "./lib/typing.js";
+import { getTypingTarget, isTypingTargetComplete, scoreCommittedDelta } from "./lib/typing.js";
 
 const TIMED_MS = 30_000;
 const STORAGE_THEME = "cd-metro-typing:theme";
@@ -48,6 +48,7 @@ export default function App() {
 
   const [stationIndex, setStationIndex] = useState(0);
   const [typedBuffer, setTypedBuffer] = useState("");
+  const [draftBuffer, setDraftBuffer] = useState("");
   const [composing, setComposing] = useState(false);
   const [correctChars, setCorrectChars] = useState(0);
   const [totalKeystrokes, setTotalKeystrokes] = useState(0);
@@ -62,7 +63,8 @@ export default function App() {
   const advancingRef = useRef(false);
   const finishedRef = useRef(false);
   const composingRef = useRef(false);
-  const typedBufferRef = useRef("");
+  /** Last committed (non-composing) text — never updated during IME composition. */
+  const committedRef = useRef("");
   const statsRef = useRef({
     correctChars: 0,
     totalKeystrokes: 0,
@@ -99,7 +101,6 @@ export default function App() {
   }, [selectedLine, runId, direction]);
 
   playableRef.current = playableStations;
-  typedBufferRef.current = typedBuffer;
   statsRef.current = { correctChars, totalKeystrokes, startedAt, mode };
 
   const currentStation = playableStations[stationIndex] || null;
@@ -181,9 +182,10 @@ export default function App() {
     advancingRef.current = false;
     finishedRef.current = false;
     composingRef.current = false;
-    typedBufferRef.current = "";
+    committedRef.current = "";
     setStationIndex(0);
     setTypedBuffer("");
+    setDraftBuffer("");
     setComposing(false);
     setCorrectChars(0);
     setTotalKeystrokes(0);
@@ -200,8 +202,11 @@ export default function App() {
 
   const goToStation = useCallback(
     (nextIndex) => {
+      committedRef.current = "";
       setTypedBuffer("");
-      typedBufferRef.current = "";
+      setDraftBuffer("");
+      setComposing(false);
+      composingRef.current = false;
       if (nextIndex >= playableRef.current.length) {
         finishRun(playableRef.current.length);
         return;
@@ -210,6 +215,7 @@ export default function App() {
       advancingRef.current = false;
       const stations = playableRef.current;
       announcement.announceStation(stations[nextIndex], stations[nextIndex + 1] || null);
+      queueMicrotask(() => inputRef.current?.focus({ preventScroll: true }));
     },
     [announcement, finishRun],
   );
@@ -220,40 +226,31 @@ export default function App() {
     window.setTimeout(() => setShake(false), 170);
   }, []);
 
-  const handleTypedBufferChange = useCallback(
+  /**
+   * Commit typed text after IME composition ends (or for direct English input).
+   * Compares against committedRef so in-IME preview text cannot skip scoring.
+   */
+  const commitTypedValue = useCallback(
     (value) => {
       if (screen !== "game" || !currentStation) {
-        typedBufferRef.current = value;
+        committedRef.current = value;
         setTypedBuffer(value);
-        return;
-      }
-
-      if (composingRef.current) {
-        typedBufferRef.current = value;
-        setTypedBuffer(value);
+        setDraftBuffer(value);
         return;
       }
 
       const target = getTypingTarget(currentStation, typingLanguage);
-      const prev = typedBufferRef.current;
-      const prevChars = [...prev];
-      const nextChars = [...value];
-
-      if (nextChars.length > prevChars.length) {
-        const added = nextChars.slice(prevChars.length);
-        let ok = 0;
-        for (let i = 0; i < added.length; i += 1) {
-          const expected = [...target][prevChars.length + i];
-          if (expected == null) break;
-          if (isTypingCharacterMatch(expected, added[i], typingLanguage)) ok += 1;
-          else triggerShake();
-        }
-        setTotalKeystrokes((count) => count + added.length);
-        setCorrectChars((count) => count + ok);
+      const prev = committedRef.current;
+      const { added, correct, hasWrong } = scoreCommittedDelta(target, prev, value, typingLanguage);
+      if (added > 0) {
+        setTotalKeystrokes((count) => count + added);
+        setCorrectChars((count) => count + correct);
+        if (hasWrong) triggerShake();
       }
 
-      typedBufferRef.current = value;
+      committedRef.current = value;
       setTypedBuffer(value);
+      setDraftBuffer(value);
 
       if (!advancingRef.current && isTypingTargetComplete(target, value, typingLanguage)) {
         advancingRef.current = true;
@@ -272,9 +269,9 @@ export default function App() {
     (value) => {
       composingRef.current = false;
       setComposing(false);
-      handleTypedBufferChange(value);
+      commitTypedValue(value);
     },
-    [handleTypedBufferChange],
+    [commitTypedValue],
   );
 
   const backToHome = useCallback(() => {
@@ -309,7 +306,7 @@ export default function App() {
         ref={inputRef}
         className="mobile-typing-input"
         type="text"
-        value={typedBuffer}
+        value={draftBuffer}
         inputMode="text"
         lang={typingLanguage === "zh" ? "zh-CN" : "en"}
         autoCapitalize="none"
@@ -318,15 +315,20 @@ export default function App() {
         spellCheck={false}
         aria-label={typingLanguage === "zh" ? "中文站名输入" : "英文站名输入"}
         aria-describedby={screen === "game" ? "typing-instruction" : undefined}
-        onChange={(event) => handleTypedBufferChange(event.target.value)}
+        onChange={(event) => {
+          const value = event.target.value;
+          if (composingRef.current) {
+            // Preview only — do not advance committedRef / scores mid-IME.
+            setDraftBuffer(value);
+            return;
+          }
+          commitTypedValue(value);
+        }}
         onCompositionStart={onCompositionStart}
         onCompositionUpdate={(event) => {
-          if (composingRef.current) {
-            typedBufferRef.current = event.currentTarget.value;
-            setTypedBuffer(event.currentTarget.value);
-          }
+          if (composingRef.current) setDraftBuffer(event.currentTarget.value);
         }}
-        onCompositionEnd={(event) => onCompositionEnd(event.target.value)}
+        onCompositionEnd={(event) => onCompositionEnd(event.currentTarget.value)}
       />
 
       {showSiteChrome ? (
@@ -361,6 +363,7 @@ export default function App() {
             mode={mode}
             stationIndex={stationIndex}
             typedBuffer={typedBuffer}
+            draftBuffer={draftBuffer}
             composing={composing}
             typingLanguage={typingLanguage}
             remainingMs={remainingMs}
@@ -431,7 +434,7 @@ export default function App() {
               <span className="footer-label">蓉城</span>
               真实线网 · 双语站名 · 合成报站
             </span>
-            <span>四川话报站为测试片段，非官方录音</span>
+            <span>报站为合成音频，非官方录音</span>
           </div>
         </footer>
       ) : null}

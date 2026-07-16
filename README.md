@@ -1,6 +1,6 @@
 # Chengdu Metro Typing · 成都地铁打字
 
-在真实成都地图上选择地铁线路，沿着精确站位练习**中文 / 英文站名**打字。到站时可播放**普通话**或**四川话（测试）**合成报站。
+在真实成都地图上选择地铁线路，沿着精确站位练习**中文 / 英文站名**打字。到站时可播放**普通话**或**四川话**合成报站。
 
 视觉与交互布局衍生自 [ridemountainpig/tw-metro-typing](https://github.com/ridemountainpig/tw-metro-typing) 的地图优先结构；本仓库以成都线网、双语站名与城市导视风格重新实现内容与样式，并保留本地数据管线与报站能力。详见 [`NOTICE.md`](NOTICE.md)。
 
@@ -10,7 +10,7 @@
 - 真实 WGS-84 站位与区间（OpenStreetMap）
 - 计时 30 秒 / 整条线路两种模式
 - 中英文输入（中文支持 IME 选字；错误字符不推动列车）
-- 到站播报：静音 / 普通话 / 四川话（测试片段）
+- 到站播报：静音 / 普通话 / 四川话
 - 成都城市导视浅色 / 深色主题
 
 ## Quick start
@@ -83,8 +83,8 @@ npm run deploy
 
 Current pack status (see `manifest.json`):
 
-- **普通话**: nearly full Qwen3-TTS render
-- **四川话**: mostly placeholders / sample clips — UI 标注为「测试」
+- **普通话**: full Qwen3-TTS render (speaker Vivian)
+- **四川话**: full Qwen3-TTS render (speaker Eric / 成都口音)
 
 **Important:** these are **synthetic / unofficial** announcements, not Chengdu Metro onboard audio.
 

@@ -1,4 +1,13 @@
-import { getRouteViewBoxArray, pointsToString } from "../lib/map.js";
+import { useEffect, useMemo, useRef } from "react";
+import {
+  getFollowingCameraViewBox,
+  pointsToString,
+  sliceRouteCameraPoints,
+} from "../lib/map.js";
+
+function lerpViewBox(from, to, t) {
+  return from.map((value, index) => value + (to[index] - value) * t);
+}
 
 export default function MetroMap({
   mapModel,
@@ -7,37 +16,77 @@ export default function MetroMap({
   stationIndex,
   trainProgress = 0,
 }) {
-  if (!mapModel || !selectedLine) {
-    return <div className="metro-map metro-map--empty" />;
-  }
+  const svgRef = useRef(null);
+  const viewBoxRef = useRef(null);
 
-  const route = mapModel.lines.find((item) => item.lineId === selectedLine.lineId) || null;
-  if (!route) return <div className="metro-map metro-map--empty" />;
+  const route = useMemo(() => {
+    if (!mapModel || !selectedLine) return null;
+    return mapModel.lines.find((item) => item.lineId === selectedLine.lineId) || null;
+  }, [mapModel, selectedLine]);
 
-  const routePoints = stations
-    .map((station) => route.pointsById?.get(String(station.stationId ?? station.id)))
-    .filter(Boolean);
-  const routeViewBox = getRouteViewBoxArray(routePoints.length ? routePoints : [[0, 0]], 44, 40);
-  // Bias the frame upward so the station card doesn't cover the active stretch.
-  routeViewBox[1] += routeViewBox[3] * 0.12;
-  const viewBox = routeViewBox.join(" ");
+  const stationPoints = useMemo(() => {
+    if (!route) return [];
+    return stations
+      .map((station) => route.pointsById?.get(String(station.stationId ?? station.id)))
+      .filter(Boolean);
+  }, [route, stations]);
 
   const nextIndex = stationIndex + 1 < stations.length ? stationIndex + 1 : null;
-  const currentId = String(stations[stationIndex]?.stationId ?? stations[stationIndex]?.id ?? "");
-  const nextId =
-    nextIndex == null
-      ? currentId
-      : String(stations[nextIndex]?.stationId ?? stations[nextIndex]?.id ?? "");
-  const currentPoint = route.pointsById?.get(currentId);
-  const nextPoint = route.pointsById?.get(nextId) || currentPoint;
-
-  if (!currentPoint) return <div className="metro-map metro-map--empty" />;
-
+  const currentPoint = stationPoints[stationIndex] || null;
+  const nextPoint = (nextIndex == null ? currentPoint : stationPoints[nextIndex]) || currentPoint;
   const journeyProgress = nextIndex == null ? 0 : Math.min(Math.max(trainProgress, 0), 1);
-  const train = [
-    currentPoint[0] + (nextPoint[0] - currentPoint[0]) * journeyProgress,
-    currentPoint[1] + (nextPoint[1] - currentPoint[1]) * journeyProgress,
-  ];
+  const train =
+    currentPoint && nextPoint
+      ? [
+          currentPoint[0] + (nextPoint[0] - currentPoint[0]) * journeyProgress,
+          currentPoint[1] + (nextPoint[1] - currentPoint[1]) * journeyProgress,
+        ]
+      : null;
+
+  const targetViewBox = useMemo(() => {
+    if (!stationPoints.length || !currentPoint || !nextPoint) return null;
+    const focus = [
+      currentPoint[0] + (nextPoint[0] - currentPoint[0]) * journeyProgress,
+      currentPoint[1] + (nextPoint[1] - currentPoint[1]) * journeyProgress,
+    ];
+    const windowPoints = sliceRouteCameraPoints(stationPoints, stationIndex, 2, 5, focus);
+    return getFollowingCameraViewBox(windowPoints, {
+      pad: 28,
+      minSpan: 80,
+      topInset: 0.14,
+      bottomInset: 0.3,
+      sideInset: 0.12,
+    });
+  }, [stationPoints, stationIndex, currentPoint, nextPoint, journeyProgress]);
+
+  const prevStationRef = useRef(stationIndex);
+
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg || !targetViewBox) return undefined;
+    const from = viewBoxRef.current || targetViewBox;
+    const stationChanged = prevStationRef.current !== stationIndex;
+    prevStationRef.current = stationIndex;
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // Station hops ease; within-segment typing should track the train tightly.
+    const duration = reduce ? 1 : stationChanged ? 480 : 72;
+    const startedAt = performance.now();
+    let frameId;
+    const frame = (now) => {
+      const progress = Math.min((now - startedAt) / duration, 1);
+      const eased = 1 - (1 - progress) ** 3;
+      const next = lerpViewBox(from, targetViewBox, eased);
+      viewBoxRef.current = next;
+      svg.setAttribute("viewBox", next.join(" "));
+      if (progress < 1) frameId = requestAnimationFrame(frame);
+    };
+    frameId = requestAnimationFrame(frame);
+    return () => cancelAnimationFrame(frameId);
+  }, [targetViewBox, stationIndex]);
+
+  if (!mapModel || !selectedLine || !route || !currentPoint || !train || !targetViewBox) {
+    return <div className="metro-map metro-map--empty" />;
+  }
 
   const progressPoints = stations
     .slice(0, stationIndex + 1)
@@ -45,8 +94,10 @@ export default function MetroMap({
     .filter(Boolean);
   if (journeyProgress > 0) progressPoints.push(train);
 
+  const initialViewBox = (viewBoxRef.current || targetViewBox).join(" ");
+
   return (
-    <svg className="metro-map" viewBox={viewBox} aria-hidden="true">
+    <svg ref={svgRef} className="metro-map" viewBox={initialViewBox} aria-hidden="true">
       <g className="game-counties">
         {(mapModel.districts || []).map((district) => (
           <path key={district.id} d={district.path} />
@@ -102,12 +153,12 @@ export default function MetroMap({
             className={`map-node on-route${state}`}
             cx={station.x}
             cy={station.y}
-            r="3.2"
+            r="3.6"
           />
         );
       })}
       <g className="map-train" style={{ transform: `translate(${train[0]}px, ${train[1]}px)` }}>
-        <g className="map-train-icon" transform="scale(1)">
+        <g className="map-train-icon" transform="scale(1.15)">
           <circle className="train-halo" r="14" />
           <rect className="train-body" x="-11" y="-7" width="22" height="14" rx="4" />
           <rect className="train-window" x="-7" y="-3.5" width="5" height="4" rx="1" />

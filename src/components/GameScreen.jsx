@@ -9,7 +9,7 @@ function formatSeconds(total) {
 const VOICE_STATUS = {
   off: { label: "报站关闭", detail: "静音" },
   mandarin: { label: "普通话报站", detail: "普通话" },
-  sichuan: { label: "四川话报站·测试", detail: "四川话·测试" },
+  sichuan: { label: "四川话报站", detail: "四川话" },
 };
 
 export default function GameScreen({
@@ -19,6 +19,7 @@ export default function GameScreen({
   mode,
   stationIndex,
   typedBuffer,
+  draftBuffer = "",
   composing,
   typingLanguage,
   voice = "off",
@@ -36,11 +37,18 @@ export default function GameScreen({
   const destination = stations[stations.length - 1] ?? null;
   const target = getTypingTarget(station, typingLanguage);
   const targetCharacters = [...(target || "")];
-  const matchedLength = composing ? 0 : getMatchedTypingLength(target, typedBuffer, typingLanguage);
+  // Keep committed progress visible during IME; only the status line shows选字.
+  const matchedLength = getMatchedTypingLength(target, typedBuffer, typingLanguage);
   const typedIndex = Math.min(matchedLength, targetCharacters.length);
   const trainProgress = targetCharacters.length ? typedIndex / targetCharacters.length : 0;
   const isChinese = typingLanguage === "zh";
-  const compositionText = composing ? typedBuffer : "";
+  const committed = typedBuffer || "";
+  const draft = draftBuffer || committed;
+  const compositionText = composing
+    ? draft.startsWith(committed)
+      ? draft.slice(committed.length) || draft
+      : draft
+    : "";
   const voiceStatus = VOICE_STATUS[voice] || VOICE_STATUS.off;
   const timeValue =
     mode === "timed"
@@ -70,7 +78,7 @@ export default function GameScreen({
         </button>
         <div className="game-chrome-end">
           <span
-            className={`voice-chip${voice === "sichuan" ? " is-test" : ""}`}
+            className="voice-chip"
             title={voiceStatus.label}
           >
             {voiceStatus.detail}

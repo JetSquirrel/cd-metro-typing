@@ -163,6 +163,90 @@ export function getRouteViewBoxArray(points, pad = ROUTE_PAD, minSpan = 24) {
   return [minX - pad, minY - pad, width, height];
 }
 
+/**
+ * Expand a route viewBox so the line sits in the middle band of the screen,
+ * clear of home/game chrome (focus card, control deck, station card).
+ * Long N–S lines like 5号线 otherwise clip under top/bottom overlays.
+ */
+export function getOverlayAwareRouteViewBox(
+  points,
+  {
+    pad = ROUTE_PAD,
+    minSpan = 36,
+    topInset = 0.17,
+    bottomInset = 0.34,
+    sideInset = 0.1,
+  } = {},
+) {
+  const [x0, y0, w0, h0] = getRouteViewBoxArray(points, pad, minSpan);
+  if (!points?.length) return [x0, y0, w0, h0];
+
+  const yFrac = Math.max(0.3, 1 - topInset - bottomInset);
+  const targetH = h0 / yFrac;
+  const topPad = targetH * topInset;
+  const y = y0 - topPad;
+  const h = targetH;
+
+  const xFrac = Math.max(0.45, 1 - sideInset * 2);
+  // Keep tall corridors from becoming a skinny ribbon; widen to ~portrait frame.
+  const targetW = Math.max(w0 / xFrac, h * 0.42, w0);
+  const x = x0 - (targetW - w0) / 2;
+  const w = targetW;
+
+  return [x, y, w, h];
+}
+
+/**
+ * Camera window for a long route: only nearby stations + focus point (train).
+ * Returns overlay-aware `[x, y, w, h]`.
+ */
+export function getFollowingCameraViewBox(
+  routePoints,
+  {
+    pad = 32,
+    minSpan = 72,
+    lookBehind = 2,
+    lookAhead = 5,
+    topInset = 0.14,
+    bottomInset = 0.28,
+    sideInset = 0.12,
+  } = {},
+) {
+  const points = (routePoints || []).filter(Boolean);
+  if (!points.length) return [...MAP_VIEWBOX];
+
+  // If caller already sliced the window, just frame it.
+  // Ensure a usable square-ish span so short hops still feel zoomed in.
+  const framed = getOverlayAwareRouteViewBox(points, {
+    pad,
+    minSpan,
+    topInset,
+    bottomInset,
+    sideInset,
+  });
+
+  // Bump tiny windows (dense urban segments) to a stable zoom level.
+  const [, , w, h] = framed;
+  const minDim = Math.max(minSpan * 1.6, 96);
+  if (w >= minDim && h >= minDim) return framed;
+
+  const cx = framed[0] + w / 2;
+  const cy = framed[1] + h / 2;
+  const nw = Math.max(w, minDim);
+  const nh = Math.max(h, minDim);
+  return [cx - nw / 2, cy - nh / 2, nw, nh];
+}
+
+/** Slice station coordinates around the playhead for a following camera. */
+export function sliceRouteCameraPoints(stationPoints, focusIndex, lookBehind = 2, lookAhead = 5, focusPoint = null) {
+  if (!stationPoints?.length) return focusPoint ? [focusPoint] : [];
+  const start = Math.max(0, focusIndex - lookBehind);
+  const end = Math.min(stationPoints.length - 1, focusIndex + lookAhead);
+  const window = stationPoints.slice(start, end + 1).filter(Boolean);
+  if (focusPoint) window.push(focusPoint);
+  return window;
+}
+
 function createProjection(lines = []) {
   const points = [];
   for (const line of lines) {

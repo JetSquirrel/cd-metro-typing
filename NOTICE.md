@@ -39,7 +39,7 @@
 - 许可证：Apache License 2.0  
 - 本仓库所用说话人：Vivian（普通话）、Eric（四川话 / 成都口音）  
 
-合成音频**与成都轨道集团无关**，不得表述为官方车载报站。四川话包目前多为占位 / 抽样，界面已标注「测试」，勿对外承诺完整覆盖。
+合成音频**与成都轨道集团无关**，不得表述为官方车载报站。普通话与四川话均为完整站名合成包（非官方车载录音）。
 
 **分发方式：** `*.wav` **不**随 Git 仓库分发。生产环境存放在 Cloudflare R2（桶名 `cd-metro-typing-audio`），由本站 Worker 同源路径 `/audio/*` 提供；仓库仅保留 `public/audio/manifest.json` 索引。本地开发可在 `public/audio/` 放置 wav（已 gitignore）。
 

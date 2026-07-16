@@ -1,7 +1,7 @@
 import { memo, useEffect, useMemo, useRef, useState } from "react";
-import { getRouteViewBoxArray, MAP_VIEWBOX, pointsToString } from "../lib/map.js";
+import { getFollowingCameraViewBox, MAP_VIEWBOX, pointsToString, sliceRouteCameraPoints } from "../lib/map.js";
 
-export default memo(function ChengduMap({ mapModel, selectedLineId, onSelect }) {
+export default memo(function ChengduMap({ mapModel, selectedLineId, focusStationIds = null, onSelect }) {
   const svgRef = useRef(null);
   const [intro, setIntro] = useState(true);
 
@@ -12,11 +12,28 @@ export default memo(function ChengduMap({ mapModel, selectedLineId, onSelect }) 
 
   const targetViewBox = useMemo(() => {
     if (!selectedRoute) return MAP_VIEWBOX;
-    const points = (selectedRoute.stations || [])
-      .filter((station) => station.x != null && station.y != null)
-      .map((station) => [station.x, station.y]);
-    return getRouteViewBoxArray(points, 48, 36);
-  }, [selectedRoute]);
+    const byId = new Map(
+      (selectedRoute.stations || [])
+        .filter((station) => station.x != null && station.y != null)
+        .map((station) => [String(station.stationId ?? station.id), [station.x, station.y]]),
+    );
+    let points;
+    if (focusStationIds?.length) {
+      points = focusStationIds.map((id) => byId.get(String(id))).filter(Boolean);
+      // Preview window: first stretch of the chosen direction, not the whole line.
+      points = sliceRouteCameraPoints(points, 0, 0, Math.min(8, points.length - 1));
+    } else {
+      points = [...byId.values()];
+      points = sliceRouteCameraPoints(points, 0, 0, Math.min(8, points.length - 1));
+    }
+    return getFollowingCameraViewBox(points, {
+      pad: 36,
+      minSpan: 72,
+      topInset: 0.18,
+      bottomInset: 0.36,
+      sideInset: 0.12,
+    });
+  }, [selectedRoute, focusStationIds]);
 
   useEffect(() => {
     if (!mapModel?.lines?.length) return undefined;
